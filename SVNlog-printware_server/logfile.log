@@ -1,0 +1,4263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log>
+<logentry
+   revision="19066">
+<author>guozhen</author>
+<date>2022-03-01T02:38:36.083092Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19055">
+<author>guozhen</author>
+<date>2022-02-28T10:59:22.875960Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="18993">
+<author>guozhen</author>
+<date>2022-02-22T09:44:44.542754Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="18985">
+<author>gaopeinan</author>
+<date>2022-02-22T00:23:56.224741Z</date>
+<msg>设计原型</msg>
+</logentry>
+<logentry
+   revision="18917">
+<author>gaopeinan</author>
+<date>2022-02-15T00:28:37.018166Z</date>
+<msg>修改原型</msg>
+</logentry>
+<logentry
+   revision="18895">
+<author>gaopeinan</author>
+<date>2022-02-14T08:43:57.427884Z</date>
+<msg>20220214王灿（Flutter环境搭建与AndroidStudio平台开发）</msg>
+</logentry>
+<logentry
+   revision="18867">
+<author>gaopeinan</author>
+<date>2022-02-11T12:35:12.107927Z</date>
+<msg>原型设计</msg>
+</logentry>
+<logentry
+   revision="18848">
+<author>gaopeinan</author>
+<date>2022-02-10T10:36:41.981588Z</date>
+<msg>20220210郭震（重构APP设计文档）</msg>
+</logentry>
+<logentry
+   revision="18818">
+<author>gaopeinan</author>
+<date>2022-02-09T11:30:56.665231Z</date>
+<msg>数据库设计</msg>
+</logentry>
+<logentry
+   revision="18816">
+<author>gaopeinan</author>
+<date>2022-02-09T11:01:02.162367Z</date>
+<msg>初步版本app原型</msg>
+</logentry>
+<logentry
+   revision="18809">
+<author>gaopeinan</author>
+<date>2022-02-08T14:05:56.604487Z</date>
+<msg>自动操作手动建图，自动寻迹</msg>
+</logentry>
+<logentry
+   revision="18808">
+<author>gaopeinan</author>
+<date>2022-02-08T13:38:12.889270Z</date>
+<msg>getway文档</msg>
+</logentry>
+<logentry
+   revision="18794">
+<author>gaopeinan</author>
+<date>2022-02-07T13:41:13.686327Z</date>
+<msg>手动操作</msg>
+</logentry>
+<logentry
+   revision="18793">
+<author>gaopeinan</author>
+<date>2022-02-07T13:40:56.737351Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="18704">
+<author>gaopeinan</author>
+<date>2022-01-27T14:30:52.037618Z</date>
+<msg>本地CRM部署文档</msg>
+</logentry>
+<logentry
+   revision="18703">
+<author>gaopeinan</author>
+<date>2022-01-27T00:32:24.329056Z</date>
+<msg>APP设计
+</msg>
+</logentry>
+<logentry
+   revision="18692">
+<author>gaopeinan</author>
+<date>2022-01-26T09:35:12.764316Z</date>
+<msg>SuiteCRM部署步骤</msg>
+</logentry>
+<logentry
+   revision="18673">
+<author>gaopeinan</author>
+<date>2022-01-24T09:10:17.276762Z</date>
+<msg>20220124王灿（建图缩放协议更新 ）</msg>
+</logentry>
+<logentry
+   revision="18483">
+<author>gaopeinan</author>
+<date>2022-01-10T08:51:02.394354Z</date>
+<msg>20220110王灿（浏览器收藏夹栏显示全屏适配）</msg>
+</logentry>
+<logentry
+   revision="18460">
+<author>gaopeinan</author>
+<date>2022-01-07T08:50:44.884527Z</date>
+<msg>20220107王灿（大屏测试）</msg>
+</logentry>
+<logentry
+   revision="18452">
+<author>gaopeinan</author>
+<date>2022-01-07T06:11:09.961742Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="18451">
+<author>gaopeinan</author>
+<date>2022-01-07T06:09:18.786483Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="18450">
+<author>gaopeinan</author>
+<date>2022-01-07T06:08:31.449279Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="18449">
+<author>gaopeinan</author>
+<date>2022-01-07T06:07:59.118577Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="18448">
+<author>gaopeinan</author>
+<date>2022-01-07T06:04:41.977417Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="18447">
+<author>gaopeinan</author>
+<date>2022-01-07T06:02:43.731010Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="18446">
+<author>gaopeinan</author>
+<date>2022-01-07T06:01:52.004776Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="18445">
+<author>gaopeinan</author>
+<date>2022-01-07T06:01:30.715111Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="18444">
+<author>gaopeinan</author>
+<date>2022-01-07T06:01:11.835906Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="18443">
+<author>gaopeinan</author>
+<date>2022-01-07T05:54:40.809775Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="18434">
+<author>gaopeinan</author>
+<date>2022-01-07T02:02:28.050745Z</date>
+<msg>2022-01-07 提交账户密码整理文档</msg>
+</logentry>
+<logentry
+   revision="18396">
+<author>gaopeinan</author>
+<date>2022-01-05T09:03:30.359653Z</date>
+<msg>2022-01-05 提交单元测试文档</msg>
+</logentry>
+<logentry
+   revision="18389">
+<author>gaopeinan</author>
+<date>2022-01-05T05:35:26.840045Z</date>
+<msg>2022-01-05 提交设计方案</msg>
+</logentry>
+<logentry
+   revision="18335">
+<author>gaopeinan</author>
+<date>2021-12-30T08:56:04.188957Z</date>
+<msg>2021-12-30 提交单元测试文档</msg>
+</logentry>
+<logentry
+   revision="18231">
+<author>gaopeinan</author>
+<date>2021-12-23T08:40:34.176555Z</date>
+<msg>2021-12-23 提交单元测试文档</msg>
+</logentry>
+<logentry
+   revision="18212">
+<author>gaopeinan</author>
+<date>2021-12-22T08:22:54.868436Z</date>
+<msg>2021-12-22 提交数据库表说明文档</msg>
+</logentry>
+<logentry
+   revision="18172">
+<author>gaopeinan</author>
+<date>2021-12-20T09:23:26.497648Z</date>
+<msg>2021-12-20 提交单元测试文档</msg>
+</logentry>
+<logentry
+   revision="18149">
+<author>gaopeinan</author>
+<date>2021-12-17T09:00:57.255626Z</date>
+<msg>2021-12-17 提交单元测试文档</msg>
+</logentry>
+<logentry
+   revision="18133">
+<author>gaopeinan</author>
+<date>2021-12-16T08:36:23.782698Z</date>
+<msg>2021-12-16 提交单元测试</msg>
+</logentry>
+<logentry
+   revision="18111">
+<author>gaopeinan</author>
+<date>2021-12-15T09:06:44.962409Z</date>
+<msg>2021-12-15 提交测试文档</msg>
+</logentry>
+<logentry
+   revision="18096">
+<author>gaopeinan</author>
+<date>2021-12-14T09:32:40.881152Z</date>
+<msg>2021-12-14 提交单元测试文档</msg>
+</logentry>
+<logentry
+   revision="18078">
+<author>yangkai</author>
+<date>2021-12-13T12:09:24.760043Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="18071">
+<author>gaopeinan</author>
+<date>2021-12-13T09:00:51.126080Z</date>
+<msg>2021-12-13 提交1个单元测试文档</msg>
+</logentry>
+<logentry
+   revision="18052">
+<author>gaopeinan</author>
+<date>2021-12-10T08:57:42.693279Z</date>
+<msg>2021-12-10 提交单元测试文档</msg>
+</logentry>
+<logentry
+   revision="17977">
+<author>gaopeinan</author>
+<date>2021-12-08T02:25:37.741831Z</date>
+<msg>2021-12-08 提交通讯协议（增加sim卡ID）</msg>
+</logentry>
+<logentry
+   revision="17976">
+<author>gaopeinan</author>
+<date>2021-12-08T02:25:05.353083Z</date>
+<msg>2021-12-08 提交通讯协议（增加sim卡ID）</msg>
+</logentry>
+<logentry
+   revision="17936">
+<author>gaopeinan</author>
+<date>2021-12-06T08:53:11.617817Z</date>
+<msg>2021-12-06 提交数据库说明文档</msg>
+</logentry>
+<logentry
+   revision="17913">
+<author>gaopeinan</author>
+<date>2021-12-06T01:27:29.217067Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="17912">
+<author>gaopeinan</author>
+<date>2021-12-06T01:24:42.478256Z</date>
+<msg>2021-12-06 提交图片文件</msg>
+</logentry>
+<logentry
+   revision="17911">
+<author>gaopeinan</author>
+<date>2021-12-06T01:23:47.234865Z</date>
+<msg>2021-12-06 提交图片文件</msg>
+</logentry>
+<logentry
+   revision="17910">
+<author>gaopeinan</author>
+<date>2021-12-06T01:23:06.351385Z</date>
+<msg>2021-12-06 提交图片文件</msg>
+</logentry>
+<logentry
+   revision="17903">
+<author>gaopeinan</author>
+<date>2021-12-03T09:09:14.079145Z</date>
+<msg>2021-12-03提交图片文件</msg>
+</logentry>
+<logentry
+   revision="17888">
+<author>gaopeinan</author>
+<date>2021-12-02T09:08:10.818854Z</date>
+<msg>2021-12-02 提交单元测试文档</msg>
+</logentry>
+<logentry
+   revision="17844">
+<author>gaopeinan</author>
+<date>2021-11-30T09:25:45.855607Z</date>
+<msg>2021-11-30 提交单元测试文档</msg>
+</logentry>
+<logentry
+   revision="17809">
+<author>gaopeinan</author>
+<date>2021-11-29T08:38:29.648005Z</date>
+<msg>20211123王灿（0点坐标排除）</msg>
+</logentry>
+<logentry
+   revision="17699">
+<author>gaopeinan</author>
+<date>2021-11-23T08:38:34.090745Z</date>
+<msg>2021-11-23 提交单元测试文档</msg>
+</logentry>
+<logentry
+   revision="17682">
+<author>yangkai</author>
+<date>2021-11-22T10:23:10.530111Z</date>
+<msg>设备替换</msg>
+</logentry>
+<logentry
+   revision="17678">
+<author>gaopeinan</author>
+<date>2021-11-22T09:09:01.094341Z</date>
+<msg>2021-11-22 提交单元测试文档</msg>
+</logentry>
+<logentry
+   revision="17659">
+<author>gaopeinan</author>
+<date>2021-11-19T08:50:48.172108Z</date>
+<msg>2021-11-19 提交数据库文档（增加防撞杆数据）</msg>
+</logentry>
+<logentry
+   revision="17658">
+<author>gaopeinan</author>
+<date>2021-11-19T08:02:06.876762Z</date>
+<msg>20211119王灿（预警数据表设计）</msg>
+</logentry>
+<logentry
+   revision="17631">
+<author>gaopeinan</author>
+<date>2021-11-18T08:57:38.420978Z</date>
+<msg>2021-11-18 提交数据库说明文档（增加油箱设计）</msg>
+</logentry>
+<logentry
+   revision="17630">
+<author>gaopeinan</author>
+<date>2021-11-18T08:42:53.782150Z</date>
+<msg>20211118王灿（数据库表更新）</msg>
+</logentry>
+<logentry
+   revision="17618">
+<author>gaopeinan</author>
+<date>2021-11-17T07:41:26.071396Z</date>
+<msg>2021-11-17 提交数据库说明文档</msg>
+</logentry>
+<logentry
+   revision="17601">
+<author>gaopeinan</author>
+<date>2021-11-16T08:45:43.604773Z</date>
+<msg>20211116王灿（adt库表工具生成）</msg>
+</logentry>
+<logentry
+   revision="17600">
+<author>gaopeinan</author>
+<date>2021-11-16T08:39:22.135097Z</date>
+<msg>2021-11-16 提交数据库说明文档</msg>
+</logentry>
+<logentry
+   revision="17583">
+<author>yangkai</author>
+<date>2021-11-15T09:34:50.414206Z</date>
+<msg>同望接口查询参数单元测试。消息管理、报表单元测试</msg>
+</logentry>
+<logentry
+   revision="17577">
+<author>gaopeinan</author>
+<date>2021-11-15T08:57:36.804359Z</date>
+<msg>20211115王灿(交投大屏报表管理测试)</msg>
+</logentry>
+<logentry
+   revision="17576">
+<author>gaopeinan</author>
+<date>2021-11-15T08:51:05.889698Z</date>
+<msg>2021-11-15 提交需求分析文档</msg>
+</logentry>
+<logentry
+   revision="17568">
+<author>yangkai</author>
+<date>2021-11-12T10:19:41.061311Z</date>
+<msg>部门、车辆健康单元测试</msg>
+</logentry>
+<logentry
+   revision="17562">
+<author>gaopeinan</author>
+<date>2021-11-12T09:13:25.802251Z</date>
+<msg>2021-11-12 提交单元测试文档</msg>
+</logentry>
+<logentry
+   revision="17561">
+<author>gaopeinan</author>
+<date>2021-11-12T08:59:59.655925Z</date>
+<msg>20211112王灿（交投管理系统用户管理测试）</msg>
+</logentry>
+<logentry
+   revision="17548">
+<author>yangkai</author>
+<date>2021-11-11T10:08:51.896907Z</date>
+<msg>设备、年检更新</msg>
+</logentry>
+<logentry
+   revision="17541">
+<author>gaopeinan</author>
+<date>2021-11-11T09:05:19.376904Z</date>
+<msg>2021-11-11 提交单元测试文档</msg>
+</logentry>
+<logentry
+   revision="17540">
+<author>gaopeinan</author>
+<date>2021-11-11T08:49:19.572434Z</date>
+<msg>20211111王灿（系统设置模块测试）</msg>
+</logentry>
+<logentry
+   revision="17529">
+<author>yangkai</author>
+<date>2021-11-10T11:24:23.695849Z</date>
+<msg>下载调试日志</msg>
+</logentry>
+<logentry
+   revision="17520">
+<author>gaopeinan</author>
+<date>2021-11-10T08:55:39.401690Z</date>
+<msg>2021-11-10 提交单元测试文档</msg>
+</logentry>
+<logentry
+   revision="17518">
+<author>gaopeinan</author>
+<date>2021-11-10T08:42:36.976945Z</date>
+<msg>20211110王灿（交投管理系统-权限管理测试）</msg>
+</logentry>
+<logentry
+   revision="17505">
+<author>yangkai</author>
+<date>2021-11-09T12:27:18.276498Z</date>
+<msg>同望接口-单元测试</msg>
+</logentry>
+<logentry
+   revision="17479">
+<author>gaopeinan</author>
+<date>2021-11-08T09:07:53.445449Z</date>
+<msg>2021-11-08提交单元测试</msg>
+</logentry>
+<logentry
+   revision="17464">
+<author>gaopeinan</author>
+<date>2021-11-05T08:50:18.934912Z</date>
+<msg>2021-11-5 提交单元测试文档</msg>
+</logentry>
+<logentry
+   revision="17458">
+<author>gaopeinan</author>
+<date>2021-11-05T07:02:05.577108Z</date>
+<msg>2021-11-05 提交通讯协议</msg>
+</logentry>
+<logentry
+   revision="17457">
+<author>gaopeinan</author>
+<date>2021-11-05T07:01:43.503483Z</date>
+<msg>2021-11-05 提交通讯协议</msg>
+</logentry>
+<logentry
+   revision="17434">
+<author>gaopeinan</author>
+<date>2021-11-04T08:19:30.200602Z</date>
+<msg>2021-11-04 提交数据库说明文档</msg>
+</logentry>
+<logentry
+   revision="17418">
+<author>gaopeinan</author>
+<date>2021-11-03T09:03:14.660860Z</date>
+<msg>2021-11-03 提交数据库说明文档
+</msg>
+</logentry>
+<logentry
+   revision="17414">
+<author>gaopeinan</author>
+<date>2021-11-03T07:10:38.321352Z</date>
+<msg>2021-11-03 修改软著</msg>
+</logentry>
+<logentry
+   revision="17413">
+<author>gaopeinan</author>
+<date>2021-11-03T07:03:01.658299Z</date>
+<msg>20211103王灿（大屏软著更改）</msg>
+</logentry>
+<logentry
+   revision="17401">
+<author>yangkai</author>
+<date>2021-11-02T09:40:36.388360Z</date>
+<msg>面向养护车辆的物联网平台-后台管理系统---软著</msg>
+</logentry>
+<logentry
+   revision="17400">
+<author>yangkai</author>
+<date>2021-11-02T09:40:35.980021Z</date>
+<msg>面向养护车辆的物联网平台-后台管理系统---软著</msg>
+</logentry>
+<logentry
+   revision="17399">
+<author>yangkai</author>
+<date>2021-11-02T09:40:35.589139Z</date>
+<msg>面向养护车辆的物联网平台-后台管理系统---软著</msg>
+</logentry>
+<logentry
+   revision="17398">
+<author>yangkai</author>
+<date>2021-11-02T09:39:48.487059Z</date>
+<msg>添加重复文档</msg>
+</logentry>
+<logentry
+   revision="17397">
+<author>yangkai</author>
+<date>2021-11-02T08:40:25.823568Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="17396">
+<author>gaopeinan</author>
+<date>2021-11-02T08:39:07.256065Z</date>
+<msg>2021-11-02 提交软著</msg>
+</logentry>
+<logentry
+   revision="17395">
+<author>gaopeinan</author>
+<date>2021-11-02T08:10:55.105986Z</date>
+<msg>20211102王灿（面向养护车辆的物联网平台-大屏展示系统软著）</msg>
+</logentry>
+<logentry
+   revision="17380">
+<author>yangkai</author>
+<date>2021-11-01T10:08:48.143852Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="17379">
+<author>yangkai</author>
+<date>2021-11-01T10:08:23.005879Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="17376">
+<author>gaopeinan</author>
+<date>2021-11-01T07:35:27.139846Z</date>
+<msg>2021-11-01 ACU协议调整</msg>
+</logentry>
+<logentry
+   revision="17357">
+<author>gaopeinan</author>
+<date>2021-10-29T09:33:13.017804Z</date>
+<msg>2021-10-29 提交复盘</msg>
+</logentry>
+<logentry
+   revision="17347">
+<author>gaopeinan</author>
+<date>2021-10-29T08:41:17.966765Z</date>
+<msg>20211029王灿（交投大屏准确数据测试）</msg>
+</logentry>
+<logentry
+   revision="17327">
+<author>yangkai</author>
+<date>2021-10-28T10:06:18.802266Z</date>
+<msg>车辆轨迹回放单元测试</msg>
+</logentry>
+<logentry
+   revision="17325">
+<author>gaopeinan</author>
+<date>2021-10-28T09:37:52.450881Z</date>
+<msg>2021-10-28 提交单元测试文档</msg>
+</logentry>
+<logentry
+   revision="17322">
+<author>gaopeinan</author>
+<date>2021-10-28T08:50:01.571518Z</date>
+<msg>20211028王灿（大屏数据测试）</msg>
+</logentry>
+<logentry
+   revision="17311">
+<author>gaopeinan</author>
+<date>2021-10-27T09:09:03.312470Z</date>
+<msg>2021-10-27 提交单元测试文档</msg>
+</logentry>
+<logentry
+   revision="17256">
+<author>gaopeinan</author>
+<date>2021-10-25T08:44:54.710798Z</date>
+<msg>2021-10-25 提交单元测试文档</msg>
+</logentry>
+<logentry
+   revision="17234">
+<author>gaopeinan</author>
+<date>2021-10-22T09:11:39.573489Z</date>
+<msg>2021-10-22 提交数据库说明</msg>
+</logentry>
+<logentry
+   revision="17233">
+<author>gaopeinan</author>
+<date>2021-10-22T09:09:58.406540Z</date>
+<msg>2021-10-22 提交单元测试</msg>
+</logentry>
+<logentry
+   revision="17231">
+<author>gaopeinan</author>
+<date>2021-10-22T09:01:36.735140Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="17218">
+<author>gaopeinan</author>
+<date>2021-10-21T08:30:53.215721Z</date>
+<msg>2021-10-21 提交单元测试文档1份</msg>
+</logentry>
+<logentry
+   revision="17217">
+<author>gaopeinan</author>
+<date>2021-10-21T08:30:34.985068Z</date>
+<msg>2021-10-21 提交数据库文档1份</msg>
+</logentry>
+<logentry
+   revision="17182">
+<author>gaopeinan</author>
+<date>2021-10-19T08:59:31.381797Z</date>
+<msg>2021-10-19 提交单元测试</msg>
+</logentry>
+<logentry
+   revision="17165">
+<author>gaopeinan</author>
+<date>2021-10-18T10:03:31.044656Z</date>
+<msg>2021-10-18 提交测试文档</msg>
+</logentry>
+<logentry
+   revision="17164">
+<author>gaopeinan</author>
+<date>2021-10-18T09:52:33.004810Z</date>
+<msg>20211018王灿（交投大屏-轨迹纠偏测试）</msg>
+</logentry>
+<logentry
+   revision="17147">
+<author>yangkai</author>
+<date>2021-10-15T09:15:58.256749Z</date>
+<msg>设备解绑单元测试-参数配置单元测试</msg>
+</logentry>
+<logentry
+   revision="17145">
+<author>gaopeinan</author>
+<date>2021-10-15T08:47:31.863045Z</date>
+<msg>2021-10-15 提交单元测试</msg>
+</logentry>
+<logentry
+   revision="17132">
+<author>gaopeinan</author>
+<date>2021-10-14T07:33:33.629500Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="17127">
+<author>yangkai</author>
+<date>2021-10-13T10:30:18.622865Z</date>
+<msg>车辆录入修改单元测试
+</msg>
+</logentry>
+<logentry
+   revision="17124">
+<author>gaopeinan</author>
+<date>2021-10-13T09:06:50.559404Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="17123">
+<author>gaopeinan</author>
+<date>2021-10-13T09:05:44.493332Z</date>
+<msg>2021-10-13 提交单元测试</msg>
+</logentry>
+<logentry
+   revision="17091">
+<author>gaopeinan</author>
+<date>2021-10-12T09:43:35.050979Z</date>
+<msg>2021-10-12 提交文档</msg>
+</logentry>
+<logentry
+   revision="17075">
+<author>yangkai</author>
+<date>2021-10-12T00:38:27.223170Z</date>
+<msg>参数配置添加列单元测试</msg>
+</logentry>
+<logentry
+   revision="17070">
+<author>gaopeinan</author>
+<date>2021-10-11T11:42:22.753524Z</date>
+<msg>2021-10-11 提交测试附属文档</msg>
+</logentry>
+<logentry
+   revision="17067">
+<author>gaopeinan</author>
+<date>2021-10-11T09:42:25.490891Z</date>
+<msg>2021-10-11 提交测试文档</msg>
+</logentry>
+<logentry
+   revision="17050">
+<author>gaopeinan</author>
+<date>2021-10-09T09:50:39.624452Z</date>
+<msg>2021-10-09 提交单元测试</msg>
+</logentry>
+<logentry
+   revision="17032">
+<author>gaopeinan</author>
+<date>2021-10-08T08:52:46.392284Z</date>
+<msg>2021-10-08 提交单元测试文档</msg>
+</logentry>
+<logentry
+   revision="17004">
+<author>gaopeinan</author>
+<date>2021-09-29T09:00:09.445449Z</date>
+<msg>2021-09-29 提交测试文档</msg>
+</logentry>
+<logentry
+   revision="17003">
+<author>gaopeinan</author>
+<date>2021-09-29T08:28:08.982138Z</date>
+<msg>20210929王灿（设备类型-全景图片上传整体测调）</msg>
+</logentry>
+<logentry
+   revision="16973">
+<author>yangkai</author>
+<date>2021-09-27T09:59:19.235022Z</date>
+<msg>日报表单元测试</msg>
+</logentry>
+<logentry
+   revision="16967">
+<author>gaopeinan</author>
+<date>2021-09-27T09:04:55.247710Z</date>
+<msg>2021-09-27 提交单元测试</msg>
+</logentry>
+<logentry
+   revision="16943">
+<author>gaopeinan</author>
+<date>2021-09-26T09:02:53.325381Z</date>
+<msg>2021-09-26 提交单元测试</msg>
+</logentry>
+<logentry
+   revision="16923">
+<author>gaopeinan</author>
+<date>2021-09-24T09:23:48.485449Z</date>
+<msg>2021-09-24 提交单元测试</msg>
+</logentry>
+<logentry
+   revision="16893">
+<author>gaopeinan</author>
+<date>2021-09-22T09:16:08.803976Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="16892">
+<author>gaopeinan</author>
+<date>2021-09-22T09:12:44.492548Z</date>
+<msg>2021-09-22 提交单元测试文档</msg>
+</logentry>
+<logentry
+   revision="16876">
+<author>gaopeinan</author>
+<date>2021-09-18T08:36:45.015321Z</date>
+<msg>2021-09-18 提交单元测试文档</msg>
+</logentry>
+<logentry
+   revision="16864">
+<author>gaopeinan</author>
+<date>2021-09-17T08:54:43.394264Z</date>
+<msg>2021-09-17 提交单元测试文档和联调说明</msg>
+</logentry>
+<logentry
+   revision="16847">
+<author>gaopeinan</author>
+<date>2021-09-16T08:57:47.744452Z</date>
+<msg>2021-09-16 提交单元测试</msg>
+</logentry>
+<logentry
+   revision="16846">
+<author>gaopeinan</author>
+<date>2021-09-16T08:56:53.991766Z</date>
+<msg>20210916王灿（车辆状态数目接口）</msg>
+</logentry>
+<logentry
+   revision="16832">
+<author>gaopeinan</author>
+<date>2021-09-15T09:24:45.007465Z</date>
+<msg>2021-09-15 提交单元测试</msg>
+</logentry>
+<logentry
+   revision="16830">
+<author>gaopeinan</author>
+<date>2021-09-15T08:45:59.522970Z</date>
+<msg>20210915王灿（车辆报警信息接口 ）</msg>
+</logentry>
+<logentry
+   revision="16813">
+<author>gaopeinan</author>
+<date>2021-09-14T08:59:27.460062Z</date>
+<msg>20210914王灿（车辆日均里程及使用率接口）</msg>
+</logentry>
+<logentry
+   revision="16809">
+<author>gaopeinan</author>
+<date>2021-09-14T08:50:40.489753Z</date>
+<msg>2021-09-14 提交数据库说明文档</msg>
+</logentry>
+<logentry
+   revision="16798">
+<author>gaopeinan</author>
+<date>2021-09-13T08:51:45.616569Z</date>
+<msg>20210913王灿（车辆油费信息接口）</msg>
+</logentry>
+<logentry
+   revision="16795">
+<author>gaopeinan</author>
+<date>2021-09-13T08:42:33.141559Z</date>
+<msg>2021-9-13 提交数据库文档</msg>
+</logentry>
+<logentry
+   revision="16791">
+<author>yangkai</author>
+<date>2021-09-10T09:33:04.644973Z</date>
+<msg>年检保养保险-单元测试</msg>
+</logentry>
+<logentry
+   revision="16790">
+<author>gaopeinan</author>
+<date>2021-09-10T09:13:02.861886Z</date>
+<msg>2021-09-10 提交复盘文档</msg>
+</logentry>
+<logentry
+   revision="16789">
+<author>gaopeinan</author>
+<date>2021-09-10T09:09:36.117556Z</date>
+<msg>20210910王灿（交投大屏碳中和指标测试）</msg>
+</logentry>
+<logentry
+   revision="16768">
+<author>gaopeinan</author>
+<date>2021-09-09T08:55:45.334325Z</date>
+<msg>20210909王灿（交投大屏车辆健康信息接口）</msg>
+</logentry>
+<logentry
+   revision="16763">
+<author>gaopeinan</author>
+<date>2021-09-09T08:03:49.057721Z</date>
+<msg>2021-09-09 提交数据库说明文档</msg>
+</logentry>
+<logentry
+   revision="16762">
+<author>gaopeinan</author>
+<date>2021-09-09T01:25:46.153550Z</date>
+<msg>20210908王灿（交投大屏车辆油耗接口）</msg>
+</logentry>
+<logentry
+   revision="16751">
+<author>gaopeinan</author>
+<date>2021-09-08T08:25:46.977224Z</date>
+<msg>2021-09-08 提交更新过的库表说明文档</msg>
+</logentry>
+<logentry
+   revision="16738">
+<author>gaopeinan</author>
+<date>2021-09-07T08:56:31.007397Z</date>
+<msg>20210907王灿（交投大屏获取车辆类型接口）</msg>
+</logentry>
+<logentry
+   revision="16736">
+<author>gaopeinan</author>
+<date>2021-09-07T08:53:25.498964Z</date>
+<msg>2021-09-07 提交单元测试</msg>
+</logentry>
+<logentry
+   revision="16730">
+<author>yangkai</author>
+<date>2021-09-06T11:57:28.918507Z</date>
+<msg>车辆参数界面单元测试</msg>
+</logentry>
+<logentry
+   revision="16724">
+<author>gaopeinan</author>
+<date>2021-09-06T08:58:57.881006Z</date>
+<msg>20210906王灿（交投大屏获取车辆行驶里程接口测试）</msg>
+</logentry>
+<logentry
+   revision="16720">
+<author>gaopeinan</author>
+<date>2021-09-06T07:00:49.099198Z</date>
+<msg>2021-09-06 数据库表说明文档</msg>
+</logentry>
+<logentry
+   revision="16704">
+<author>gaopeinan</author>
+<date>2021-09-03T09:16:47.775331Z</date>
+<msg>2021-09-03 提交单元测试</msg>
+</logentry>
+<logentry
+   revision="16694">
+<author>yangkai</author>
+<date>2021-09-03T00:49:55.421529Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="16685">
+<author>gaopeinan</author>
+<date>2021-09-02T10:15:35.894128Z</date>
+<msg>2021-09-02 提交单元测试</msg>
+</logentry>
+<logentry
+   revision="16681">
+<author>gaopeinan</author>
+<date>2021-09-02T09:01:28.356897Z</date>
+<msg>20210902王灿（获取车辆轨迹接口）</msg>
+</logentry>
+<logentry
+   revision="16662">
+<author>gaopeinan</author>
+<date>2021-09-01T09:34:20.079400Z</date>
+<msg>20210901王灿（交投大屏接口-获取所有车辆信息）</msg>
+</logentry>
+<logentry
+   revision="16659">
+<author>gaopeinan</author>
+<date>2021-09-01T08:43:26.933858Z</date>
+<msg>2021-09-01 上传报文联调说明</msg>
+</logentry>
+<logentry
+   revision="16658">
+<author>gaopeinan</author>
+<date>2021-09-01T06:31:22.085745Z</date>
+<msg>20210901王灿（软著说明书更改）</msg>
+</logentry>
+<logentry
+   revision="16656">
+<author>yangkai</author>
+<date>2021-09-01T01:01:57.427154Z</date>
+<msg>库表更新</msg>
+</logentry>
+<logentry
+   revision="16647">
+<author>gaopeinan</author>
+<date>2021-08-31T09:23:09.849573Z</date>
+<msg>2021-08-31 提交库表设计说明文档</msg>
+</logentry>
+<logentry
+   revision="16645">
+<author>gaopeinan</author>
+<date>2021-08-31T09:17:50.383053Z</date>
+<msg>2021-08-31 提交单元测试</msg>
+</logentry>
+<logentry
+   revision="16640">
+<author>gaopeinan</author>
+<date>2021-08-31T03:15:01.649186Z</date>
+<msg>2021-08-31 提交软著修改</msg>
+</logentry>
+<logentry
+   revision="16639">
+<author>gaopeinan</author>
+<date>2021-08-31T02:37:14.062553Z</date>
+<msg>20210831王灿（软著更改）</msg>
+</logentry>
+<logentry
+   revision="16638">
+<author>gaopeinan</author>
+<date>2021-08-31T02:27:19.610472Z</date>
+<msg>20210831王灿（软著更改）</msg>
+</logentry>
+<logentry
+   revision="16637">
+<author>gaopeinan</author>
+<date>2021-08-31T02:15:59.706577Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="16636">
+<author>gaopeinan</author>
+<date>2021-08-31T02:14:56.587081Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="16635">
+<author>gaopeinan</author>
+<date>2021-08-31T02:02:16.339414Z</date>
+<msg>2021-08-31 修改软著</msg>
+</logentry>
+<logentry
+   revision="16634">
+<author>yangkai</author>
+<date>2021-08-30T10:41:01.797325Z</date>
+<msg>云平台调研报告</msg>
+</logentry>
+<logentry
+   revision="16628">
+<author>gaopeinan</author>
+<date>2021-08-30T08:55:07.607459Z</date>
+<msg>2021-08-30 软著提交</msg>
+</logentry>
+<logentry
+   revision="16627">
+<author>gaopeinan</author>
+<date>2021-08-30T08:43:32.759095Z</date>
+<msg>20210830王灿（用户APP软著提交）</msg>
+</logentry>
+<logentry
+   revision="16618">
+<author>yangkai</author>
+<date>2021-08-30T00:40:34.924877Z</date>
+<msg>设备管理绑定当前单位下用户</msg>
+</logentry>
+<logentry
+   revision="16613">
+<author>gaopeinan</author>
+<date>2021-08-27T09:19:53.092213Z</date>
+<msg>2021-08-27 提交单元测试</msg>
+</logentry>
+<logentry
+   revision="16601">
+<author>gaopeinan</author>
+<date>2021-08-26T07:50:36.175289Z</date>
+<msg>2021-08-26 提交联调测试报告</msg>
+</logentry>
+<logentry
+   revision="16578">
+<author>yangkai</author>
+<date>2021-08-25T09:25:43.432583Z</date>
+<msg>8-2.5输入版本号</msg>
+</logentry>
+<logentry
+   revision="16574">
+<author>gaopeinan</author>
+<date>2021-08-25T08:43:31.424102Z</date>
+<msg>2021-08-25 增加通讯服务端部署</msg>
+</logentry>
+<logentry
+   revision="16573">
+<author>gaopeinan</author>
+<date>2021-08-25T08:42:59.902080Z</date>
+<msg>2021-08-25 提交上线测试</msg>
+</logentry>
+<logentry
+   revision="16563">
+<author>gaopeinan</author>
+<date>2021-08-24T08:51:18.188074Z</date>
+<msg>2021-08-24 提交位置信息报文解析测试</msg>
+</logentry>
+<logentry
+   revision="16554">
+<author>yangkai</author>
+<date>2021-08-23T11:05:43.974227Z</date>
+<msg>23号单元测试--交投项目远程更新界面</msg>
+</logentry>
+<logentry
+   revision="16544">
+<author>gaopeinan</author>
+<date>2021-08-23T08:42:58.031196Z</date>
+<msg>2021-08-23 提交单元测试文件</msg>
+</logentry>
+<logentry
+   revision="16528">
+<author>gaopeinan</author>
+<date>2021-08-20T08:37:29.157886Z</date>
+<msg>2021-08-20 提交单元测试</msg>
+</logentry>
+<logentry
+   revision="16519">
+<author>yangkai</author>
+<date>2021-08-19T11:10:39.537982Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="16515">
+<author>gaopeinan</author>
+<date>2021-08-19T09:10:16.699439Z</date>
+<msg>2021-08-19 远程更新接口设计</msg>
+</logentry>
+<logentry
+   revision="16512">
+<author>yangkai</author>
+<date>2021-08-19T01:19:35.128018Z</date>
+<msg>工具生成库表设计</msg>
+</logentry>
+<logentry
+   revision="16505">
+<author>yangkai</author>
+<date>2021-08-18T09:38:13.292111Z</date>
+<msg>浙江交投项目后端部署</msg>
+</logentry>
+<logentry
+   revision="16499">
+<author>gaopeinan</author>
+<date>2021-08-18T08:41:32.098384Z</date>
+<msg>2021-08-18 提交单元测试</msg>
+</logentry>
+<logentry
+   revision="16498">
+<author>gaopeinan</author>
+<date>2021-08-18T08:41:14.715541Z</date>
+<msg>2021-08-18 增加数据库表</msg>
+</logentry>
+<logentry
+   revision="16486">
+<author>yangkai</author>
+<date>2021-08-17T09:35:17.565378Z</date>
+<msg>浙江交投前端部署文档
+</msg>
+</logentry>
+<logentry
+   revision="16481">
+<author>gaopeinan</author>
+<date>2021-08-17T07:52:52.988137Z</date>
+<msg>2021-08-17 提交终端升级处理测试</msg>
+</logentry>
+<logentry
+   revision="16467">
+<author>yangkai</author>
+<date>2021-08-16T09:59:37.531392Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="16463">
+<author>gaopeinan</author>
+<date>2021-08-16T08:59:59.931763Z</date>
+<msg>2021-08-16 提交阶段化成果展示PPT</msg>
+</logentry>
+<logentry
+   revision="16462">
+<author>gaopeinan</author>
+<date>2021-08-16T08:57:58.168494Z</date>
+<msg>2021-08-16 提交单元测试</msg>
+</logentry>
+<logentry
+   revision="16445">
+<author>gaopeinan</author>
+<date>2021-08-13T08:37:02.570661Z</date>
+<msg>2021-08-13 鉴权测试</msg>
+</logentry>
+<logentry
+   revision="16440">
+<author>yangkai</author>
+<date>2021-08-12T10:55:46.291429Z</date>
+<msg>库表更改</msg>
+</logentry>
+<logentry
+   revision="16439">
+<author>yangkai</author>
+<date>2021-08-12T10:53:27.048991Z</date>
+<msg>菜单-用户根据单位显示</msg>
+</logentry>
+<logentry
+   revision="16435">
+<author>gaopeinan</author>
+<date>2021-08-12T10:21:12.866899Z</date>
+<msg>2021-08-12 修改信息</msg>
+</logentry>
+<logentry
+   revision="16427">
+<author>gaopeinan</author>
+<date>2021-08-12T09:10:36.065827Z</date>
+<msg>2021-08-12 提交单元测试</msg>
+</logentry>
+<logentry
+   revision="16426">
+<author>gaopeinan</author>
+<date>2021-08-12T09:08:54.214361Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="16416">
+<author>gaopeinan</author>
+<date>2021-08-12T02:41:57.646954Z</date>
+<msg>2021-08-12 修改软著名称</msg>
+</logentry>
+<logentry
+   revision="16396">
+<author>yangkai</author>
+<date>2021-08-11T02:10:25.872075Z</date>
+<msg>单位显示权限单元测试</msg>
+</logentry>
+<logentry
+   revision="16379">
+<author>yangkai</author>
+<date>2021-08-09T09:47:31.595127Z</date>
+<msg>单位修改-角色权限管理层间多级单位-单元测试</msg>
+</logentry>
+<logentry
+   revision="16368">
+<author>yangkai</author>
+<date>2021-08-09T01:35:24.305088Z</date>
+<msg>8-6单元测试，单位增删改查</msg>
+</logentry>
+<logentry
+   revision="16356">
+<author>gaopeinan</author>
+<date>2021-08-06T08:36:31.619993Z</date>
+<msg>20210806王灿（菜单编辑、删除单元测试）</msg>
+</logentry>
+<logentry
+   revision="16344">
+<author>yangkai</author>
+<date>2021-08-06T00:49:10.872215Z</date>
+<msg>部门展示·单元测试</msg>
+</logentry>
+<logentry
+   revision="16333">
+<author>gaopeinan</author>
+<date>2021-08-05T08:43:07.063934Z</date>
+<msg>20210805王灿（交通管理系统-菜单新增）</msg>
+</logentry>
+<logentry
+   revision="16328">
+<author>yangkai</author>
+<date>2021-08-04T10:26:34.285155Z</date>
+<msg>增删改，单元测试</msg>
+</logentry>
+<logentry
+   revision="16298">
+<author>yangkai</author>
+<date>2021-08-03T10:41:43.390779Z</date>
+<msg>用户列表级联显示单元测试</msg>
+</logentry>
+<logentry
+   revision="16284">
+<author>yangkai</author>
+<date>2021-08-02T10:49:35.629332Z</date>
+<msg>2021-8-02设备添加-修改-删除单元测试</msg>
+</logentry>
+<logentry
+   revision="16267">
+<author>yangkai</author>
+<date>2021-07-30T09:47:05.944504Z</date>
+<msg>查询条件-车辆展示</msg>
+</logentry>
+<logentry
+   revision="16256">
+<author>yangkai</author>
+<date>2021-07-30T02:00:48.637055Z</date>
+<msg>7-29用户管理单元测试</msg>
+</logentry>
+<logentry
+   revision="16241">
+<author>yangkai</author>
+<date>2021-07-29T01:33:40.446712Z</date>
+<msg>登录单元测试</msg>
+</logentry>
+<logentry
+   revision="16191">
+<author>gaopeinan</author>
+<date>2021-07-27T08:54:36.948344Z</date>
+<msg>20210727王灿（adt软著提交）</msg>
+</logentry>
+<logentry
+   revision="16171">
+<author>yangkai</author>
+<date>2021-07-26T11:31:00.239770Z</date>
+<msg>交投库表设计</msg>
+</logentry>
+<logentry
+   revision="16163">
+<author>gaopeinan</author>
+<date>2021-07-26T08:27:38.480967Z</date>
+<msg>20210726王灿（ADT软著编写）</msg>
+</logentry>
+<logentry
+   revision="16162">
+<author>gaopeinan</author>
+<date>2021-07-26T08:25:57.188141Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="16135">
+<author>gaopeinan</author>
+<date>2021-07-23T03:06:58.202001Z</date>
+<msg>20210723王灿（操作手册更新）</msg>
+</logentry>
+<logentry
+   revision="16125">
+<author>yangkai</author>
+<date>2021-07-22T09:33:24.108730Z</date>
+<msg>bug单元测试</msg>
+</logentry>
+<logentry
+   revision="16124">
+<author>gaopeinan</author>
+<date>2021-07-22T09:05:19.456365Z</date>
+<msg>2021-07-22 提交大屏调研PPT</msg>
+</logentry>
+<logentry
+   revision="16123">
+<author>gaopeinan</author>
+<date>2021-07-22T09:02:36.473334Z</date>
+<msg>2021-07-22 补交单元测试文档</msg>
+</logentry>
+<logentry
+   revision="16119">
+<author>gaopeinan</author>
+<date>2021-07-22T05:39:35.886310Z</date>
+<msg>20210722王灿（管理员版路径规划更改）</msg>
+</logentry>
+<logentry
+   revision="16110">
+<author>yangkai</author>
+<date>2021-07-21T10:15:53.680958Z</date>
+<msg>bug单元测试</msg>
+</logentry>
+<logentry
+   revision="16108">
+<author>gaopeinan</author>
+<date>2021-07-21T09:06:50.542722Z</date>
+<msg>2021-07-21 王灿提交</msg>
+</logentry>
+<logentry
+   revision="16107">
+<author>gaopeinan</author>
+<date>2021-07-21T08:52:56.478432Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="16106">
+<author>gaopeinan</author>
+<date>2021-07-21T08:52:31.284093Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="16103">
+<author>gaopeinan</author>
+<date>2021-07-21T08:35:53.600206Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="16088">
+<author>yangkai</author>
+<date>2021-07-20T09:54:17.685032Z</date>
+<msg>bug单元测试</msg>
+</logentry>
+<logentry
+   revision="16080">
+<author>gaopeinan</author>
+<date>2021-07-20T07:56:56.829027Z</date>
+<msg>2021-07-20 数据库设计表设计</msg>
+</logentry>
+<logentry
+   revision="16064">
+<author>yangkai</author>
+<date>2021-07-19T10:58:43.863196Z</date>
+<msg>adtbug单元测试</msg>
+</logentry>
+<logentry
+   revision="16059">
+<author>gaopeinan</author>
+<date>2021-07-19T07:59:50.551348Z</date>
+<msg>2021-07-19 提交设计方案</msg>
+</logentry>
+<logentry
+   revision="16056">
+<author>yangkai</author>
+<date>2021-07-16T14:31:39.010222Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="16041">
+<author>gaopeinan</author>
+<date>2021-07-15T08:52:26.568114Z</date>
+<msg>20210715王灿（离线模式禁用服务、WIFI刷新机型兼容）</msg>
+</logentry>
+<logentry
+   revision="16023">
+<author>yangkai</author>
+<date>2021-07-14T11:28:15.988278Z</date>
+<msg>设备列表，单位管理单元测试</msg>
+</logentry>
+<logentry
+   revision="16014">
+<author>gaopeinan</author>
+<date>2021-07-14T08:42:42.025502Z</date>
+<msg>20210714王灿（用户APP离线在线模式、路径规划调整）</msg>
+</logentry>
+<logentry
+   revision="16013">
+<author>gaopeinan</author>
+<date>2021-07-14T08:05:29.779001Z</date>
+<msg>2021-07-14</msg>
+</logentry>
+<logentry
+   revision="15997">
+<author>gaopeinan</author>
+<date>2021-07-13T08:44:42.782179Z</date>
+<msg>20210713王灿（各车型各等级电量测试）</msg>
+</logentry>
+<logentry
+   revision="15973">
+<author>gaopeinan</author>
+<date>2021-07-12T08:31:37.948486Z</date>
+<msg>2021-07-12 提交数据库说明文档</msg>
+</logentry>
+<logentry
+   revision="15941">
+<author>gaopeinan</author>
+<date>2021-07-09T09:01:09.419081Z</date>
+<msg>2021-07-09 提交报文协议</msg>
+</logentry>
+<logentry
+   revision="15936">
+<author>gaopeinan</author>
+<date>2021-07-09T08:47:00.662365Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="15935">
+<author>gaopeinan</author>
+<date>2021-07-09T08:22:15.308679Z</date>
+<msg>20210709王灿（图片处理图片展示与实际比例计算）</msg>
+</logentry>
+<logentry
+   revision="15911">
+<author>yangkai</author>
+<date>2021-07-08T12:52:52.672403Z</date>
+<msg>后端单元测试</msg>
+</logentry>
+<logentry
+   revision="15900">
+<author>gaopeinan</author>
+<date>2021-07-08T08:32:10.031945Z</date>
+<msg>20210708王灿（图片标记）</msg>
+</logentry>
+<logentry
+   revision="15883">
+<author>gaopeinan</author>
+<date>2021-07-08T00:44:55.360406Z</date>
+<msg>20210708王灿（登录）</msg>
+</logentry>
+<logentry
+   revision="15874">
+<author>gaopeinan</author>
+<date>2021-07-07T08:12:42.783292Z</date>
+<msg>2021-07-07 提交单元测试</msg>
+</logentry>
+<logentry
+   revision="15860">
+<author>yangkai</author>
+<date>2021-07-06T09:33:52.234656Z</date>
+<msg>登录单元测试</msg>
+</logentry>
+<logentry
+   revision="15859">
+<author>gaopeinan</author>
+<date>2021-07-06T08:57:20.606733Z</date>
+<msg>20210706王灿（管理员app登录）</msg>
+</logentry>
+<logentry
+   revision="15857">
+<author>gaopeinan</author>
+<date>2021-07-06T08:32:51.612972Z</date>
+<msg>2021-07-06 上传单元测试</msg>
+</logentry>
+<logentry
+   revision="15856">
+<author>gaopeinan</author>
+<date>2021-07-06T08:32:29.691673Z</date>
+<msg>2021-07-06 增加pgm处理程序运行相关命令</msg>
+</logentry>
+<logentry
+   revision="15830">
+<author>yangkai</author>
+<date>2021-07-02T12:05:11.557330Z</date>
+<msg>人员管理-权限管理，单元测试</msg>
+</logentry>
+<logentry
+   revision="15829">
+<author>gaopeinan</author>
+<date>2021-07-02T10:33:59.758808Z</date>
+<msg>20210702王灿（图片处理）</msg>
+</logentry>
+<logentry
+   revision="15823">
+<author>gaopeinan</author>
+<date>2021-07-02T08:54:44.537638Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="15821">
+<author>yangkai</author>
+<date>2021-07-02T06:55:57.322538Z</date>
+<msg>添加农业大棚系统单元测试</msg>
+</logentry>
+<logentry
+   revision="15799">
+<author>gaopeinan</author>
+<date>2021-07-01T09:17:14.529959Z</date>
+<msg>2021-07-01 提交测试</msg>
+</logentry>
+<logentry
+   revision="15734">
+<author>yangkai</author>
+<date>2021-06-25T11:15:24.711562Z</date>
+<msg>农业大棚系统库表设计</msg>
+</logentry>
+<logentry
+   revision="15732">
+<author>gaopeinan</author>
+<date>2021-06-25T09:26:12.549510Z</date>
+<msg>2021-06-25 提交测试报告</msg>
+</logentry>
+<logentry
+   revision="15721">
+<author>yangkai</author>
+<date>2021-06-24T09:44:55.177312Z</date>
+<msg>添加连接传感器方式</msg>
+</logentry>
+<logentry
+   revision="15715">
+<author>gaopeinan</author>
+<date>2021-06-23T08:22:45.757519Z</date>
+<msg>20210623王灿（管理员APP使用更新）</msg>
+</logentry>
+<logentry
+   revision="15707">
+<author>yangkai</author>
+<date>2021-06-22T14:32:17.681584Z</date>
+<msg>农业大棚架构设计-界面样式调研</msg>
+</logentry>
+<logentry
+   revision="15690">
+<author>yangkai</author>
+<date>2021-06-21T11:10:19.144413Z</date>
+<msg>新增测试用例，测试地图构建、路径构建、手动操作</msg>
+</logentry>
+<logentry
+   revision="15667">
+<author>gaopeinan</author>
+<date>2021-06-18T08:45:12.885398Z</date>
+<msg>2021-06-18 提交文档</msg>
+</logentry>
+<logentry
+   revision="15658">
+<author>yangkai</author>
+<date>2021-06-17T11:22:56.014117Z</date>
+<msg>地图上传-路径规划单元测试</msg>
+</logentry>
+<logentry
+   revision="15648">
+<author>gaopeinan</author>
+<date>2021-06-17T09:01:17.323169Z</date>
+<msg>2021-06-17 提交使用文档</msg>
+</logentry>
+<logentry
+   revision="15647">
+<author>gaopeinan</author>
+<date>2021-06-17T09:00:41.368288Z</date>
+<msg>2021-06-17 提交测试报告</msg>
+</logentry>
+<logentry
+   revision="15645">
+<author>gaopeinan</author>
+<date>2021-06-17T08:46:57.658199Z</date>
+<msg>20210617王灿（离线地图构建）</msg>
+</logentry>
+<logentry
+   revision="15631">
+<author>yangkai</author>
+<date>2021-06-16T09:34:24.472520Z</date>
+<msg>Android Studio 安装教程</msg>
+</logentry>
+<logentry
+   revision="15629">
+<author>gaopeinan</author>
+<date>2021-06-16T08:57:24.928150Z</date>
+<msg>2021-06-16 新增golang安装</msg>
+</logentry>
+<logentry
+   revision="15627">
+<author>gaopeinan</author>
+<date>2021-06-16T08:46:42.071439Z</date>
+<msg>20210616王灿（离线路径规划）</msg>
+</logentry>
+<logentry
+   revision="15547">
+<author>gaopeinan</author>
+<date>2021-06-09T08:43:33.388880Z</date>
+<msg>20210609王灿（android展示pgm各式图片）</msg>
+</logentry>
+<logentry
+   revision="15545">
+<author>gaopeinan</author>
+<date>2021-06-09T07:22:00.025469Z</date>
+<msg>2021-06-09</msg>
+</logentry>
+<logentry
+   revision="15535">
+<author>gaopeinan</author>
+<date>2021-06-08T08:42:01.202966Z</date>
+<msg>20210608王灿（android百度地图sdk）</msg>
+</logentry>
+<logentry
+   revision="15533">
+<author>gaopeinan</author>
+<date>2021-06-08T08:16:41.421857Z</date>
+<msg>2021-06-08 提交docker文档及密码记录</msg>
+</logentry>
+<logentry
+   revision="15528">
+<author>yangkai</author>
+<date>2021-06-07T12:40:04.376453Z</date>
+<msg>树莓派APP使用问题</msg>
+</logentry>
+<logentry
+   revision="15517">
+<author>gaopeinan</author>
+<date>2021-06-07T09:12:32.145028Z</date>
+<msg>20210607王灿（路径规划）</msg>
+</logentry>
+<logentry
+   revision="15516">
+<author>gaopeinan</author>
+<date>2021-06-07T09:01:58.598616Z</date>
+<msg>2021-06-07 提交Jenkins安装</msg>
+</logentry>
+<logentry
+   revision="15509">
+<author>yangkai</author>
+<date>2021-06-04T10:48:47.926384Z</date>
+<msg>树莓派多点巡航</msg>
+</logentry>
+<logentry
+   revision="15505">
+<author>gaopeinan</author>
+<date>2021-06-04T08:51:23.336723Z</date>
+<msg>2021-06-04 提交文档</msg>
+</logentry>
+<logentry
+   revision="15497">
+<author>yangkai</author>
+<date>2021-06-03T10:56:55.370302Z</date>
+<msg>树莓派构建地图，自动导航避障</msg>
+</logentry>
+<logentry
+   revision="15487">
+<author>gaopeinan</author>
+<date>2021-06-03T09:13:37.530776Z</date>
+<msg>2021-06-03 增加数据库安装部分</msg>
+</logentry>
+<logentry
+   revision="15479">
+<author>gaopeinan</author>
+<date>2021-06-03T05:53:08.656941Z</date>
+<msg>2021-06-03 补充robokit选点导航</msg>
+</logentry>
+<logentry
+   revision="15473">
+<author>yangkai</author>
+<date>2021-06-02T12:33:14.232318Z</date>
+<msg>imu、角速度、线速度校正</msg>
+</logentry>
+<logentry
+   revision="15463">
+<author>gaopeinan</author>
+<date>2021-06-02T08:35:54.464315Z</date>
+<msg>2021-06-02 增加宝塔面板安装步骤</msg>
+</logentry>
+<logentry
+   revision="15455">
+<author>yangkai</author>
+<date>2021-06-01T12:51:48.708649Z</date>
+<msg>树莓派系统连接ssh，以及小车移动</msg>
+</logentry>
+<logentry
+   revision="15449">
+<author>gaopeinan</author>
+<date>2021-06-01T07:39:46.680682Z</date>
+<msg>2021-06-01 </msg>
+</logentry>
+<logentry
+   revision="15436">
+<author>yangkai</author>
+<date>2021-05-31T12:05:31.394365Z</date>
+<msg>树莓派使用</msg>
+</logentry>
+<logentry
+   revision="15429">
+<author>gaopeinan</author>
+<date>2021-05-31T08:40:43.631000Z</date>
+<msg>20210531王灿（路径规划方案设计）</msg>
+</logentry>
+<logentry
+   revision="15423">
+<author>gaopeinan</author>
+<date>2021-05-31T08:14:50.074438Z</date>
+<msg>2021-05-31 提交文档</msg>
+</logentry>
+<logentry
+   revision="15417">
+<author>yangkai</author>
+<date>2021-05-28T12:50:55.782502Z</date>
+<msg>客服项目部署</msg>
+</logentry>
+<logentry
+   revision="15409">
+<author>gaopeinan</author>
+<date>2021-05-28T07:02:33.104332Z</date>
+<msg>2021-05-28 提交单元测试文档</msg>
+</logentry>
+<logentry
+   revision="15403">
+<author>yangkai</author>
+<date>2021-05-27T09:50:33.388367Z</date>
+<msg>安装视频推流服务
+</msg>
+</logentry>
+<logentry
+   revision="15394">
+<author>yangkai</author>
+<date>2021-05-26T11:13:07.605852Z</date>
+<msg>添加docker ftp容器安装和tomcat容器安装</msg>
+</logentry>
+<logentry
+   revision="15391">
+<author>gaopeinan</author>
+<date>2021-05-26T08:58:01.684697Z</date>
+<msg>2021-05-26 提交通讯协议汇总版及其他修改格式的文档</msg>
+</logentry>
+<logentry
+   revision="15390">
+<author>gaopeinan</author>
+<date>2021-05-26T08:16:48.151979Z</date>
+<msg>20210526王灿（wifi二维码）</msg>
+</logentry>
+<logentry
+   revision="15378">
+<author>yangkai</author>
+<date>2021-05-26T01:44:24.321136Z</date>
+<msg>更改样式</msg>
+</logentry>
+<logentry
+   revision="15377">
+<author>yangkai</author>
+<date>2021-05-26T01:44:01.888900Z</date>
+<msg>更改样式</msg>
+</logentry>
+<logentry
+   revision="15376">
+<author>yangkai</author>
+<date>2021-05-26T01:43:52.252234Z</date>
+<msg>更改样式</msg>
+</logentry>
+<logentry
+   revision="15375">
+<author>yangkai</author>
+<date>2021-05-26T01:43:40.054415Z</date>
+<msg>更改样式</msg>
+</logentry>
+<logentry
+   revision="15373">
+<author>yangkai</author>
+<date>2021-05-25T13:15:44.807740Z</date>
+<msg>更新jenkins安装步骤</msg>
+</logentry>
+<logentry
+   revision="15372">
+<author>yangkai</author>
+<date>2021-05-25T13:14:58.778682Z</date>
+<msg>更新</msg>
+</logentry>
+<logentry
+   revision="15369">
+<author>gaopeinan</author>
+<date>2021-05-25T08:53:18.348637Z</date>
+<msg>20210525王灿（wifi信息添加）</msg>
+</logentry>
+<logentry
+   revision="15368">
+<author>gaopeinan</author>
+<date>2021-05-25T08:17:13.163352Z</date>
+<msg>2021-05-25 提交通讯协议汇总版，部分完成</msg>
+</logentry>
+<logentry
+   revision="15361">
+<author>yangkai</author>
+<date>2021-05-24T13:32:16.918237Z</date>
+<msg>更新docker容器mysql</msg>
+</logentry>
+<logentry
+   revision="15360">
+<author>yangkai</author>
+<date>2021-05-24T13:31:54.295204Z</date>
+<msg>更新</msg>
+</logentry>
+<logentry
+   revision="15354">
+<author>sujinya</author>
+<date>2021-05-24T09:36:17.388463Z</date>
+<msg>add differential-drive support within app-&gt;ccu protocal</msg>
+</logentry>
+<logentry
+   revision="15352">
+<author>gaopeinan</author>
+<date>2021-05-24T08:41:29.280385Z</date>
+<msg>20210524王灿（wifi扫码连接）</msg>
+</logentry>
+<logentry
+   revision="15341">
+<author>yangkai</author>
+<date>2021-05-21T09:57:45.966200Z</date>
+<msg>更新</msg>
+</logentry>
+<logentry
+   revision="15340">
+<author>yangkai</author>
+<date>2021-05-21T09:57:31.865022Z</date>
+<msg>更新</msg>
+</logentry>
+<logentry
+   revision="15327">
+<author>yangkai</author>
+<date>2021-05-20T09:24:23.739962Z</date>
+<msg>添加ububtn20.04.1以及jdk1.8</msg>
+</logentry>
+<logentry
+   revision="15326">
+<author>yangkai</author>
+<date>2021-05-20T09:23:38.712844Z</date>
+<msg>更新替换</msg>
+</logentry>
+<logentry
+   revision="15323">
+<author>yangkai</author>
+<date>2021-05-20T08:53:54.655516Z</date>
+<msg>添加摄像头调用流方法
+</msg>
+</logentry>
+<logentry
+   revision="15322">
+<author>yangkai</author>
+<date>2021-05-20T08:53:05.676080Z</date>
+<msg>更改添加</msg>
+</logentry>
+<logentry
+   revision="15320">
+<author>gaopeinan</author>
+<date>2021-05-20T08:50:02.200607Z</date>
+<msg>20210520王灿（用户APP操作说明）</msg>
+</logentry>
+<logentry
+   revision="15291">
+<author>yangkai</author>
+<date>2021-05-18T12:20:24.235927Z</date>
+<msg>VMware安装使用</msg>
+</logentry>
+<logentry
+   revision="15260">
+<author>yangkai</author>
+<date>2021-05-17T11:22:39.645391Z</date>
+<msg>安装配置docker镜像</msg>
+</logentry>
+<logentry
+   revision="15259">
+<author>yangkai</author>
+<date>2021-05-17T11:21:38.042826Z</date>
+<msg>更新替换</msg>
+</logentry>
+<logentry
+   revision="15240">
+<author>yangkai</author>
+<date>2021-05-14T09:38:36.096231Z</date>
+<msg>Docker使用（后续持续更新）</msg>
+</logentry>
+<logentry
+   revision="15228">
+<author>gaopeinan</author>
+<date>2021-05-14T02:16:29.760031Z</date>
+<msg>2021-05-14 更新文档增加增程式线程组插件安装</msg>
+</logentry>
+<logentry
+   revision="15216">
+<author>yangkai</author>
+<date>2021-05-13T11:29:00.044742Z</date>
+<msg>萤石摄像头嵌入html</msg>
+</logentry>
+<logentry
+   revision="15211">
+<author>gaopeinan</author>
+<date>2021-05-13T08:11:06.447236Z</date>
+<msg>2021-05-13 提交jmeter脚本使用文档</msg>
+</logentry>
+<logentry
+   revision="15197">
+<author>gaopeinan</author>
+<date>2021-05-13T03:07:19.394838Z</date>
+<msg>20210513王灿（手动遥控测试）</msg>
+</logentry>
+<logentry
+   revision="15114">
+<author>gaopeinan</author>
+<date>2021-05-08T11:20:46.087911Z</date>
+<msg>20210508王灿（ACU任务执行测试案例补充）</msg>
+</logentry>
+<logentry
+   revision="15109">
+<author>gaopeinan</author>
+<date>2021-05-08T07:03:07.792708Z</date>
+<msg>20210508王灿（acu任务下发测试）</msg>
+</logentry>
+<logentry
+   revision="15077">
+<author>yangkai</author>
+<date>2021-05-07T10:00:12.695127Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="15073">
+<author>yangkai</author>
+<date>2021-05-07T09:21:13.236871Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="15071">
+<author>gaopeinan</author>
+<date>2021-05-07T08:44:25.200465Z</date>
+<msg>20210507王灿（首页测试）</msg>
+</logentry>
+<logentry
+   revision="15061">
+<author>yangkai</author>
+<date>2021-05-06T09:45:32.928222Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="15055">
+<author>gaopeinan</author>
+<date>2021-05-06T08:43:09.062480Z</date>
+<msg>20210506王灿（用户APP登录）</msg>
+</logentry>
+<logentry
+   revision="15047">
+<author>gaopeinan</author>
+<date>2021-05-06T00:39:31.314856Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="14974">
+<author>gaopeinan</author>
+<date>2021-04-29T03:13:43.125275Z</date>
+<msg>20210429王灿（app图片模型）</msg>
+</logentry>
+<logentry
+   revision="14946">
+<author>gaopeinan</author>
+<date>2021-04-28T08:47:06.439395Z</date>
+<msg>20210428王灿（ADT APP版本管理测试）</msg>
+</logentry>
+<logentry
+   revision="14884">
+<author>gaopeinan</author>
+<date>2021-04-26T11:58:18.613833Z</date>
+<msg>2021-04-26 修改格式</msg>
+</logentry>
+<logentry
+   revision="14875">
+<author>gaopeinan</author>
+<date>2021-04-26T09:15:37.450398Z</date>
+<msg>2021-04-26</msg>
+</logentry>
+<logentry
+   revision="14792">
+<author>gaopeinan</author>
+<date>2021-04-22T08:49:29.366760Z</date>
+<msg>20210422王灿（apk自动更新测试）</msg>
+</logentry>
+<logentry
+   revision="14732">
+<author>yangkai</author>
+<date>2021-04-20T13:46:10.322827Z</date>
+<msg>车辆测试方案设计</msg>
+</logentry>
+<logentry
+   revision="14726">
+<author>gaopeinan</author>
+<date>2021-04-20T08:53:34.881221Z</date>
+<msg>20210420王灿（服务器程序回复添加）</msg>
+</logentry>
+<logentry
+   revision="14705">
+<author>gaopeinan</author>
+<date>2021-04-20T00:29:54.101672Z</date>
+<msg>20210420王灿（android优化性能分析工具）</msg>
+</logentry>
+<logentry
+   revision="14689">
+<author>gaopeinan</author>
+<date>2021-04-19T08:51:48.119851Z</date>
+<msg>20210419王灿（app自动更新表添加）</msg>
+</logentry>
+<logentry
+   revision="14662">
+<author>gaopeinan</author>
+<date>2021-04-16T08:34:55.088862Z</date>
+<msg>20210416王灿（添加网址导航说明）</msg>
+</logentry>
+<logentry
+   revision="14483">
+<author>gaopeinan</author>
+<date>2021-04-15T08:59:02.961934Z</date>
+<msg>20210415王灿（apk上传）</msg>
+</logentry>
+<logentry
+   revision="14331">
+<author>gaopeinan</author>
+<date>2021-04-08T08:47:01.879996Z</date>
+<msg>20210408王灿（网址导航APP下载测试）</msg>
+</logentry>
+<logentry
+   revision="14292">
+<author>yangkai</author>
+<date>2021-04-06T06:15:44.691272Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="14257">
+<author>gaopeinan</author>
+<date>2021-04-01T09:00:36.657076Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="14256">
+<author>gaopeinan</author>
+<date>2021-04-01T08:46:08.112166Z</date>
+<msg>20210401王灿（app使用说明书）</msg>
+</logentry>
+<logentry
+   revision="14237">
+<author>gaopeinan</author>
+<date>2021-03-31T08:15:25.695481Z</date>
+<msg>20210331王灿（样式更改）</msg>
+</logentry>
+<logentry
+   revision="14218">
+<author>gaopeinan</author>
+<date>2021-03-30T08:50:14.198417Z</date>
+<msg>20210330王灿（信息采集表上传）</msg>
+</logentry>
+<logentry
+   revision="14217">
+<author>gaopeinan</author>
+<date>2021-03-30T08:48:07.324197Z</date>
+<msg>名称更正</msg>
+</logentry>
+<logentry
+   revision="14216">
+<author>gaopeinan</author>
+<date>2021-03-30T08:47:21.183627Z</date>
+<msg>20210330王灿（软著信息采集）</msg>
+</logentry>
+<logentry
+   revision="14215">
+<author>gaopeinan</author>
+<date>2021-03-30T07:45:07.693880Z</date>
+<msg>20210330王灿（无人驾驶app软著）</msg>
+</logentry>
+<logentry
+   revision="14214">
+<author>gaopeinan</author>
+<date>2021-03-30T07:43:17.096035Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="14174">
+<author>gaopeinan</author>
+<date>2021-03-25T08:54:55.445172Z</date>
+<msg>20210325王灿（acu恢复、轨迹预测）</msg>
+</logentry>
+<logentry
+   revision="14156">
+<author>gaopeinan</author>
+<date>2021-03-25T06:07:44.656958Z</date>
+<msg>2021-03-25 添加网址导航测试</msg>
+</logentry>
+<logentry
+   revision="14136">
+<author>gaopeinan</author>
+<date>2021-03-24T08:36:47.151067Z</date>
+<msg>2021-03-24 修改通讯协议</msg>
+</logentry>
+<logentry
+   revision="14102">
+<author>gaopeinan</author>
+<date>2021-03-23T07:49:40.203761Z</date>
+<msg>2021-03-23 修改急停相关报文协议</msg>
+</logentry>
+<logentry
+   revision="14082">
+<author>gaopeinan</author>
+<date>2021-03-22T08:52:31.854486Z</date>
+<msg>2021-03-22 网址导航界面模型设计</msg>
+</logentry>
+<logentry
+   revision="14081">
+<author>gaopeinan</author>
+<date>2021-03-22T08:51:50.041078Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="14002">
+<author>gaopeinan</author>
+<date>2021-03-18T08:47:00.973981Z</date>
+<msg>20210318王灿（车辆权限、用户权限、账户信息测试）</msg>
+</logentry>
+<logentry
+   revision="13961">
+<author>gaopeinan</author>
+<date>2021-03-17T08:49:23.991519Z</date>
+<msg>20210317王灿（摇杆控制、信息展示、升降平台测试）</msg>
+</logentry>
+<logentry
+   revision="13932">
+<author>gaopeinan</author>
+<date>2021-03-16T08:53:41.163159Z</date>
+<msg>20210316王灿（测试）</msg>
+</logentry>
+<logentry
+   revision="13915">
+<author>yangkai</author>
+<date>2021-03-15T09:42:39.084624Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="13914">
+<author>gaopeinan</author>
+<date>2021-03-15T08:52:16.379641Z</date>
+<msg>20210315王灿（app测试）</msg>
+</logentry>
+<logentry
+   revision="13905">
+<author>gaopeinan</author>
+<date>2021-03-15T06:35:15.959475Z</date>
+<msg>2021-03-15 修改格式</msg>
+</logentry>
+<logentry
+   revision="13903">
+<author>yangkai</author>
+<date>2021-03-15T06:16:24.522395Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="13784">
+<author>yangkai</author>
+<date>2021-03-11T10:33:22.513246Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="13776">
+<author>yangkai</author>
+<date>2021-03-11T09:54:16.472635Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="13775">
+<author>yangkai</author>
+<date>2021-03-11T09:54:03.179774Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="13773">
+<author>yangkai</author>
+<date>2021-03-11T09:51:52.287886Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="13772">
+<author>yangkai</author>
+<date>2021-03-11T09:51:09.161748Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="13750">
+<author>yangkai</author>
+<date>2021-03-10T09:41:01.380531Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="13749">
+<author>yangkai</author>
+<date>2021-03-10T09:40:53.126539Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="13700">
+<author>gaopeinan</author>
+<date>2021-03-09T03:07:38.060966Z</date>
+<msg>2021-03-09 上传经验池文档</msg>
+</logentry>
+<logentry
+   revision="13699">
+<author>yangkai</author>
+<date>2021-03-09T02:39:08.860646Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="13698">
+<author>gaopeinan</author>
+<date>2021-03-09T02:37:24.647132Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="13693">
+<author>yangkai</author>
+<date>2021-03-08T09:36:18.403572Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="13691">
+<author>yangkai</author>
+<date>2021-03-08T09:20:03.809470Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="13690">
+<author>gaopeinan</author>
+<date>2021-03-08T08:52:09.077805Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="13584">
+<author>gaopeinan</author>
+<date>2021-03-02T08:29:43.252091Z</date>
+<msg>2021-03-02 服务器迁移</msg>
+</logentry>
+<logentry
+   revision="13560">
+<author>gaopeinan</author>
+<date>2021-03-01T06:46:26.034231Z</date>
+<msg>2021-03-01 数据库迁移过程中完善文档</msg>
+</logentry>
+<logentry
+   revision="13558">
+<author>gaopeinan</author>
+<date>2021-03-01T06:33:45.873383Z</date>
+<msg>2021-03-01 修改内容后重新生成了一版</msg>
+</logentry>
+<logentry
+   revision="13557">
+<author>gaopeinan</author>
+<date>2021-03-01T06:32:08.177807Z</date>
+<msg>2021-03-01 增加tomcat进程杀死命令</msg>
+</logentry>
+<logentry
+   revision="13525">
+<author>gaopeinan</author>
+<date>2021-02-25T07:10:46.005708Z</date>
+<msg>2021-02-25 徐工测试</msg>
+</logentry>
+<logentry
+   revision="13442">
+<author>gaopeinan</author>
+<date>2021-02-23T08:22:30.934198Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="13426">
+<author>gaopeinan</author>
+<date>2021-02-22T08:42:46.271560Z</date>
+<msg>2021-02-22 界面模型</msg>
+</logentry>
+<logentry
+   revision="13424">
+<author>gaopeinan</author>
+<date>2021-02-22T07:36:09.323138Z</date>
+<msg>2021-02-22 数据库单元测试</msg>
+</logentry>
+<logentry
+   revision="13423">
+<author>gaopeinan</author>
+<date>2021-02-22T07:31:43.855486Z</date>
+<msg>2021-02-22 维护小程序迁移</msg>
+</logentry>
+<logentry
+   revision="13401">
+<author>gaopeinan</author>
+<date>2021-02-21T08:27:34.236648Z</date>
+<msg>2021-02-21 修改通讯协议与CCU部分达成统一</msg>
+</logentry>
+<logentry
+   revision="13394">
+<author>gaopeinan</author>
+<date>2021-02-21T07:46:57.522717Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="13375">
+<author>gaopeinan</author>
+<date>2021-02-20T09:56:40.575607Z</date>
+<msg>20210220王灿（紧急制动测试）</msg>
+</logentry>
+<logentry
+   revision="13363">
+<author>gaopeinan</author>
+<date>2021-02-20T06:09:12.568798Z</date>
+<msg>2021-02-20</msg>
+</logentry>
+<logentry
+   revision="13314">
+<author>gaopeinan</author>
+<date>2021-02-19T08:02:42.511958Z</date>
+<msg>2021-02-19 用户APP设计文档</msg>
+</logentry>
+<logentry
+   revision="13298">
+<author>xuhongfei</author>
+<date>2021-02-07T08:57:05.652189Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="13269">
+<author>gaopeinan</author>
+<date>2021-02-06T08:50:43.336198Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="13238">
+<author>gaopeinan</author>
+<date>2021-02-05T08:47:50.105407Z</date>
+<msg>2021-02-05 测试验收</msg>
+</logentry>
+<logentry
+   revision="13237">
+<author>gaopeinan</author>
+<date>2021-02-05T08:40:48.672914Z</date>
+<msg>20210205王灿（参数设置）</msg>
+</logentry>
+<logentry
+   revision="13221">
+<author>gaopeinan</author>
+<date>2021-02-04T06:29:08.774088Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="13220">
+<author>gaopeinan</author>
+<date>2021-02-04T06:23:33.600895Z</date>
+<msg>2021-02-04 更新参数设置协议</msg>
+</logentry>
+<logentry
+   revision="13143">
+<author>gaopeinan</author>
+<date>2021-02-01T09:12:52.021077Z</date>
+<msg>20210201王灿（acu急停）</msg>
+</logentry>
+<logentry
+   revision="13141">
+<author>gaopeinan</author>
+<date>2021-02-01T09:06:13.395758Z</date>
+<msg>2021-02-01</msg>
+</logentry>
+<logentry
+   revision="13126">
+<author>xuhongfei</author>
+<date>2021-01-29T09:34:03.862817Z</date>
+<msg>测试</msg>
+</logentry>
+<logentry
+   revision="13120">
+<author>gaopeinan</author>
+<date>2021-01-29T07:26:38.755058Z</date>
+<msg>2021-01-29 提交ADT大屏测试</msg>
+</logentry>
+<logentry
+   revision="13097">
+<author>gaopeinan</author>
+<date>2021-01-28T08:07:07.832568Z</date>
+<msg>2021-01-28 增加设备连接测试</msg>
+</logentry>
+<logentry
+   revision="13094">
+<author>gaopeinan</author>
+<date>2021-01-28T03:52:40.198051Z</date>
+<msg>2021-01-28 增加急停指令</msg>
+</logentry>
+<logentry
+   revision="13057">
+<author>gaopeinan</author>
+<date>2021-01-26T07:24:06.109078Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="13056">
+<author>gaopeinan</author>
+<date>2021-01-26T07:15:38.728336Z</date>
+<msg>2021-01-26 添加数据库处理</msg>
+</logentry>
+<logentry
+   revision="13054">
+<author>gaopeinan</author>
+<date>2021-01-26T06:05:40.467130Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="13015">
+<author>gaopeinan</author>
+<date>2021-01-21T03:46:18.053810Z</date>
+<msg>2021-01-21 </msg>
+</logentry>
+<logentry
+   revision="13014">
+<author>gaopeinan</author>
+<date>2021-01-21T03:44:16.521266Z</date>
+<msg>2021-01-21</msg>
+</logentry>
+<logentry
+   revision="12999">
+<author>gaopeinan</author>
+<date>2021-01-20T08:33:14.340302Z</date>
+<msg>20210120王灿（洗地机串口工具测试）</msg>
+</logentry>
+<logentry
+   revision="12996">
+<author>gaopeinan</author>
+<date>2021-01-20T07:27:58.755471Z</date>
+<msg>2021-01-21 增加APP融合版测试和ADT修图测试</msg>
+</logentry>
+<logentry
+   revision="12945">
+<author>gaopeinan</author>
+<date>2021-01-15T00:57:40.945254Z</date>
+<msg>2021-01-15 修改洗地机操作位</msg>
+</logentry>
+<logentry
+   revision="12854">
+<author>xuhongfei</author>
+<date>2021-01-12T09:28:34.521536Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="12853">
+<author>xuhongfei</author>
+<date>2021-01-12T09:26:21.730413Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="12834">
+<author>gaopeinan</author>
+<date>2021-01-11T08:41:05.396358Z</date>
+<msg>2021-01-11</msg>
+</logentry>
+<logentry
+   revision="12831">
+<author>gaopeinan</author>
+<date>2021-01-11T00:31:43.534106Z</date>
+<msg>2021-1-11</msg>
+</logentry>
+<logentry
+   revision="12825">
+<author>gaopeinan</author>
+<date>2021-01-08T09:03:26.909510Z</date>
+<msg>2021-01-08</msg>
+</logentry>
+<logentry
+   revision="12821">
+<author>xuhongfei</author>
+<date>2021-01-08T06:21:15.479603Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="12784">
+<author>gaopeinan</author>
+<date>2021-01-07T08:04:40.228456Z</date>
+<msg>2021-01-07</msg>
+</logentry>
+<logentry
+   revision="12774">
+<author>gaopeinan</author>
+<date>2021-01-06T08:40:56.957405Z</date>
+<msg>20200106王灿（acu关闭）</msg>
+</logentry>
+<logentry
+   revision="12741">
+<author>gaopeinan</author>
+<date>2021-01-05T06:24:19.342449Z</date>
+<msg>20210105王灿（ACU关闭现场调试）</msg>
+</logentry>
+<logentry
+   revision="12722">
+<author>xuhongfei</author>
+<date>2021-01-04T09:20:03.932843Z</date>
+<msg>移植项目测试</msg>
+</logentry>
+<logentry
+   revision="12721">
+<author>xuhongfei</author>
+<date>2021-01-04T09:19:35.836821Z</date>
+<msg>allure
+</msg>
+</logentry>
+<logentry
+   revision="12720">
+<author>xuhongfei</author>
+<date>2021-01-04T09:19:25.733296Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="12678">
+<author>xuhongfei</author>
+<date>2020-12-31T09:26:28.540714Z</date>
+<msg>迁移</msg>
+</logentry>
+<logentry
+   revision="12670">
+<author>gaopeinan</author>
+<date>2020-12-31T06:43:09.529611Z</date>
+<msg>2020-12-31 验收APP融合版界面设计</msg>
+</logentry>
+<logentry
+   revision="12655">
+<author>gaopeinan</author>
+<date>2020-12-30T08:45:21.778527Z</date>
+<msg>2020-12-30</msg>
+</logentry>
+<logentry
+   revision="12654">
+<author>gaopeinan</author>
+<date>2020-12-30T08:36:55.725823Z</date>
+<msg>20201230王灿（关闭ACU测试）</msg>
+</logentry>
+<logentry
+   revision="12615">
+<author>gaopeinan</author>
+<date>2020-12-29T08:48:52.922755Z</date>
+<msg>2020-12-29 更新使用文档</msg>
+</logentry>
+<logentry
+   revision="12614">
+<author>gaopeinan</author>
+<date>2020-12-29T08:48:27.846097Z</date>
+<msg>2020-12-29 修改扫地车通讯协议，添加ACU关闭功能报文</msg>
+</logentry>
+<logentry
+   revision="12610">
+<author>gaopeinan</author>
+<date>2020-12-29T07:50:31.831244Z</date>
+<msg>20201229王灿（默认计划任务测试）</msg>
+</logentry>
+<logentry
+   revision="12594">
+<author>xuhongfei</author>
+<date>2020-12-28T09:17:52.237588Z</date>
+<msg>会员测试</msg>
+</logentry>
+<logentry
+   revision="12592">
+<author>gaopeinan</author>
+<date>2020-12-28T08:40:39.663123Z</date>
+<msg>2020-12-28 提交华为部署相关文档</msg>
+</logentry>
+<logentry
+   revision="12591">
+<author>gaopeinan</author>
+<date>2020-12-28T08:39:48.235085Z</date>
+<msg>2020-12-28 租赁管理验收</msg>
+</logentry>
+<logentry
+   revision="12552">
+<author>xuhongfei</author>
+<date>2020-12-23T09:32:08.447533Z</date>
+<msg>会员表</msg>
+</logentry>
+<logentry
+   revision="12546">
+<author>gaopeinan</author>
+<date>2020-12-23T06:21:28.916565Z</date>
+<msg>2020-12-23 王灿</msg>
+</logentry>
+<logentry
+   revision="12520">
+<author>xuhongfei</author>
+<date>2020-12-22T10:48:14.165730Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="12518">
+<author>gaopeinan</author>
+<date>2020-12-22T08:47:37.339561Z</date>
+<msg>20201222王灿（路径构建、生成上车调试）</msg>
+</logentry>
+<logentry
+   revision="12517">
+<author>gaopeinan</author>
+<date>2020-12-22T08:27:59.871458Z</date>
+<msg>2020-12-22</msg>
+</logentry>
+<logentry
+   revision="12493">
+<author>gaopeinan</author>
+<date>2020-12-21T06:00:30.087016Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="12479">
+<author>xuhongfei</author>
+<date>2020-12-18T10:10:27.446907Z</date>
+<msg>洗地机测试</msg>
+</logentry>
+<logentry
+   revision="12441">
+<author>gaopeinan</author>
+<date>2020-12-16T09:42:13.737833Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="12435">
+<author>gaopeinan</author>
+<date>2020-12-16T08:33:26.215007Z</date>
+<msg>20201216王灿（轨迹录制重新测试）</msg>
+</logentry>
+<logentry
+   revision="12430">
+<author>liulinfeng</author>
+<date>2020-12-16T02:16:04.586756Z</date>
+<msg>车辆类型表增加运营商id</msg>
+</logentry>
+<logentry
+   revision="12421">
+<author>liulinfeng</author>
+<date>2020-12-15T08:49:50.242921Z</date>
+<msg>租赁相关库表设计</msg>
+</logentry>
+<logentry
+   revision="12420">
+<author>liulinfeng</author>
+<date>2020-12-15T08:38:08.968342Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="12418">
+<author>liulinfeng</author>
+<date>2020-12-15T08:12:36.770879Z</date>
+<msg>租赁相关库表设计</msg>
+</logentry>
+<logentry
+   revision="12417">
+<author>liulinfeng</author>
+<date>2020-12-15T08:12:05.048340Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="12407">
+<author>liulinfeng</author>
+<date>2020-12-14T09:25:02.042564Z</date>
+<msg>租赁系统调研</msg>
+</logentry>
+<logentry
+   revision="12404">
+<author>gaopeinan</author>
+<date>2020-12-14T07:23:32.350772Z</date>
+<msg>2020-12-14 gaopeinan</msg>
+</logentry>
+<logentry
+   revision="12400">
+<author>gaopeinan</author>
+<date>2020-12-11T14:57:01.624392Z</date>
+<msg>2020-12-11</msg>
+</logentry>
+<logentry
+   revision="12360">
+<author>xuhongfei</author>
+<date>2020-12-10T09:13:56.387115Z</date>
+<msg>数据库设计
+</msg>
+</logentry>
+<logentry
+   revision="12359">
+<author>xuhongfei</author>
+<date>2020-12-10T09:06:24.717518Z</date>
+<msg>接口文档</msg>
+</logentry>
+<logentry
+   revision="12268">
+<author>gaopeinan</author>
+<date>2020-12-04T14:37:10.567169Z</date>
+<msg>2020-12-04 gaopeinan</msg>
+</logentry>
+<logentry
+   revision="12192">
+<author>xuhongfei</author>
+<date>2020-12-04T02:56:51.772911Z</date>
+<msg>更换顺序
+</msg>
+</logentry>
+<logentry
+   revision="12186">
+<author>xuhongfei</author>
+<date>2020-12-04T01:51:02.996787Z</date>
+<msg>Sokcet压测</msg>
+</logentry>
+<logentry
+   revision="12165">
+<author>gaopeinan</author>
+<date>2020-12-03T09:02:37.184153Z</date>
+<msg>2020-12-03 gaopeinan</msg>
+</logentry>
+<logentry
+   revision="12164">
+<author>gaopeinan</author>
+<date>2020-12-03T08:44:25.938381Z</date>
+<msg>20201203王灿（计划任务新建信息上传服务器）</msg>
+</logentry>
+<logentry
+   revision="12144">
+<author>gaopeinan</author>
+<date>2020-12-02T13:09:48.564464Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="12142">
+<author>gaopeinan</author>
+<date>2020-12-02T12:57:52.973155Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="12128">
+<author>xuhongfei</author>
+<date>2020-12-02T09:30:45.966305Z</date>
+<msg>角色增加等级</msg>
+</logentry>
+<logentry
+   revision="12096">
+<author>gaopeinan</author>
+<date>2020-12-01T11:04:52.296861Z</date>
+<msg>2020-12-1 gaopeinan</msg>
+</logentry>
+<logentry
+   revision="12091">
+<author>liulinfeng</author>
+<date>2020-12-01T09:23:50.876819Z</date>
+<msg>菜单管理模块测试</msg>
+</logentry>
+<logentry
+   revision="12077">
+<author>gaopeinan</author>
+<date>2020-12-01T08:24:54.451306Z</date>
+<msg>20201201王灿（获取车辆接口更改后测试）</msg>
+</logentry>
+<logentry
+   revision="12049">
+<author>gaopeinan</author>
+<date>2020-11-30T08:42:11.994154Z</date>
+<msg>2020-11-30 gaopeinan 提交测试报告</msg>
+</logentry>
+<logentry
+   revision="12033">
+<author>gaopeinan</author>
+<date>2020-11-30T02:19:19.248119Z</date>
+<msg>2020-11-30 gaopeinan</msg>
+</logentry>
+<logentry
+   revision="12032">
+<author>gaopeinan</author>
+<date>2020-11-30T02:10:38.907164Z</date>
+<msg>2020-11-30 gaopeinan</msg>
+</logentry>
+<logentry
+   revision="12021">
+<author>liulinfeng</author>
+<date>2020-11-27T09:32:49.666356Z</date>
+<msg>App与ACU联调测试记录</msg>
+</logentry>
+<logentry
+   revision="12020">
+<author>xuhongfei</author>
+<date>2020-11-27T09:27:12.034149Z</date>
+<msg>心跳、计划任务、远程接管测试</msg>
+</logentry>
+<logentry
+   revision="12019">
+<author>xuhongfei</author>
+<date>2020-11-27T09:25:39.441655Z</date>
+<msg>Jmeter socket测试插件</msg>
+</logentry>
+<logentry
+   revision="12018">
+<author>gaopeinan</author>
+<date>2020-11-27T09:04:08.542880Z</date>
+<msg>2020-11-27 gaopeinan</msg>
+</logentry>
+<logentry
+   revision="12016">
+<author>xuhongfei</author>
+<date>2020-11-27T07:56:36.193954Z</date>
+<msg>socket压测</msg>
+</logentry>
+<logentry
+   revision="12010">
+<author>xuhongfei</author>
+<date>2020-11-26T09:38:08.652468Z</date>
+<msg>性能测试
+</msg>
+</logentry>
+<logentry
+   revision="12007">
+<author>xuhongfei</author>
+<date>2020-11-26T09:31:30.528213Z</date>
+<msg>性能测试</msg>
+</logentry>
+<logentry
+   revision="12006">
+<author>gaopeinan</author>
+<date>2020-11-26T09:02:04.850454Z</date>
+<msg>2020-11-26 gaopeinan</msg>
+</logentry>
+<logentry
+   revision="12005">
+<author>gaopeinan</author>
+<date>2020-11-26T08:34:12.291965Z</date>
+<msg>20201126王灿（app计划任务串口工具测试）</msg>
+</logentry>
+<logentry
+   revision="11988">
+<author>xuhongfei</author>
+<date>2020-11-25T09:37:12.079651Z</date>
+<msg>华为云使用</msg>
+</logentry>
+<logentry
+   revision="11974">
+<author>gaopeinan</author>
+<date>2020-11-24T11:11:49.284070Z</date>
+<msg>2020-11-24 gaopeinan</msg>
+</logentry>
+<logentry
+   revision="11934">
+<author>liulinfeng</author>
+<date>2020-11-23T09:30:58.789805Z</date>
+<msg>无人扫地车通讯协议使用教程.doc</msg>
+</logentry>
+<logentry
+   revision="11932">
+<author>gaopeinan</author>
+<date>2020-11-23T08:39:30.048590Z</date>
+<msg>2020-11-23 gaopeinan</msg>
+</logentry>
+<logentry
+   revision="11915">
+<author>xuhongfei</author>
+<date>2020-11-23T02:23:19.455110Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="11897">
+<author>gaopeinan</author>
+<date>2020-11-20T08:04:20.180317Z</date>
+<msg>2020-11-20 gaopeinan 提交单元测试文档</msg>
+</logentry>
+<logentry
+   revision="11828">
+<author>gaopeinan</author>
+<date>2020-11-18T07:29:44.222263Z</date>
+<msg>2020-11-18 gaopeinan 回复中增加计划流水号字段</msg>
+</logentry>
+<logentry
+   revision="11807">
+<author>gaopeinan</author>
+<date>2020-11-17T01:21:55.510141Z</date>
+<msg>2020-11-17 修改协议</msg>
+</logentry>
+<logentry
+   revision="11790">
+<author>xuhongfei</author>
+<date>2020-11-16T09:01:13.589740Z</date>
+<msg>更新表</msg>
+</logentry>
+<logentry
+   revision="11782">
+<author>gaopeinan</author>
+<date>2020-11-16T07:06:40.593175Z</date>
+<msg>2020-11-16 （修改通讯协议）</msg>
+</logentry>
+<logentry
+   revision="11770">
+<author>liulinfeng</author>
+<date>2020-11-13T01:07:27.449846Z</date>
+<msg>静态资源服务架构优化方案调研.pptx</msg>
+</logentry>
+<logentry
+   revision="11769">
+<author>liulinfeng</author>
+<date>2020-11-13T01:07:06.672258Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="11763">
+<author>gaopeinan</author>
+<date>2020-11-12T11:03:36.520026Z</date>
+<msg>2020-11-12 gaopeinan 提交扫地机通讯协议</msg>
+</logentry>
+<logentry
+   revision="11762">
+<author>xuhongfei</author>
+<date>2020-11-12T09:46:20.826086Z</date>
+<msg>更新数据库设计</msg>
+</logentry>
+<logentry
+   revision="11759">
+<author>liulinfeng</author>
+<date>2020-11-12T09:37:30.444022Z</date>
+<msg>静态资源服务架构优化方案调研.pptx</msg>
+</logentry>
+<logentry
+   revision="11743">
+<author>gaopeinan</author>
+<date>2020-11-12T00:27:36.189365Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="11737">
+<author>xuhongfei</author>
+<date>2020-11-11T09:41:55.413357Z</date>
+<msg>adt适配扫地机</msg>
+</logentry>
+<logentry
+   revision="11734">
+<author>gaopeinan</author>
+<date>2020-11-11T09:22:15.801937Z</date>
+<msg>2020-11-11</msg>
+</logentry>
+<logentry
+   revision="11730">
+<author>gaopeinan</author>
+<date>2020-11-11T07:20:07.436873Z</date>
+<msg>2020-11-11-提交扫地机相关设计文档</msg>
+</logentry>
+<logentry
+   revision="11707">
+<author>xuhongfei</author>
+<date>2020-11-09T09:39:26.687095Z</date>
+<msg>测试
+</msg>
+</logentry>
+<logentry
+   revision="11704">
+<author>xuhongfei</author>
+<date>2020-11-09T09:34:38.706403Z</date>
+<msg>摄像头设备号</msg>
+</logentry>
+<logentry
+   revision="11654">
+<author>liulinfeng</author>
+<date>2020-11-05T09:49:44.122839Z</date>
+<msg>自动化测试项目培训ppt（修改）</msg>
+</logentry>
+<logentry
+   revision="11653">
+<author>liulinfeng</author>
+<date>2020-11-05T09:49:25.740872Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="11652">
+<author>gaopeinan</author>
+<date>2020-11-05T08:45:32.271705Z</date>
+<msg>20201105王灿（一键退款测试）</msg>
+</logentry>
+<logentry
+   revision="11637">
+<author>xuhongfei</author>
+<date>2020-11-04T09:59:04.751763Z</date>
+<msg>摄像头分开推流协议</msg>
+</logentry>
+<logentry
+   revision="11634">
+<author>liulinfeng</author>
+<date>2020-11-04T09:51:54.689241Z</date>
+<msg>自动化测试项目培训ppt</msg>
+</logentry>
+<logentry
+   revision="11622">
+<author>liulinfeng</author>
+<date>2020-11-03T09:57:06.772584Z</date>
+<msg>update</msg>
+</logentry>
+<logentry
+   revision="11621">
+<author>xuhongfei</author>
+<date>2020-11-03T09:54:44.758241Z</date>
+<msg>update</msg>
+</logentry>
+<logentry
+   revision="11595">
+<author>xuhongfei</author>
+<date>2020-11-02T09:42:17.932882Z</date>
+<msg>小车下位机部分摄像头推流熟悉（未完成）</msg>
+</logentry>
+<logentry
+   revision="11575">
+<author>xuhongfei</author>
+<date>2020-10-30T09:31:56.842038Z</date>
+<msg>直播推流调研文档</msg>
+</logentry>
+<logentry
+   revision="11574">
+<author>xuhongfei</author>
+<date>2020-10-30T09:31:47.995500Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="11556">
+<author>xuhongfei</author>
+<date>2020-10-29T11:26:19.487492Z</date>
+<msg>直播推流调研文档</msg>
+</logentry>
+<logentry
+   revision="11554">
+<author>xuhongfei</author>
+<date>2020-10-29T10:38:27.211773Z</date>
+<msg>ADT视频功能测试</msg>
+</logentry>
+<logentry
+   revision="11512">
+<author>xuhongfei</author>
+<date>2020-10-27T10:56:11.548779Z</date>
+<msg>测试</msg>
+</logentry>
+<logentry
+   revision="11309">
+<author>gaopeinan</author>
+<date>2020-10-19T08:42:11.160455Z</date>
+<msg>20201019王灿（workshop暂停、开始、自检串口工具自测）</msg>
+</logentry>
+<logentry
+   revision="11190">
+<author>xuhongfei</author>
+<date>2020-10-13T09:23:11.435536Z</date>
+<msg>服务器安装chrome驱动文档</msg>
+</logentry>
+<logentry
+   revision="11187">
+<author>zhangran</author>
+<date>2020-10-13T08:52:09.094533Z</date>
+<msg>zhangran:
+1、在CCU通信接口中添加了真实速度字段。该字段用于ACUxiangCCU反馈真实车速，用来进行速度反馈调节</msg>
+</logentry>
+<logentry
+   revision="11179">
+<author>sujinya</author>
+<date>2020-10-13T01:47:24.738369Z</date>
+<msg>苏金亚：添加workshop robokit自检和暂停的新协议</msg>
+</logentry>
+<logentry
+   revision="11086">
+<author>gaopeinan</author>
+<date>2020-09-30T08:10:29.344542Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="11029">
+<author>gaopeinan</author>
+<date>2020-09-28T07:45:44.242814Z</date>
+<msg>2020-09-28-高培楠（添加vue和maven项目的自动部署步骤）</msg>
+</logentry>
+<logentry
+   revision="10999">
+<author>gaopeinan</author>
+<date>2020-09-27T08:26:14.445609Z</date>
+<msg>2020-09-27-提交jenkins部署vue项目说明书</msg>
+</logentry>
+<logentry
+   revision="10986">
+<author>gaopeinan</author>
+<date>2020-09-25T11:13:20.284373Z</date>
+<msg>2020-09-25-高培楠 测试</msg>
+</logentry>
+<logentry
+   revision="10975">
+<author>gaopeinan</author>
+<date>2020-09-25T06:19:36.051070Z</date>
+<msg>20200925王灿（激光雷达、Vslam循迹返航）</msg>
+</logentry>
+<logentry
+   revision="10916">
+<author>heyufei</author>
+<date>2020-09-22T07:56:30.097139Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="10901">
+<author>gaopeinan</author>
+<date>2020-09-22T02:39:46.055247Z</date>
+<msg>20200922王灿（激光雷达、Vslam循迹返航）</msg>
+</logentry>
+<logentry
+   revision="10884">
+<author>gaopeinan</author>
+<date>2020-09-21T08:31:46.257944Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="10855">
+<author>xuhongfei</author>
+<date>2020-09-18T09:36:45.513374Z</date>
+<msg>跨域部署浏览器访问测试</msg>
+</logentry>
+<logentry
+   revision="10834">
+<author>liulinfeng</author>
+<date>2020-09-17T08:12:45.501011Z</date>
+<msg>串口工具测试socket通讯车辆信息报文以及摇杆控制报文部分</msg>
+</logentry>
+<logentry
+   revision="10786">
+<author>gaopeinan</author>
+<date>2020-09-16T08:46:29.186770Z</date>
+<msg>20200916王灿（更新扫地车功能指令相关）</msg>
+</logentry>
+<logentry
+   revision="10742">
+<author>xuhongfei</author>
+<date>2020-09-15T09:10:20.851629Z</date>
+<msg>sonarqube安装与Jenkins集成</msg>
+</logentry>
+<logentry
+   revision="10716">
+<author>liulinfeng</author>
+<date>2020-09-14T08:56:22.656561Z</date>
+<msg>Socket通讯MINA框架的学习</msg>
+</logentry>
+<logentry
+   revision="10715">
+<author>xuhongfei</author>
+<date>2020-09-14T08:54:40.024050Z</date>
+<msg>Jenkins安装部署使用说明书</msg>
+</logentry>
+<logentry
+   revision="10714">
+<author>xuhongfei</author>
+<date>2020-09-14T08:54:04.689280Z</date>
+<msg>Jenkins安装部署所需条件及作用的熟悉</msg>
+</logentry>
+<logentry
+   revision="10681">
+<author>gaopeinan</author>
+<date>2020-09-11T08:38:00.855580Z</date>
+<msg>20200911王灿（串口工具联调测试）</msg>
+</logentry>
+<logentry
+   revision="10511">
+<author>gaopeinan</author>
+<date>2020-09-03T09:23:41.864327Z</date>
+<msg>2020-09-03-高培楠（port引脚整理）</msg>
+</logentry>
+<logentry
+   revision="10380">
+<author>gaopeinan</author>
+<date>2020-08-26T08:49:10.511819Z</date>
+<msg>2020-08-26-高培楠（更新CCU协议）</msg>
+</logentry>
+<logentry
+   revision="10378">
+<author>gaopeinan</author>
+<date>2020-08-26T08:01:25.210490Z</date>
+<msg>2020-08-26-高培楠（迁移服务器更新文档）</msg>
+</logentry>
+<logentry
+   revision="10224">
+<author>gaopeinan</author>
+<date>2020-08-20T08:46:03.422421Z</date>
+<msg>20200820王灿（adt自测）</msg>
+</logentry>
+<logentry
+   revision="9750">
+<author>gaopeinan</author>
+<date>2020-08-04T08:47:54.763535Z</date>
+<msg>20200804王灿（ccu故障码调试）</msg>
+</logentry>
+<logentry
+   revision="9679">
+<author>zhangran</author>
+<date>2020-07-31T01:03:42.571085Z</date>
+<msg>添加了故障码的具体编码内容</msg>
+</logentry>
+<logentry
+   revision="9673">
+<author>zhangran</author>
+<date>2020-07-30T11:24:59.756691Z</date>
+<msg>修改超声波雷达安装位置与数据索引间的映射关系</msg>
+</logentry>
+<logentry
+   revision="9627">
+<author>gaopeinan</author>
+<date>2020-07-30T00:42:04.057326Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="9617">
+<author>gaopeinan</author>
+<date>2020-07-29T09:23:38.875352Z</date>
+<msg>2020-07-29-高培楠</msg>
+</logentry>
+<logentry
+   revision="9615">
+<author>gaopeinan</author>
+<date>2020-07-29T08:48:13.869876Z</date>
+<msg>20200729王灿（安全防护模块开关调试）</msg>
+</logentry>
+<logentry
+   revision="9578">
+<author>gaopeinan</author>
+<date>2020-07-27T05:20:33.689169Z</date>
+<msg>2020-07-27-更新通讯协议（增加安全防护模块开关、CCU故障码相关协议）</msg>
+</logentry>
+<logentry
+   revision="9503">
+<author>gaopeinan</author>
+<date>2020-07-23T07:22:47.215104Z</date>
+<msg>2020-07-23-高培楠、王灿</msg>
+</logentry>
+<logentry
+   revision="9501">
+<author>gaopeinan</author>
+<date>2020-07-23T06:39:42.815491Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="9482">
+<author>gaopeinan</author>
+<date>2020-07-22T07:20:07.171250Z</date>
+<msg>20200722王灿（系统整体说明书--添加APP部分新增功能使用说明）</msg>
+</logentry>
+<logentry
+   revision="9448">
+<author>gaopeinan</author>
+<date>2020-07-20T08:57:18.510593Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="9445">
+<author>gaopeinan</author>
+<date>2020-07-20T05:57:01.413787Z</date>
+<msg>2020-07-20-象山影视城接口测试</msg>
+</logentry>
+<logentry
+   revision="9398">
+<author>gaopeinan</author>
+<date>2020-07-17T08:51:55.363404Z</date>
+<msg>20200716王灿（单元测试文档）</msg>
+</logentry>
+<logentry
+   revision="9359">
+<author>gaopeinan</author>
+<date>2020-07-16T02:01:22.704885Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="9333">
+<author>gaopeinan</author>
+<date>2020-07-14T07:56:23.631158Z</date>
+<msg>20200714王灿（单元测试文件上传）</msg>
+</logentry>
+<logentry
+   revision="9332">
+<author>gaopeinan</author>
+<date>2020-07-14T07:55:55.100621Z</date>
+<msg>2020-07-14-高培楠</msg>
+</logentry>
+<logentry
+   revision="9331">
+<author>gaopeinan</author>
+<date>2020-07-14T07:54:06.073836Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="9321">
+<author>gaopeinan</author>
+<date>2020-07-14T01:16:47.338583Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="9320">
+<author>gaopeinan</author>
+<date>2020-07-14T01:16:39.053545Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="9237">
+<author>gaopeinan</author>
+<date>2020-07-07T01:32:37.662397Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="9186">
+<author>gaopeinan</author>
+<date>2020-07-01T06:24:51.914560Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="9185">
+<author>gaopeinan</author>
+<date>2020-07-01T06:16:14.560450Z</date>
+<msg>2020-07-01</msg>
+</logentry>
+<logentry
+   revision="9002">
+<author>gaopeinan</author>
+<date>2020-06-19T01:03:00.639544Z</date>
+<msg>2020-06-19-高培楠</msg>
+</logentry>
+<logentry
+   revision="8991">
+<author>gaopeinan</author>
+<date>2020-06-18T07:05:57.106122Z</date>
+<msg>2020-06-18-高培楠</msg>
+</logentry>
+<logentry
+   revision="8978">
+<author>gaopeinan</author>
+<date>2020-06-16T01:21:19.688132Z</date>
+<msg>2020-06-16-高培楠</msg>
+</logentry>
+<logentry
+   revision="8923">
+<author>gaopeinan</author>
+<date>2020-06-10T13:47:34.399742Z</date>
+<msg>2020-06-10-高培楠</msg>
+</logentry>
+<logentry
+   revision="8604">
+<author>gaopeinan</author>
+<date>2020-05-20T10:48:04.627021Z</date>
+<msg>2020-05-20-高培楠（添加协议）</msg>
+</logentry>
+<logentry
+   revision="8488">
+<author>gaopeinan</author>
+<date>2020-05-11T11:19:42.311400Z</date>
+<msg>2020-05-11-高培楠</msg>
+</logentry>
+<logentry
+   revision="8481">
+<author>gaopeinan</author>
+<date>2020-05-09T11:19:30.861859Z</date>
+<msg>2020-05-09-高培楠</msg>
+</logentry>
+<logentry
+   revision="8471">
+<author>gaopeinan</author>
+<date>2020-05-08T12:28:44.506461Z</date>
+<msg>2020-05-08-高培楠（添加登录接口说明）</msg>
+</logentry>
+<logentry
+   revision="8318">
+<author>gaopeinan</author>
+<date>2020-04-24T11:38:14.782041Z</date>
+<msg>2020-04-24-喻伟强（数据库更新说明）</msg>
+</logentry>
+<logentry
+   revision="8278">
+<author>gaopeinan</author>
+<date>2020-04-17T00:52:50.751883Z</date>
+<msg>2020-04-17-喻伟强</msg>
+</logentry>
+<logentry
+   revision="8277">
+<author>gaopeinan</author>
+<date>2020-04-17T00:47:15.900294Z</date>
+<msg>2020-04-17-喻伟强</msg>
+</logentry>
+<logentry
+   revision="8275">
+<author>gaopeinan</author>
+<date>2020-04-17T00:07:30.809746Z</date>
+<msg>2020-04-16-喻伟强</msg>
+</logentry>
+<logentry
+   revision="8256">
+<author>yingcongcong</author>
+<date>2020-04-15T12:41:09.710194Z</date>
+<msg>入V1.1存档</msg>
+</logentry>
+<logentry
+   revision="8254">
+<author>yingcongcong</author>
+<date>2020-04-15T12:39:01.889197Z</date>
+<msg>入V1.1存档</msg>
+</logentry>
+<logentry
+   revision="8251">
+<author>gaopeinan</author>
+<date>2020-04-15T12:18:37.373805Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="8207">
+<author>gaopeinan</author>
+<date>2020-04-08T11:11:06.428822Z</date>
+<msg>2020-04-08-高培楠（新增视频流传输协议）</msg>
+</logentry>
+<logentry
+   revision="8195">
+<author>gaopeinan</author>
+<date>2020-04-07T11:58:20.951740Z</date>
+<msg>2020-04-07-高培楠（更新协议）</msg>
+</logentry>
+<logentry
+   revision="8180">
+<author>gaopeinan</author>
+<date>2020-04-03T11:30:01.376043Z</date>
+<msg>2020-04-03-喻伟强（业务开发流程说明书）</msg>
+</logentry>
+<logentry
+   revision="8179">
+<author>gaopeinan</author>
+<date>2020-04-03T11:27:52.186001Z</date>
+<msg>2020-04-03-喻伟强（业务开发流程说明书）</msg>
+</logentry>
+<logentry
+   revision="8178">
+<author>gaopeinan</author>
+<date>2020-04-03T11:26:52.673216Z</date>
+<msg>2020-04-03-高培楠（接口文档更新）</msg>
+</logentry>
+<logentry
+   revision="8070">
+<author>yingcongcong</author>
+<date>2020-03-31T10:04:31.934093Z</date>
+<msg>修改文件名称</msg>
+</logentry>
+<logentry
+   revision="8069">
+<author>yingcongcong</author>
+<date>2020-03-31T09:58:06.506879Z</date>
+<msg>修改文件名称</msg>
+</logentry>
+<logentry
+   revision="8066">
+<author>gaopeinan</author>
+<date>2020-03-31T09:54:50.088366Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="8063">
+<author>yingcongcong</author>
+<date>2020-03-31T09:51:48.782847Z</date>
+<msg>修改文件名称</msg>
+</logentry>
+<logentry
+   revision="8048">
+<author>gaopeinan</author>
+<date>2020-03-31T09:38:00.180237Z</date>
+<msg>2020-03-31-高培楠（接口文档更新）</msg>
+</logentry>
+<logentry
+   revision="8040">
+<author>yingcongcong</author>
+<date>2020-03-31T05:24:55.308052Z</date>
+<msg>修改文件名称</msg>
+</logentry>
+<logentry
+   revision="8033">
+<author>yingcongcong</author>
+<date>2020-03-31T03:23:49.034083Z</date>
+<msg>调整首页格式</msg>
+</logentry>
+<logentry
+   revision="8032">
+<author>yingcongcong</author>
+<date>2020-03-31T03:09:27.738815Z</date>
+<msg>调整首页格式</msg>
+</logentry>
+<logentry
+   revision="8030">
+<author>yingcongcong</author>
+<date>2020-03-31T02:50:58.671035Z</date>
+<msg>调整首页格式</msg>
+</logentry>
+<logentry
+   revision="8027">
+<author>gaopeinan</author>
+<date>2020-03-31T00:52:34.186367Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="8026">
+<author>gaopeinan</author>
+<date>2020-03-30T14:04:41.723103Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="8020">
+<author>gaopeinan</author>
+<date>2020-03-30T06:46:06.311371Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="8005">
+<author>yingcongcong</author>
+<date>2020-03-27T09:55:49.046648Z</date>
+<msg>调整格式</msg>
+</logentry>
+<logentry
+   revision="8003">
+<author>yingcongcong</author>
+<date>2020-03-27T08:38:15.985183Z</date>
+<msg>调整格式</msg>
+</logentry>
+<logentry
+   revision="7997">
+<author>gaopeinan</author>
+<date>2020-03-26T11:48:49.126509Z</date>
+<msg>2020-03-26-高培楠（系统整体说明书）</msg>
+</logentry>
+<logentry
+   revision="7958">
+<author>luotianyu</author>
+<date>2020-03-24T03:14:39.067858Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7957">
+<author>luotianyu</author>
+<date>2020-03-24T03:02:14.297499Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7954">
+<author>gaopeinan</author>
+<date>2020-03-24T00:34:13.845826Z</date>
+<msg>2020-03-24-高培楠（增加构建进度命令）</msg>
+</logentry>
+<logentry
+   revision="7950">
+<author>luotianyu</author>
+<date>2020-03-23T08:47:49.242544Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7888">
+<author>gaopeinan</author>
+<date>2020-03-17T11:01:57.754225Z</date>
+<msg>2020-03-17-高培楠</msg>
+</logentry>
+<logentry
+   revision="7882">
+<author>yingcongcong</author>
+<date>2020-03-17T07:28:01.158878Z</date>
+<msg>需求分析文档增加了性能监控需求模块，同步更新概要设计中未实现需求点，入库</msg>
+</logentry>
+<logentry
+   revision="7872">
+<author>gaopeinan</author>
+<date>2020-03-16T09:21:31.942696Z</date>
+<msg>2020-03-16-高培楠</msg>
+</logentry>
+<logentry
+   revision="7869">
+<author>gaopeinan</author>
+<date>2020-03-16T09:10:05.082892Z</date>
+<msg>2020-03-16-高培楠（修改构建协议）</msg>
+</logentry>
+<logentry
+   revision="7866">
+<author>luotianyu</author>
+<date>2020-03-16T06:27:29.850339Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7835">
+<author>yingcongcong</author>
+<date>2020-03-11T06:02:10.313186Z</date>
+<msg>需求分析文档增加了性能评估需求模块，同步更新概要设计中未实现需求点</msg>
+</logentry>
+<logentry
+   revision="7827">
+<author>yingcongcong</author>
+<date>2020-03-11T02:31:23.308396Z</date>
+<msg>更新目录</msg>
+</logentry>
+<logentry
+   revision="7823">
+<author>yingcongcong</author>
+<date>2020-03-11T02:14:50.712094Z</date>
+<msg>更新未实现需求点</msg>
+</logentry>
+<logentry
+   revision="7819">
+<author>yingcongcong</author>
+<date>2020-03-11T01:54:02.497519Z</date>
+<msg>需求分析文档增加了性能评估需求模块，同步更新概要设计中未实现需求点</msg>
+</logentry>
+<logentry
+   revision="7769">
+<author>yingcongcong</author>
+<date>2020-03-06T07:01:11.828214Z</date>
+<msg>调整格式，正式入库</msg>
+</logentry>
+<logentry
+   revision="7768">
+<author>yingcongcong</author>
+<date>2020-03-06T06:04:22.499948Z</date>
+<msg>文件名 云平台 修改为 RoboADT</msg>
+</logentry>
+<logentry
+   revision="7767">
+<author>yingcongcong</author>
+<date>2020-03-06T06:02:28.489283Z</date>
+<msg>调整格式，正式入库</msg>
+</logentry>
+<logentry
+   revision="7766">
+<author>yingcongcong</author>
+<date>2020-03-06T05:54:44.192352Z</date>
+<msg>调整格式，正式入库</msg>
+</logentry>
+<logentry
+   revision="7743">
+<author>yingcongcong</author>
+<date>2020-03-04T07:56:27.098369Z</date>
+<msg>调整格式，正式入库</msg>
+</logentry>
+<logentry
+   revision="7741">
+<author>yingcongcong</author>
+<date>2020-03-04T07:42:42.707696Z</date>
+<msg>调整格式，正式入库</msg>
+</logentry>
+<logentry
+   revision="7739">
+<author>yingcongcong</author>
+<date>2020-03-04T07:16:12.608740Z</date>
+<msg>调整格式，正式入库</msg>
+</logentry>
+<logentry
+   revision="7645">
+<author>gaopeinan</author>
+<date>2020-02-28T02:38:38.976793Z</date>
+<msg>2020-02-28-高培楠（整理目录）</msg>
+</logentry>
+<logentry
+   revision="7644">
+<author>gaopeinan</author>
+<date>2020-02-28T02:38:24.862746Z</date>
+<msg>2020-02-28-高培楠（整理目录）</msg>
+</logentry>
+<logentry
+   revision="7643">
+<author>gaopeinan</author>
+<date>2020-02-28T02:38:18.215959Z</date>
+<msg>2020-02-28-高培楠（整理目录）</msg>
+</logentry>
+<logentry
+   revision="7642">
+<author>gaopeinan</author>
+<date>2020-02-28T02:38:05.051836Z</date>
+<msg>2020-02-28-高培楠（整理目录）</msg>
+</logentry>
+<logentry
+   revision="7641">
+<author>gaopeinan</author>
+<date>2020-02-28T02:37:42.676837Z</date>
+<msg>2020-02-28-高培楠（整理目录）</msg>
+</logentry>
+<logentry
+   revision="7640">
+<author>gaopeinan</author>
+<date>2020-02-28T02:37:13.846178Z</date>
+<msg>2020-02-28-高培楠（整理目录）</msg>
+</logentry>
+<logentry
+   revision="7639">
+<author>gaopeinan</author>
+<date>2020-02-28T02:37:00.334652Z</date>
+<msg>2020-02-28-高培楠（整理目录）</msg>
+</logentry>
+<logentry
+   revision="7638">
+<author>gaopeinan</author>
+<date>2020-02-28T02:36:50.790196Z</date>
+<msg>2020-02-28-高培楠（整理目录）</msg>
+</logentry>
+<logentry
+   revision="7637">
+<author>gaopeinan</author>
+<date>2020-02-28T02:36:34.131055Z</date>
+<msg>2020-02-28-高培楠（整理目录）</msg>
+</logentry>
+<logentry
+   revision="7636">
+<author>gaopeinan</author>
+<date>2020-02-28T02:35:49.099322Z</date>
+<msg>2020-02-28-高培楠（整理目录）</msg>
+</logentry>
+<logentry
+   revision="7635">
+<author>gaopeinan</author>
+<date>2020-02-28T02:35:36.258101Z</date>
+<msg>2020-02-28-高培楠（整理目录）</msg>
+</logentry>
+<logentry
+   revision="7634">
+<author>gaopeinan</author>
+<date>2020-02-28T02:35:00.907034Z</date>
+<msg>2020-02-28-高培楠（整理目录）</msg>
+</logentry>
+<logentry
+   revision="7633">
+<author>gaopeinan</author>
+<date>2020-02-28T02:34:02.930852Z</date>
+<msg>2020-02-28-高培楠（整理目录）</msg>
+</logentry>
+<logentry
+   revision="7605">
+<author>gaopeinan</author>
+<date>2020-02-26T10:03:23.097912Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7603">
+<author>gaopeinan</author>
+<date>2020-02-26T08:43:11.681212Z</date>
+<msg>2020-02-26-高培楠（修改流程图）</msg>
+</logentry>
+<logentry
+   revision="7602">
+<author>gaopeinan</author>
+<date>2020-02-26T07:48:05.992989Z</date>
+<msg>2020-02-26-高培楠</msg>
+</logentry>
+<logentry
+   revision="7601">
+<author>gaopeinan</author>
+<date>2020-02-26T06:56:30.062596Z</date>
+<msg>2020-02-26-高培楠（APP、ADT增加安全算法流程图，通讯协议增加获取密钥请求）</msg>
+</logentry>
+<logentry
+   revision="7591">
+<author>gaopeinan</author>
+<date>2020-02-25T07:18:16.045011Z</date>
+<msg>2020-02-25-高培楠（修改后3个概要设计文档，两个通讯协议文档）</msg>
+</logentry>
+<logentry
+   revision="7575">
+<author>gaopeinan</author>
+<date>2020-02-24T01:54:24.241418Z</date>
+<msg>2020-02-24-高培楠（修改模拟车区分）</msg>
+</logentry>
+<logentry
+   revision="7573">
+<author>gaopeinan</author>
+<date>2020-02-22T12:01:21.542004Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7571">
+<author>gaopeinan</author>
+<date>2020-02-22T11:58:37.157439Z</date>
+<msg>2020-02-22-高培楠（新增RoboADT、RoboAPP、SimuVehicle概要设计文档1.0版本）</msg>
+</logentry>
+<logentry
+   revision="7565">
+<author>luotianyu</author>
+<date>2020-02-22T05:53:36.317537Z</date>
+<msg>//确定虚拟车序列号</msg>
+</logentry>
+<logentry
+   revision="7557">
+<author>gaopeinan</author>
+<date>2020-02-21T08:34:04.561462Z</date>
+<msg>2020-02-21-高培楠（新增三个概要设计的0.6版本及通讯协议0.2版本）</msg>
+</logentry>
+<logentry
+   revision="7537">
+<author>gaopeinan</author>
+<date>2020-02-20T10:28:12.574395Z</date>
+<msg>2020-02-20-高培楠（新增RoboADT、RoboAPP、SimuVehicle概要设计说明书0.4版本）</msg>
+</logentry>
+<logentry
+   revision="7519">
+<author>luotianyu</author>
+<date>2020-02-19T13:26:38.484285Z</date>
+<msg>//更新至v0.2</msg>
+</logentry>
+<logentry
+   revision="7517">
+<author>gaopeinan</author>
+<date>2020-02-19T11:06:44.304646Z</date>
+<msg>2020-02-19-高培楠（新增RoboAPP系统概要设计说明书-V0.3）</msg>
+</logentry>
+<logentry
+   revision="7516">
+<author>gaopeinan</author>
+<date>2020-02-19T11:05:31.703158Z</date>
+<msg>2020-02-19-高培楠（新增RoboADT系统概要设计说明书-V0.1）</msg>
+</logentry>
+<logentry
+   revision="7515">
+<author>gaopeinan</author>
+<date>2020-02-19T11:04:22.639473Z</date>
+<msg>2020-02-19-高培楠（修改SimuVehicle系统概要设计说明书）</msg>
+</logentry>
+<logentry
+   revision="7500">
+<author>luotianyu</author>
+<date>2020-02-18T10:21:04.921318Z</date>
+<msg>//解决方案初稿未完成</msg>
+</logentry>
+<logentry
+   revision="7499">
+<author>luotianyu</author>
+<date>2020-02-18T10:16:31.360470Z</date>
+<msg>//解决方案初稿未完成</msg>
+</logentry>
+<logentry
+   revision="7498">
+<author>gaopeinan</author>
+<date>2020-02-18T10:14:59.553592Z</date>
+<msg>2020-02-18-高培楠（新增APP系统概要设计说明书）</msg>
+</logentry>
+<logentry
+   revision="7496">
+<author>lucheng</author>
+<date>2020-02-18T00:52:58.964806Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7490">
+<author>gaopeinan</author>
+<date>2020-02-17T10:03:38.449505Z</date>
+<msg>2020-02-17-高培楠（数据库室内图信息表更改说明）</msg>
+</logentry>
+<logentry
+   revision="7465">
+<author>lucheng</author>
+<date>2020-02-15T12:31:27.807091Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7464">
+<author>lucheng</author>
+<date>2020-02-15T12:31:03.381170Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7463">
+<author>lucheng</author>
+<date>2020-02-15T12:28:00.033943Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7462">
+<author>lucheng</author>
+<date>2020-02-15T12:26:37.913148Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7461">
+<author>lucheng</author>
+<date>2020-02-15T12:26:31.398032Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7460">
+<author>lucheng</author>
+<date>2020-02-15T12:25:25.759170Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7459">
+<author>lucheng</author>
+<date>2020-02-15T12:24:54.550400Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7458">
+<author>lucheng</author>
+<date>2020-02-15T12:23:08.268217Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7457">
+<author>lucheng</author>
+<date>2020-02-15T12:23:03.678937Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7456">
+<author>lucheng</author>
+<date>2020-02-15T12:22:33.476433Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7455">
+<author>lucheng</author>
+<date>2020-02-15T12:21:49.006299Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7454">
+<author>lucheng</author>
+<date>2020-02-15T12:21:25.713845Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7453">
+<author>lucheng</author>
+<date>2020-02-15T12:21:16.103513Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7452">
+<author>lucheng</author>
+<date>2020-02-15T12:20:19.147362Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7451">
+<author>lucheng</author>
+<date>2020-02-15T12:20:09.412685Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7450">
+<author>lucheng</author>
+<date>2020-02-15T12:19:48.147203Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7449">
+<author>lucheng</author>
+<date>2020-02-15T12:19:34.445795Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7448">
+<author>lucheng</author>
+<date>2020-02-15T12:19:11.296703Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7447">
+<author>lucheng</author>
+<date>2020-02-15T12:18:32.223020Z</date>
+<msg>存放模拟器相关文档</msg>
+</logentry>
+<logentry
+   revision="7446">
+<author>lucheng</author>
+<date>2020-02-15T12:18:15.318309Z</date>
+<msg>存放APP相关文档</msg>
+</logentry>
+<logentry
+   revision="7445">
+<author>lucheng</author>
+<date>2020-02-15T12:17:48.287228Z</date>
+<msg>存放云平台相关文档</msg>
+</logentry>
+<logentry
+   revision="7437">
+<author>gaopeinan</author>
+<date>2020-02-15T08:20:18.241136Z</date>
+<msg>2020-02-15-高培楠（增加APP接口设计规范文档）</msg>
+</logentry>
+<logentry
+   revision="7405">
+<author>lucheng</author>
+<date>2020-02-14T14:00:40.684446Z</date>
+<msg>模拟器概要设计说明书</msg>
+</logentry>
+<logentry
+   revision="7395">
+<author>lucheng</author>
+<date>2020-02-14T08:10:21.909438Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7394">
+<author>lucheng</author>
+<date>2020-02-14T08:10:07.064656Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7393">
+<author>lucheng</author>
+<date>2020-02-14T07:54:51.113571Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7392">
+<author>lucheng</author>
+<date>2020-02-14T07:54:45.152725Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7390">
+<author>lucheng</author>
+<date>2020-02-14T07:48:03.123354Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7389">
+<author>lucheng</author>
+<date>2020-02-14T07:47:51.977131Z</date>
+<msg>测试报告命名不规范。</msg>
+</logentry>
+<logentry
+   revision="7387">
+<author>gaopeinan</author>
+<date>2020-02-14T07:23:15.642801Z</date>
+<msg>2020-02-14-高培楠（增加模拟器报文通讯测试报告）</msg>
+</logentry>
+<logentry
+   revision="7373">
+<author>gaopeinan</author>
+<date>2020-02-13T08:34:28.799942Z</date>
+<msg>2020-02-13-高培楠（增加了8条不同位置的虚拟位置报文）</msg>
+</logentry>
+<logentry
+   revision="7358">
+<author>lucheng</author>
+<date>2020-02-13T02:18:19.604778Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7342">
+<author>lucheng</author>
+<date>2020-02-12T09:07:32.828808Z</date>
+<msg>迁移后，不需要了</msg>
+</logentry>
+<logentry
+   revision="7341">
+<author>lucheng</author>
+<date>2020-02-12T09:06:04.780303Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7340">
+<author>lucheng</author>
+<date>2020-02-12T09:01:03.927165Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7339">
+<author>lucheng</author>
+<date>2020-02-12T09:01:03.340764Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7338">
+<author>lucheng</author>
+<date>2020-02-12T09:00:29.502994Z</date>
+<msg>存放库表设计文档</msg>
+</logentry>
+<logentry
+   revision="7337">
+<author>lucheng</author>
+<date>2020-02-12T08:58:05.952624Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7336">
+<author>gaopeinan</author>
+<date>2020-02-12T08:31:37.117307Z</date>
+<msg>2020-02-12-高培楠（针对车辆ID的修改做出了相应修改）</msg>
+</logentry>
+<logentry
+   revision="7335">
+<author>gaopeinan</author>
+<date>2020-02-12T08:30:42.164414Z</date>
+<msg>2020-02-12-高培楠（新增车辆增删标识位，修改车辆ID字节）</msg>
+</logentry>
+<logentry
+   revision="7334">
+<author>gaopeinan</author>
+<date>2020-02-12T08:29:12.738233Z</date>
+<msg>2020-02-12-高培楠（新增室内地图信息表结构说明）</msg>
+</logentry>
+<logentry
+   revision="7333">
+<author>gaopeinan</author>
+<date>2020-02-12T08:23:29.138648Z</date>
+<msg>2020-02-12-高培楠（新增虚拟车辆端接口文档）</msg>
+</logentry>
+<logentry
+   revision="7320">
+<author>luotianyu</author>
+<date>2020-02-11T00:57:41.687653Z</date>
+<msg>//新增模拟车辆表（15）</msg>
+</logentry>
+<logentry
+   revision="7293">
+<author>lucheng</author>
+<date>2020-02-10T09:14:04.756622Z</date>
+<msg>原萝卜车框架存在问题记录</msg>
+</logentry>
+<logentry
+   revision="7289">
+<author>gaopeinan</author>
+<date>2020-02-10T06:16:53.891007Z</date>
+<msg>2020-02-10-高培楠（上传模拟报文的调试格式解析文档，方便下位机参考开发）</msg>
+</logentry>
+<logentry
+   revision="7285">
+<author>lucheng</author>
+<date>2020-02-10T02:22:30.330920Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7284">
+<author>lucheng</author>
+<date>2020-02-10T02:11:35.030434Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7283">
+<author>gaopeinan</author>
+<date>2020-02-10T01:58:43.953384Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7282">
+<author>gaopeinan</author>
+<date>2020-02-10T01:33:23.726746Z</date>
+<msg>2020-02-10-高培楠（TJN_ENTITY表新增两个字段longitude和latitude）</msg>
+</logentry>
+<logentry
+   revision="7281">
+<author>gaopeinan</author>
+<date>2020-02-10T01:25:43.795797Z</date>
+<msg>2020-2-10-高培楠（增加报文索引及包头包尾校验码规则注释）</msg>
+</logentry>
+<logentry
+   revision="7280">
+<author>lucheng</author>
+<date>2020-02-10T00:54:32.232218Z</date>
+<msg>java编码规范</msg>
+</logentry>
+<logentry
+   revision="7261">
+<author>lucheng</author>
+<date>2020-02-08T09:14:30.290425Z</date>
+<msg>云平台服务搭建文档，方便新入职人员快速熟悉公司开发环境</msg>
+</logentry>
+<logentry
+   revision="7248">
+<author>gaopeinan</author>
+<date>2020-02-08T07:05:50.370631Z</date>
+<msg>2020-02-08-高培楠（上传模拟车辆与云平台通讯的报文协议）</msg>
+</logentry>
+<logentry
+   revision="7239">
+<author>lucheng</author>
+<date>2020-02-08T05:29:18.980405Z</date>
+<msg>2月8日早会，会议纪要。</msg>
+</logentry>
+<logentry
+   revision="7238">
+<author>lucheng</author>
+<date>2020-02-08T03:59:23.719759Z</date>
+<msg>更新了库表结构，对表名和字段名进行规范命名</msg>
+</logentry>
+<logentry
+   revision="7230">
+<author>lucheng</author>
+<date>2020-02-07T12:08:18.800663Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7229">
+<author>lucheng</author>
+<date>2020-02-07T12:08:18.253828Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7224">
+<author>lucheng</author>
+<date>2020-02-07T09:26:03.452525Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7223">
+<author>lucheng</author>
+<date>2020-02-07T09:25:53.623013Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7222">
+<author>lucheng</author>
+<date>2020-02-07T09:25:32.978147Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7218">
+<author>lucheng</author>
+<date>2020-02-07T02:59:50.404802Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7217">
+<author>lucheng</author>
+<date>2020-02-07T02:27:06.766801Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7216">
+<author>lucheng</author>
+<date>2020-02-07T02:27:00.544548Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7215">
+<author>lucheng</author>
+<date>2020-02-07T01:00:51.047990Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7214">
+<author>lucheng</author>
+<date>2020-02-07T01:00:50.523867Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7195">
+<author>lucheng</author>
+<date>2020-02-06T09:47:50.425780Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7194">
+<author>lucheng</author>
+<date>2020-02-06T09:47:46.171780Z</date>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7193">
+<author>lucheng</author>
+<date>2020-02-06T09:47:39.723263Z</date>
+<msg></msg>
+</logentry>
+</log>

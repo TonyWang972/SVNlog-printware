@@ -1,0 +1,2901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log>
+<logentry
+   revision="19208">
+<author>yangkai</author>
+<date>2022-03-13T08:02:26.885698Z</date>
+<paths>
+<path
+   action="M"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/云平台/代码开发/交投项目/后端/traffic-admin-service/traffic-admin-api/src/main/java/net/lab1024/smartadmin/module/business/health/service/LocationTrackService.java</path>
+</paths>
+<msg>本地车辆错误日志</msg>
+</logentry>
+<logentry
+   revision="19209">
+<author>yangkai</author>
+<date>2022-03-14T01:25:50.100584Z</date>
+<paths>
+<path
+   action="M"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAPP(重构版)/robot_master_app/lib/pages/manualOperationPage.dart</path>
+<path
+   action="M"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAPP(重构版)/robot_master_app/lib/pages/unknownPage.dart</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="M"
+   prop-mods="false">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAPP(重构版)/robot_master_app/lib/rawSocket/SocketManage.dart</path>
+</paths>
+<msg>任务执行发送报文</msg>
+</logentry>
+<logentry
+   revision="19210">
+<author>guozhen</author>
+<date>2022-03-14T02:29:16.688067Z</date>
+<paths>
+<path
+   action="M"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/云平台/代码开发/交投项目/后端/traffic-admin-service/traffic-admin-api/src/main/java/net/lab1024/smartadmin/module/business/health/service/LocationTrackService.java</path>
+<path
+   prop-mods="false"
+   text-mods="true"
+   kind="file"
+   action="M">/techinao/软件开发/云平台/代码开发/交投项目/后端/traffic-admin-service/traffic-admin-api/src/main/java/net/lab1024/smartadmin/module/support/api/car/CarController.java</path>
+</paths>
+<msg>错误日志计数问题修复</msg>
+</logentry>
+<logentry
+   revision="19211">
+<author>qiancheng</author>
+<date>2022-03-14T03:00:18.731301Z</date>
+<paths>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/HIL</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   action="A">/techinao/软件开发/嵌入式/HIL/01.相关资料</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   action="A">/techinao/软件开发/嵌入式/HIL/02.学习笔记</path>
+<path
+   text-mods="false"
+   kind="dir"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/HIL/03.需求分析</path>
+<path
+   kind="dir"
+   action="A"
+   prop-mods="false"
+   text-mods="false">/techinao/软件开发/嵌入式/HIL/04.详细设计</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/HIL/04.详细设计/01.架构设计</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/HIL/04.详细设计/02.系统设计</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/HIL/04.详细设计/03.模块设计</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   action="A">/techinao/软件开发/嵌入式/HIL/05.工程代码</path>
+<path
+   text-mods="false"
+   kind="dir"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/HIL/05.工程代码/01.主支工程</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/HIL/05.工程代码/02.分支工程</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/HIL/05.工程代码/02.分支工程/分支1</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/嵌入式/HIL/05.工程代码/02.分支工程/分支1/分支说明.txt</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/HIL/05.工程代码/03.历史发布版本</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   action="A">/techinao/软件开发/嵌入式/HIL/05.工程代码/03.历史发布版本/版本1</path>
+<path
+   kind="file"
+   action="A"
+   prop-mods="false"
+   text-mods="true">/techinao/软件开发/嵌入式/HIL/05.工程代码/03.历史发布版本/版本1/版本说明.txt</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/嵌入式/HIL/05.工程代码/03.历史发布版本/版本说明.xlsx</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/HIL/06.工程测试</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   action="A">/techinao/软件开发/嵌入式/HIL/06.工程测试/01.单元测试</path>
+<path
+   text-mods="false"
+   kind="dir"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/HIL/06.工程测试/02.系统测试</path>
+<path
+   text-mods="false"
+   kind="dir"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/HIL/06.工程测试/03.验收测试</path>
+<path
+   kind="dir"
+   action="A"
+   prop-mods="false"
+   text-mods="false">/techinao/软件开发/嵌入式/HIL/07.项目总结</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/HIL/07.项目总结/01.项目输出</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/HIL/07.项目总结/01.项目输出/版本1</path>
+<path
+   prop-mods="true"
+   text-mods="true"
+   kind="file"
+   action="A">/techinao/软件开发/嵌入式/HIL/07.项目总结/01.项目输出/版本1/说明文档.xlsx</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   action="A">/techinao/软件开发/嵌入式/HIL/07.项目总结/02.项目报告</path>
+<path
+   text-mods="false"
+   kind="dir"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/HIL/08.其他</path>
+</paths>
+<msg>钱程：硬件在环项目文件整理</msg>
+</logentry>
+<logentry
+   revision="19212">
+<author>qiancheng</author>
+<date>2022-03-14T03:02:24.334991Z</date>
+<paths>
+<path
+   text-mods="false"
+   kind="dir"
+   action="D"
+   prop-mods="false">/techinao/软件开发/嵌入式/HIL</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   copyfrom-path="/techinao/软件开发/嵌入式/HIL"
+   copyfrom-rev="19211">/techinao/软件开发/嵌入式/Poj-HIL</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19213">
+<author>qiancheng</author>
+<date>2022-03-14T03:02:42.916995Z</date>
+<paths>
+<path
+   text-mods="false"
+   kind="file"
+   copyfrom-path="/techinao/软件开发/嵌入式/文档/概要设计/软件在环仿真测试/CCU软件在环工具整体架构设计.vsd"
+   copyfrom-rev="19212"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Poj-HIL/04.详细设计/01.架构设计/CCU软件在环工具整体架构设计.vsd</path>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="file">/techinao/软件开发/嵌入式/文档/概要设计/软件在环仿真测试/CCU软件在环工具整体架构设计.vsd</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19214">
+<author>qiancheng</author>
+<date>2022-03-14T03:03:01.427286Z</date>
+<paths>
+<path
+   copyfrom-path="/techinao/软件开发/嵌入式/文档/概要设计/硬件在环仿真测试/TCN_CCUSimulink_SC 设计方案.doc"
+   copyfrom-rev="19213"
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="file">/techinao/软件开发/嵌入式/Poj-HIL/04.详细设计/02.系统设计/TCN_CCUSimulink_SC 设计方案.doc</path>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="file">/techinao/软件开发/嵌入式/文档/概要设计/硬件在环仿真测试/TCN_CCUSimulink_SC 设计方案.doc</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19215">
+<author>qiancheng</author>
+<date>2022-03-14T03:03:07.640786Z</date>
+<paths>
+<path
+   text-mods="false"
+   kind="file"
+   copyfrom-path="/techinao/软件开发/嵌入式/文档/概要设计/硬件在环仿真测试/TCN-CCUSimulink-SD-指令执行模块详细设计.docx"
+   copyfrom-rev="19214"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Poj-HIL/04.详细设计/03.模块设计/TCN-CCUSimulink-SD-指令执行模块详细设计.docx</path>
+<path
+   copyfrom-path="/techinao/软件开发/嵌入式/文档/概要设计/硬件在环仿真测试/TCN-CCUSimulink-SD-状态维护模块详细设计.docx"
+   copyfrom-rev="19214"
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="file">/techinao/软件开发/嵌入式/Poj-HIL/04.详细设计/03.模块设计/TCN-CCUSimulink-SD-状态维护模块详细设计.docx</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="file"
+   copyfrom-path="/techinao/软件开发/嵌入式/文档/概要设计/硬件在环仿真测试/TCN-CCUSimulink-SD-配置管理模块详细设计.docx"
+   copyfrom-rev="19214"
+   action="A">/techinao/软件开发/嵌入式/Poj-HIL/04.详细设计/03.模块设计/TCN-CCUSimulink-SD-配置管理模块详细设计.docx</path>
+<path
+   text-mods="false"
+   kind="file"
+   copyfrom-path="/techinao/软件开发/嵌入式/文档/概要设计/硬件在环仿真测试/TestBOard通信协议.xlsx"
+   copyfrom-rev="19214"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Poj-HIL/04.详细设计/03.模块设计/TestBOard通信协议.xlsx</path>
+<path
+   copyfrom-path="/techinao/软件开发/嵌入式/文档/概要设计/硬件在环仿真测试/硬件在环_TestBoard_通信模块详细设计.docx"
+   copyfrom-rev="19214"
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="file">/techinao/软件开发/嵌入式/Poj-HIL/04.详细设计/03.模块设计/硬件在环_TestBoard_通信模块详细设计.docx</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="file"
+   copyfrom-path="/techinao/软件开发/嵌入式/文档/概要设计/硬件在环仿真测试/硬件在环_TestBoard分组数据汇聚模块详细设计.docx"
+   copyfrom-rev="19214">/techinao/软件开发/嵌入式/Poj-HIL/04.详细设计/03.模块设计/硬件在环_TestBoard分组数据汇聚模块详细设计.docx</path>
+<path
+   copyfrom-path="/techinao/软件开发/嵌入式/文档/概要设计/硬件在环仿真测试/硬件在环_上位机_设备模块(Dev模块)详细设计.docx"
+   copyfrom-rev="19214"
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="file">/techinao/软件开发/嵌入式/Poj-HIL/04.详细设计/03.模块设计/硬件在环_上位机_设备模块(Dev模块)详细设计.docx</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="file"
+   copyfrom-path="/techinao/软件开发/嵌入式/文档/概要设计/硬件在环仿真测试/硬件在环_上位机_车辆模块(Car模块)详细设计.docx"
+   copyfrom-rev="19214">/techinao/软件开发/嵌入式/Poj-HIL/04.详细设计/03.模块设计/硬件在环_上位机_车辆模块(Car模块)详细设计.docx</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="file"
+   action="D">/techinao/软件开发/嵌入式/文档/概要设计/硬件在环仿真测试/TCN-CCUSimulink-SD-指令执行模块详细设计.docx</path>
+<path
+   text-mods="false"
+   kind="file"
+   action="D"
+   prop-mods="false">/techinao/软件开发/嵌入式/文档/概要设计/硬件在环仿真测试/TCN-CCUSimulink-SD-状态维护模块详细设计.docx</path>
+<path
+   kind="file"
+   action="D"
+   prop-mods="false"
+   text-mods="false">/techinao/软件开发/嵌入式/文档/概要设计/硬件在环仿真测试/TCN-CCUSimulink-SD-配置管理模块详细设计.docx</path>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="file">/techinao/软件开发/嵌入式/文档/概要设计/硬件在环仿真测试/TestBOard通信协议.xlsx</path>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="file">/techinao/软件开发/嵌入式/文档/概要设计/硬件在环仿真测试/硬件在环_TestBoard_通信模块详细设计.docx</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="file"
+   action="D">/techinao/软件开发/嵌入式/文档/概要设计/硬件在环仿真测试/硬件在环_TestBoard分组数据汇聚模块详细设计.docx</path>
+<path
+   text-mods="false"
+   kind="file"
+   action="D"
+   prop-mods="false">/techinao/软件开发/嵌入式/文档/概要设计/硬件在环仿真测试/硬件在环_上位机_设备模块(Dev模块)详细设计.docx</path>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="file">/techinao/软件开发/嵌入式/文档/概要设计/硬件在环仿真测试/硬件在环_上位机_车辆模块(Car模块)详细设计.docx</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19216">
+<author>qiancheng</author>
+<date>2022-03-14T03:03:12.254875Z</date>
+<paths>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/文档/概要设计/软件在环仿真测试</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19217">
+<author>qiancheng</author>
+<date>2022-03-14T03:03:28.109032Z</date>
+<paths>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/文档/概要设计/硬件在环仿真测试</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19218">
+<author>qiancheng</author>
+<date>2022-03-14T03:03:58.938986Z</date>
+<paths>
+<path
+   text-mods="false"
+   kind="file"
+   copyfrom-path="/techinao/软件开发/嵌入式/文档/详细设计/硬件在环详细设计/TCN_CCUSimulink_SC 上位机仿真接口及总线模块详细设计.doc"
+   copyfrom-rev="19217"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Poj-HIL/04.详细设计/02.系统设计/TCN_CCUSimulink_SC 上位机仿真接口及总线模块详细设计.doc</path>
+<path
+   kind="file"
+   action="D"
+   prop-mods="false"
+   text-mods="false">/techinao/软件开发/嵌入式/文档/详细设计/硬件在环详细设计/TCN_CCUSimulink_SC 上位机仿真接口及总线模块详细设计.doc</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19219">
+<author>qiancheng</author>
+<date>2022-03-14T03:04:08.135772Z</date>
+<paths>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   action="D">/techinao/软件开发/嵌入式/文档/详细设计/硬件在环详细设计</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19220">
+<author>qiancheng</author>
+<date>2022-03-14T03:05:14.223521Z</date>
+<paths>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   copyfrom-path="/techinao/软件开发/嵌入式/文档/测试文档/硬件在环_逻辑总线模块自测"
+   copyfrom-rev="19219"
+   action="A">/techinao/软件开发/嵌入式/Poj-HIL/06.工程测试/硬件在环_逻辑总线模块自测</path>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/文档/测试文档/硬件在环_逻辑总线模块自测</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19221">
+<author>qiancheng</author>
+<date>2022-03-14T03:05:26.983999Z</date>
+<paths>
+<path
+   copyfrom-path="/techinao/软件开发/嵌入式/文档/测试文档/硬件在环"
+   copyfrom-rev="19220"
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Poj-HIL/06.工程测试/硬件在环</path>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/文档/测试文档/硬件在环</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19222">
+<author>qiancheng</author>
+<date>2022-03-14T03:05:47.289679Z</date>
+<paths>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   copyfrom-path="/techinao/软件开发/嵌入式/代码开发/TCN_CCU_HIL_SC"
+   copyfrom-rev="19221">/techinao/软件开发/嵌入式/Poj-HIL/05.工程代码/TCN_CCU_HIL_SC</path>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/代码开发/TCN_CCU_HIL_SC</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19223">
+<author>qiancheng</author>
+<date>2022-03-14T03:05:52.460672Z</date>
+<paths>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   copyfrom-path="/techinao/软件开发/嵌入式/代码开发/TCN-Desktop-HIL-SC"
+   copyfrom-rev="19222">/techinao/软件开发/嵌入式/Poj-HIL/06.工程测试/TCN-Desktop-HIL-SC</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   action="D">/techinao/软件开发/嵌入式/代码开发/TCN-Desktop-HIL-SC</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19224">
+<author>qiancheng</author>
+<date>2022-03-14T03:06:16.291186Z</date>
+<paths>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   copyfrom-path="/techinao/软件开发/嵌入式/Poj-HIL/06.工程测试/TCN-Desktop-HIL-SC"
+   copyfrom-rev="19223"
+   action="A">/techinao/软件开发/嵌入式/Poj-HIL/05.工程代码/TCN-Desktop-HIL-SC</path>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Poj-HIL/06.工程测试/TCN-Desktop-HIL-SC</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19225">
+<author>qiancheng</author>
+<date>2022-03-14T03:06:21.757805Z</date>
+<paths>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Poj-HIL/06.工程测试/01.单元测试</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   action="D">/techinao/软件开发/嵌入式/Poj-HIL/06.工程测试/02.系统测试</path>
+<path
+   text-mods="false"
+   kind="dir"
+   action="D"
+   prop-mods="false">/techinao/软件开发/嵌入式/Poj-HIL/06.工程测试/03.验收测试</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19226">
+<author>qiancheng</author>
+<date>2022-03-14T03:08:15.993180Z</date>
+<paths>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="file"
+   copyfrom-path="/techinao/软件开发/嵌入式/Poj-HIL/04.详细设计/02.系统设计/TCN_CCUSimulink_SC 设计方案.doc"
+   copyfrom-rev="19225"
+   action="A">/techinao/软件开发/嵌入式/Poj-HIL/04.详细设计/01.架构设计/TCN_CCUSimulink_SC 设计方案.doc</path>
+<path
+   kind="file"
+   action="D"
+   prop-mods="false"
+   text-mods="false">/techinao/软件开发/嵌入式/Poj-HIL/04.详细设计/02.系统设计/TCN_CCUSimulink_SC 设计方案.doc</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19227">
+<author>qiancheng</author>
+<date>2022-03-14T03:09:43.859775Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A"
+   prop-mods="false"
+   text-mods="false">/techinao/软件开发/嵌入式/Poj-HIL/05.工程代码/上位机</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Poj-HIL/05.工程代码/下位机</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19228">
+<author>qiancheng</author>
+<date>2022-03-14T03:10:27.118304Z</date>
+<paths>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   action="D">/techinao/软件开发/嵌入式/Poj-HIL/06.工程测试/硬件在环/硬件在环_逻辑总线模块自测</path>
+<path
+   text-mods="false"
+   kind="dir"
+   copyfrom-path="/techinao/软件开发/嵌入式/Poj-HIL/06.工程测试/硬件在环/硬件在环_逻辑总线模块自测"
+   copyfrom-rev="19227"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Poj-HIL/06.工程测试/硬件在环/逻辑总线模块自测</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19229">
+<author>qiancheng</author>
+<date>2022-03-14T03:10:31.980640Z</date>
+<paths>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="file"
+   copyfrom-path="/techinao/软件开发/嵌入式/Poj-HIL/06.工程测试/硬件在环/TCN-TESTBOARD-HIL-SC 存储访问功能测试.xls"
+   copyfrom-rev="19228"
+   action="A">/techinao/软件开发/嵌入式/Poj-HIL/06.工程测试/TCN-TESTBOARD-HIL-SC 存储访问功能测试.xls</path>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="file">/techinao/软件开发/嵌入式/Poj-HIL/06.工程测试/硬件在环/TCN-TESTBOARD-HIL-SC 存储访问功能测试.xls</path>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Poj-HIL/06.工程测试/硬件在环/逻辑总线模块自测</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   copyfrom-path="/techinao/软件开发/嵌入式/Poj-HIL/06.工程测试/硬件在环/逻辑总线模块自测"
+   copyfrom-rev="19228">/techinao/软件开发/嵌入式/Poj-HIL/06.工程测试/逻辑总线模块自测</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19230">
+<author>qiancheng</author>
+<date>2022-03-14T03:10:44.028283Z</date>
+<paths>
+<path
+   text-mods="false"
+   kind="dir"
+   action="D"
+   prop-mods="false">/techinao/软件开发/嵌入式/Poj-HIL/06.工程测试/硬件在环</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19231">
+<author>qiancheng</author>
+<date>2022-03-14T03:11:06.517450Z</date>
+<paths>
+<path
+   kind="dir"
+   action="D"
+   prop-mods="false"
+   text-mods="false">/techinao/软件开发/嵌入式/Poj-HIL/06.工程测试/逻辑总线模块自测</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   copyfrom-path="/techinao/软件开发/嵌入式/Poj-HIL/06.工程测试/逻辑总线模块自测"
+   copyfrom-rev="19230">/techinao/软件开发/嵌入式/Poj-HIL/06.工程测试/逻辑总线模块自测-1</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19232">
+<author>qiancheng</author>
+<date>2022-03-14T03:11:16.653614Z</date>
+<paths>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   action="D">/techinao/软件开发/嵌入式/Poj-HIL/06.工程测试/硬件在环_逻辑总线模块自测</path>
+<path
+   text-mods="false"
+   kind="dir"
+   copyfrom-path="/techinao/软件开发/嵌入式/Poj-HIL/06.工程测试/硬件在环_逻辑总线模块自测"
+   copyfrom-rev="19231"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Poj-HIL/06.工程测试/逻辑总线模块自测-2</path>
+</paths>
+<msg>
+</msg>
+</logentry>
+<logentry
+   revision="19233">
+<author>qiancheng</author>
+<date>2022-03-14T03:11:36.814602Z</date>
+<paths>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Poj-HIL/07.项目总结/01.项目输出</path>
+</paths>
+<msg>
+</msg>
+</logentry>
+<logentry
+   revision="19234">
+<author>qiancheng</author>
+<date>2022-03-14T03:11:45.645483Z</date>
+<paths>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Poj-HIL/07.项目总结</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19235">
+<author>qiancheng</author>
+<date>2022-03-14T03:12:37.654446Z</date>
+<paths>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Poj-HIL/05.工程代码/01.主支工程</path>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Poj-HIL/05.工程代码/02.分支工程</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   action="D">/techinao/软件开发/嵌入式/Poj-HIL/05.工程代码/03.历史发布版本</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19236">
+<author>qiancheng</author>
+<date>2022-03-14T03:12:44.877334Z</date>
+<paths>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Poj-HIL/05.工程代码/TCN-Desktop-HIL-SC</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   copyfrom-path="/techinao/软件开发/嵌入式/Poj-HIL/05.工程代码/TCN-Desktop-HIL-SC"
+   copyfrom-rev="19235">/techinao/软件开发/嵌入式/Poj-HIL/05.工程代码/上位机/TCN-Desktop-HIL-SC</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19237">
+<author>qiancheng</author>
+<date>2022-03-14T03:12:47.201120Z</date>
+<paths>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Poj-HIL/05.工程代码/TCN_CCU_HIL_SC</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   copyfrom-path="/techinao/软件开发/嵌入式/Poj-HIL/05.工程代码/TCN_CCU_HIL_SC"
+   copyfrom-rev="19236"
+   action="A">/techinao/软件开发/嵌入式/Poj-HIL/05.工程代码/下位机/TCN_CCU_HIL_SC</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19238">
+<author>qiancheng</author>
+<date>2022-03-14T03:13:37.708041Z</date>
+<paths>
+<path
+   copyfrom-path="/techinao/软件开发/嵌入式/Poj-HIL/05.工程代码/上位机/TCN-Desktop-HIL-SC/HILTools"
+   copyfrom-rev="19237"
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Poj-HIL/05.工程代码/上位机/HILTools</path>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Poj-HIL/05.工程代码/上位机/TCN-Desktop-HIL-SC/HILTools</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   action="D">/techinao/软件开发/嵌入式/Poj-HIL/05.工程代码/上位机/TCN-Desktop-HIL-SC/文档</path>
+<path
+   text-mods="false"
+   kind="dir"
+   copyfrom-path="/techinao/软件开发/嵌入式/Poj-HIL/05.工程代码/上位机/TCN-Desktop-HIL-SC/文档"
+   copyfrom-rev="19237"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Poj-HIL/05.工程代码/上位机/文档</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19239">
+<author>qiancheng</author>
+<date>2022-03-14T03:13:50.971764Z</date>
+<paths>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Poj-HIL/05.工程代码/上位机/HILTools/HilTools</path>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Poj-HIL/05.工程代码/上位机/HILTools/HilTools-WithoutCarLayer</path>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="file">/techinao/软件开发/嵌入式/Poj-HIL/05.工程代码/上位机/HILTools/HilTools程序及三份配置工程.zip</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   copyfrom-path="/techinao/软件开发/嵌入式/Poj-HIL/05.工程代码/上位机/HILTools/HilTools"
+   copyfrom-rev="19238"
+   action="A">/techinao/软件开发/嵌入式/Poj-HIL/05.工程代码/上位机/TCN-Desktop-HIL-SC/HilTools</path>
+<path
+   text-mods="false"
+   kind="dir"
+   copyfrom-path="/techinao/软件开发/嵌入式/Poj-HIL/05.工程代码/上位机/HILTools/HilTools-WithoutCarLayer"
+   copyfrom-rev="19238"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Poj-HIL/05.工程代码/上位机/TCN-Desktop-HIL-SC/HilTools-WithoutCarLayer</path>
+<path
+   kind="file"
+   copyfrom-path="/techinao/软件开发/嵌入式/Poj-HIL/05.工程代码/上位机/HILTools/HilTools程序及三份配置工程.zip"
+   copyfrom-rev="19238"
+   action="A"
+   prop-mods="false"
+   text-mods="false">/techinao/软件开发/嵌入式/Poj-HIL/05.工程代码/上位机/TCN-Desktop-HIL-SC/HilTools程序及三份配置工程.zip</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19240">
+<author>qiancheng</author>
+<date>2022-03-14T03:13:56.242670Z</date>
+<paths>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Poj-HIL/05.工程代码/上位机/HILTools</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19241">
+<author>qiancheng</author>
+<date>2022-03-14T03:14:16.014735Z</date>
+<paths>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Poj-HIL</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   copyfrom-path="/techinao/软件开发/嵌入式/Poj-HIL"
+   copyfrom-rev="19240"
+   action="A">/techinao/软件开发/嵌入式/Poj-HIL-下位机</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19242">
+<author>qiancheng</author>
+<date>2022-03-14T03:15:37.183681Z</date>
+<paths>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Poj-HIL-下位机</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   copyfrom-path="/techinao/软件开发/嵌入式/Poj-HIL-下位机"
+   copyfrom-rev="19241">/techinao/软件开发/嵌入式/Proj-HIL-CCU</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19243">
+<author>qiancheng</author>
+<date>2022-03-14T03:15:55.597183Z</date>
+<paths>
+<path
+   text-mods="false"
+   kind="dir"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Proj-HIL-Desktop</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19244">
+<author>qiancheng</author>
+<date>2022-03-14T03:17:10.170630Z</date>
+<paths>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/01.相关资料</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/03.需求分析</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   action="A">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/04.详细设计</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   action="A">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/04.详细设计/01.架构设计</path>
+<path
+   text-mods="false"
+   kind="dir"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/04.详细设计/02.系统设计</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/04.详细设计/03.模块设计</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/05.工程代码</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/05.工程代码/01.主支工程</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/05.工程代码/02.分支工程</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   action="A">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/05.工程代码/02.分支工程/分支1</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/05.工程代码/02.分支工程/分支1/分支说明.txt</path>
+<path
+   text-mods="false"
+   kind="dir"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/05.工程代码/03.历史发布版本</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/05.工程代码/03.历史发布版本/版本1</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/05.工程代码/03.历史发布版本/版本1/版本说明.txt</path>
+<path
+   prop-mods="true"
+   text-mods="true"
+   kind="file"
+   action="A">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/05.工程代码/03.历史发布版本/版本说明.xlsx</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   action="A">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/06.工程测试</path>
+<path
+   text-mods="false"
+   kind="dir"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/06.工程测试/01.单元测试</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/06.工程测试/02.系统测试</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/06.工程测试/03.验收测试</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目总结</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目总结/01.项目输出</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   action="A">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目总结/01.项目输出/版本1</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="true">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目总结/01.项目输出/版本1/说明文档.xlsx</path>
+<path
+   text-mods="false"
+   kind="dir"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目总结/02.项目报告</path>
+</paths>
+<msg>钱程：硬件在环上位机工程文件整理</msg>
+</logentry>
+<logentry
+   revision="19245">
+<author>qiancheng</author>
+<date>2022-03-14T03:19:11.747031Z</date>
+<paths>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/04.详细设计/01.架构设计/架构设计.txt</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19246">
+<author>qiancheng</author>
+<date>2022-03-14T03:20:25.472050Z</date>
+<paths>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="file">/techinao/软件开发/嵌入式/Proj-HIL-CCU/04.详细设计/02.系统设计/TCN_CCUSimulink_SC 上位机仿真接口及总线模块详细设计.doc</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="file"
+   copyfrom-path="/techinao/软件开发/嵌入式/Proj-HIL-CCU/04.详细设计/02.系统设计/TCN_CCUSimulink_SC 上位机仿真接口及总线模块详细设计.doc"
+   copyfrom-rev="19245">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/04.详细设计/02.系统设计/TCN_CCUSimulink_SC 上位机仿真接口及总线模块详细设计.doc</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19247">
+<author>qiancheng</author>
+<date>2022-03-14T03:20:43.813718Z</date>
+<paths>
+<path
+   text-mods="false"
+   kind="dir"
+   action="D"
+   prop-mods="false">/techinao/软件开发/嵌入式/Proj-HIL-CCU/05.工程代码/上位机/TCN-Desktop-HIL-SC</path>
+<path
+   kind="dir"
+   copyfrom-path="/techinao/软件开发/嵌入式/Proj-HIL-CCU/05.工程代码/上位机/TCN-Desktop-HIL-SC"
+   copyfrom-rev="19246"
+   action="A"
+   prop-mods="false"
+   text-mods="false">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/05.工程代码/TCN-Desktop-HIL-SC</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19248">
+<author>qiancheng</author>
+<date>2022-03-14T03:20:50.944146Z</date>
+<paths>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="file">/techinao/软件开发/嵌入式/Proj-HIL-CCU/05.工程代码/上位机/文档/TCN-Destop-HIL-SC 模拟车辆层测试.xls</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="file"
+   copyfrom-path="/techinao/软件开发/嵌入式/Proj-HIL-CCU/05.工程代码/上位机/文档/TCN-Destop-HIL-SC 模拟车辆层测试.xls"
+   copyfrom-rev="19247"
+   action="A">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/06.工程测试/TCN-Destop-HIL-SC 模拟车辆层测试.xls</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19249">
+<author>qiancheng</author>
+<date>2022-03-14T03:21:09.258924Z</date>
+<paths>
+<path
+   text-mods="false"
+   kind="dir"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/08.其他</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19250">
+<author>qiancheng</author>
+<date>2022-03-14T03:22:03.124563Z</date>
+<paths>
+<path
+   text-mods="false"
+   kind="file"
+   copyfrom-path="/techinao/软件开发/嵌入式/Proj-HIL-CCU/05.工程代码/上位机/文档/模拟硬件对应关系.png"
+   copyfrom-rev="19249"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Proj-HIL-CCU/01.相关资料/模拟硬件对应关系.png</path>
+<path
+   copyfrom-path="/techinao/软件开发/嵌入式/Proj-HIL-CCU/05.工程代码/上位机/文档/硬件在环接口映射表.xls"
+   copyfrom-rev="19249"
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="file">/techinao/软件开发/嵌入式/Proj-HIL-CCU/01.相关资料/硬件在环接口映射表.xls</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="file"
+   copyfrom-path="/techinao/软件开发/嵌入式/Proj-HIL-CCU/05.工程代码/上位机/文档/超声波CAN口对应关系.xls"
+   copyfrom-rev="19249">/techinao/软件开发/嵌入式/Proj-HIL-CCU/01.相关资料/超声波CAN口对应关系.xls</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="file"
+   action="D">/techinao/软件开发/嵌入式/Proj-HIL-CCU/05.工程代码/上位机/文档/模拟硬件对应关系.png</path>
+<path
+   text-mods="false"
+   kind="file"
+   action="D"
+   prop-mods="false">/techinao/软件开发/嵌入式/Proj-HIL-CCU/05.工程代码/上位机/文档/硬件在环接口映射表.xls</path>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="file">/techinao/软件开发/嵌入式/Proj-HIL-CCU/05.工程代码/上位机/文档/超声波CAN口对应关系.xls</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19251">
+<author>qiancheng</author>
+<date>2022-03-14T03:22:06.392744Z</date>
+<paths>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="file"
+   action="D">/techinao/软件开发/嵌入式/Proj-HIL-CCU/05.工程代码/上位机/文档/json备份.zip</path>
+<path
+   text-mods="false"
+   kind="file"
+   copyfrom-path="/techinao/软件开发/嵌入式/Proj-HIL-CCU/05.工程代码/上位机/文档/json备份.zip"
+   copyfrom-rev="19250"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/08.其他/json备份.zip</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19252">
+<author>qiancheng</author>
+<date>2022-03-14T03:22:12.911227Z</date>
+<paths>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Proj-HIL-CCU/05.工程代码/上位机</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19253">
+<author>qiancheng</author>
+<date>2022-03-14T03:22:16.278929Z</date>
+<paths>
+<path
+   text-mods="false"
+   kind="dir"
+   copyfrom-path="/techinao/软件开发/嵌入式/Proj-HIL-CCU/05.工程代码/下位机/TCN_CCU_HIL_SC"
+   copyfrom-rev="19252"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Proj-HIL-CCU/05.工程代码/TCN_CCU_HIL_SC</path>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Proj-HIL-CCU/05.工程代码/下位机/TCN_CCU_HIL_SC</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19254">
+<author>qiancheng</author>
+<date>2022-03-14T03:22:21.319295Z</date>
+<paths>
+<path
+   text-mods="false"
+   kind="dir"
+   action="D"
+   prop-mods="false">/techinao/软件开发/嵌入式/Proj-HIL-CCU/05.工程代码/下位机</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19255">
+<author>qiancheng</author>
+<date>2022-03-14T03:22:40.205020Z</date>
+<paths>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Proj-HIL-CCU/08.其他</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19256">
+<author>qiancheng</author>
+<date>2022-03-14T03:23:18.399719Z</date>
+<paths>
+<path
+   text-mods="false"
+   kind="file"
+   action="D"
+   prop-mods="false">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/05.工程代码/TCN-Desktop-HIL-SC/HilTools-WithoutCarLayer/没有Car层的HIL程序及CCU全测试例配置文件.zip</path>
+<path
+   text-mods="false"
+   kind="file"
+   copyfrom-path="/techinao/软件开发/嵌入式/Proj-HIL-Desktop/05.工程代码/TCN-Desktop-HIL-SC/HilTools-WithoutCarLayer/没有Car层的HIL程序及CCU全测试例配置文件.zip"
+   copyfrom-rev="19255"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目总结/01.项目输出/没有Car层的HIL程序及CCU全测试例配置文件.zip</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19257">
+<author>qiancheng</author>
+<date>2022-03-14T03:23:30.720412Z</date>
+<paths>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="file">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/05.工程代码/TCN-Desktop-HIL-SC/HilTools程序及三份配置工程.zip</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="file"
+   copyfrom-path="/techinao/软件开发/嵌入式/Proj-HIL-Desktop/05.工程代码/TCN-Desktop-HIL-SC/HilTools程序及三份配置工程.zip"
+   copyfrom-rev="19256">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目总结/01.项目输出/HilTools程序及三份配置工程.zip</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19258">
+<author>qiancheng</author>
+<date>2022-03-14T03:24:58.154325Z</date>
+<paths>
+<path
+   text-mods="false"
+   kind="dir"
+   copyfrom-path="/techinao/软件开发/嵌入式/Proj-HIL-Desktop/05.工程代码/TCN-Desktop-HIL-SC/HilTools"
+   copyfrom-rev="19257"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/05.工程代码/HilTools</path>
+<path
+   copyfrom-path="/techinao/软件开发/嵌入式/Proj-HIL-Desktop/05.工程代码/TCN-Desktop-HIL-SC/HilTools-WithoutCarLayer"
+   copyfrom-rev="19257"
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/05.工程代码/HilTools-WithoutCarLayer</path>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/05.工程代码/TCN-Desktop-HIL-SC/HilTools</path>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/05.工程代码/TCN-Desktop-HIL-SC/HilTools-WithoutCarLayer</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19259">
+<author>qiancheng</author>
+<date>2022-03-14T03:25:18.479764Z</date>
+<paths>
+<path
+   text-mods="false"
+   kind="dir"
+   action="D"
+   prop-mods="false">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/05.工程代码/TCN-Desktop-HIL-SC</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19260">
+<author>qiancheng</author>
+<date>2022-03-14T03:27:10.027153Z</date>
+<paths>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/05.工程代码/01.主支工程</path>
+<path
+   text-mods="false"
+   kind="dir"
+   action="D"
+   prop-mods="false">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/05.工程代码/02.分支工程</path>
+<path
+   text-mods="false"
+   kind="dir"
+   action="D"
+   prop-mods="false">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/05.工程代码/03.历史发布版本</path>
+<path
+   kind="file"
+   action="A"
+   prop-mods="true"
+   text-mods="true">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/05.工程代码/版本说明.xlsx</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19261">
+<author>qiancheng</author>
+<date>2022-03-14T03:27:29.047327Z</date>
+<paths>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/06.工程测试/01.单元测试</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   action="D">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/06.工程测试/02.系统测试</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   action="D">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/06.工程测试/03.验收测试</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19262">
+<author>qiancheng</author>
+<date>2022-03-14T03:28:02.629002Z</date>
+<paths>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目总结/01.项目输出</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   action="D">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目总结/02.项目报告</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="true">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目总结/HilTools程序及三份配置工程.zip</path>
+<path
+   kind="file"
+   action="A"
+   prop-mods="true"
+   text-mods="true">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目总结/没有Car层的HIL程序及CCU全测试例配置文件.zip</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19263">
+<author>qiancheng</author>
+<date>2022-03-14T03:28:34.361394Z</date>
+<paths>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   action="D">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目总结</path>
+<path
+   text-mods="false"
+   kind="dir"
+   copyfrom-path="/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目总结"
+   copyfrom-rev="19262"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19264">
+<author>qiancheng</author>
+<date>2022-03-14T03:29:28.497705Z</date>
+<paths>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/CCU</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/CCU/Bus.json</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/CCU/Dev.json</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/CCU/Interface.json</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/CCU/Proj.json</path>
+<path
+   prop-mods="false"
+   text-mods="true"
+   kind="file"
+   action="A">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/CCU/log.csv</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   action="A">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/CCU-New_Full</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/CCU-New_Full/Bus.json</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/CCU-New_Full/Dev.json</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/CCU-New_Full/Interface.json</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/CCU-New_Full/Proj.json</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/CCU-New_Full/log.csv</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   action="A">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/CCU-New_Full_do</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/CCU-New_Full_do/Bus.json</path>
+<path
+   kind="file"
+   action="A"
+   prop-mods="false"
+   text-mods="true">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/CCU-New_Full_do/Dev.json</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/CCU-New_Full_do/Interface.json</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/CCU-New_Full_do/Proj.json</path>
+<path
+   prop-mods="false"
+   text-mods="true"
+   kind="file"
+   action="A">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/CCU-New_Full_do/log.csv</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   action="A">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/CCU-New_Full_e</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/CCU-New_Full_e/Bus.json</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/CCU-New_Full_e/Dev.json</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/CCU-New_Full_e/Interface.json</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/CCU-New_Full_e/Proj.json</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/CCU-New_Full_e/log.csv</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/CCU_New</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/CCU_New/Bus.json</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/CCU_New/Dev.json</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/CCU_New/Interface.json</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/CCU_New/Proj.json</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/CCU_New/log.csv</path>
+<path
+   kind="dir"
+   action="A"
+   prop-mods="false"
+   text-mods="false">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/MemAccess</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/MemAccess/Bus.json</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/MemAccess/Dev.json</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/MemAccess/Interface.json</path>
+<path
+   prop-mods="false"
+   text-mods="true"
+   kind="file"
+   action="A">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/MemAccess/Proj.json</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/MemAccess/log.csv</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/encoder</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/encoder/Bus.json</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/encoder/Dev.json</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/encoder/Interface.json</path>
+<path
+   prop-mods="false"
+   text-mods="true"
+   kind="file"
+   action="A">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/encoder/Proj.json</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Proj-HIL-Desktop/07.项目输出/配置工程/encoder/log.csv</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19265">
+<author>qiancheng</author>
+<date>2022-03-14T03:32:43.394358Z</date>
+<paths>
+<path
+   text-mods="false"
+   kind="dir"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/08.其他</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19266">
+<author>qiancheng</author>
+<date>2022-03-14T03:32:50.976429Z</date>
+<paths>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/01.相关资料</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/04.详细设计</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   action="A">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/04.详细设计/01.架构设计</path>
+<path
+   text-mods="false"
+   kind="dir"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/04.详细设计/02.系统设计</path>
+<path
+   text-mods="false"
+   kind="dir"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/04.详细设计/03.模块设计</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/05.工程代码</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/05.工程代码/01.主支工程</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/05.工程代码/02.分支工程</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/05.工程代码/02.分支工程/分支1</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/05.工程代码/02.分支工程/分支1/分支说明.txt</path>
+<path
+   text-mods="false"
+   kind="dir"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/05.工程代码/03.历史发布版本</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/05.工程代码/03.历史发布版本/版本1</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/05.工程代码/03.历史发布版本/版本1/版本说明.txt</path>
+<path
+   prop-mods="true"
+   text-mods="true"
+   kind="file"
+   action="A">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/05.工程代码/03.历史发布版本/版本说明.xlsx</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   action="A">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/06.工程测试</path>
+<path
+   text-mods="false"
+   kind="dir"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/06.工程测试/01.单元测试</path>
+<path
+   text-mods="false"
+   kind="dir"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/06.工程测试/02.系统测试</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/06.工程测试/03.验收测试</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/07.项目总结</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/07.项目总结/01.项目输出</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/07.项目总结/01.项目输出/版本1</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="true">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/07.项目总结/01.项目输出/版本1/说明文档.xlsx</path>
+<path
+   text-mods="false"
+   kind="dir"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/07.项目总结/02.项目报告</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19267">
+<author>qiancheng</author>
+<date>2022-03-14T03:33:43.155238Z</date>
+<paths>
+<path
+   kind="dir"
+   copyfrom-path="/techinao/软件开发/嵌入式/工具/CLI_FlashWrite_Tool/CLI_BatchFlash"
+   copyfrom-rev="19266"
+   action="A"
+   prop-mods="false"
+   text-mods="false">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/05.工程代码/CLI_BatchFlash</path>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/工具/CLI_FlashWrite_Tool/CLI_BatchFlash</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19268">
+<author>qiancheng</author>
+<date>2022-03-14T03:35:25.067109Z</date>
+<paths>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   action="D">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/05.工程代码/02.分支工程</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19269">
+<author>qiancheng</author>
+<date>2022-03-14T03:35:54.906991Z</date>
+<paths>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="true">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/07.项目总结/CLI_BatchFlashTool.zip</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19270">
+<author>qiancheng</author>
+<date>2022-03-14T03:36:07.296459Z</date>
+<paths>
+<path
+   text-mods="false"
+   kind="dir"
+   action="D"
+   prop-mods="false">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/07.项目总结</path>
+<path
+   copyfrom-path="/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/07.项目总结"
+   copyfrom-rev="19269"
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/07.项目输出</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19271">
+<author>qiancheng</author>
+<date>2022-03-14T03:36:16.172552Z</date>
+<paths>
+<path
+   text-mods="false"
+   kind="dir"
+   action="D"
+   prop-mods="false">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/07.项目输出/01.项目输出</path>
+<path
+   kind="dir"
+   action="D"
+   prop-mods="false"
+   text-mods="false">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/07.项目输出/02.项目报告</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19272">
+<author>qiancheng</author>
+<date>2022-03-14T03:37:05.607504Z</date>
+<paths>
+<path
+   text-mods="false"
+   kind="dir"
+   action="D"
+   prop-mods="false">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/05.工程代码/01.主支工程</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19273">
+<author>qiancheng</author>
+<date>2022-03-14T03:37:16.961802Z</date>
+<paths>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/05.工程代码/03.历史发布版本</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19274">
+<author>qiancheng</author>
+<date>2022-03-14T03:37:35.831875Z</date>
+<paths>
+<path
+   text-mods="false"
+   kind="dir"
+   action="D"
+   prop-mods="false">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/06.工程测试</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19275">
+<author>qiancheng</author>
+<date>2022-03-14T03:37:38.953135Z</date>
+<paths>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   action="D">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/04.详细设计</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19276">
+<author>qiancheng</author>
+<date>2022-03-14T03:37:59.595246Z</date>
+<paths>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/08.其他</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19277">
+<author>qiancheng</author>
+<date>2022-03-14T03:39:17.197689Z</date>
+<paths>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/01.相关资料/CLI_cmd_help.txt</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/01.相关资料/comd.txt</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19278">
+<author>qiancheng</author>
+<date>2022-03-14T03:40:02.655372Z</date>
+<paths>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/嵌入式/Tool-CLI_FlashWrite/07.项目输出/CICO_BatchFlash.json</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19279">
+<author>qiancheng</author>
+<date>2022-03-14T03:41:46.092420Z</date>
+<paths>
+<path
+   prop-mods="false"
+   text-mods="true"
+   kind="file"
+   action="A">/techinao/软件开发/嵌入式/SmartIoT-CICO/04.详细设计/02.系统设计/4G module/SCM状态解析.txt</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19280">
+<author>qiancheng</author>
+<date>2022-03-14T03:41:56.744065Z</date>
+<paths>
+<path
+   text-mods="false"
+   kind="dir"
+   action="D"
+   prop-mods="false">/techinao/软件开发/嵌入式/SmartIoT-CICO/04.详细设计/03.模块设计</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19281">
+<author>qiancheng</author>
+<date>2022-03-14T03:43:45.270026Z</date>
+<paths>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/代码开发/proj_test</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19282">
+<author>qiancheng</author>
+<date>2022-03-14T03:45:11.078217Z</date>
+<paths>
+<path
+   text-mods="false"
+   kind="dir"
+   copyfrom-path="/techinao/软件开发/嵌入式/SmartIoT-CICO"
+   copyfrom-rev="19281"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/Proj-SmartIoT-CICO</path>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/SmartIoT-CICO</path>
+</paths>
+<msg>钱程：重命名</msg>
+</logentry>
+<logentry
+   revision="19283">
+<author>wujunnan</author>
+<date>2022-03-14T06:36:52.696111Z</date>
+<paths>
+<path
+   prop-mods="true"
+   text-mods="true"
+   kind="file"
+   action="A">/techinao/项目管理/项目文档/项目跟踪/RoboKit/测试文档/Robokit转弯半径测试.xlsx</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19284">
+<author>guozhen</author>
+<date>2022-03-14T07:35:52.457058Z</date>
+<paths>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/com/techinao/app/dto</path>
+<path
+   prop-mods="true"
+   text-mods="true"
+   kind="file"
+   action="A">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/com/techinao/app/dto/DeviceSearchParam.class</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="true">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/com/techinao/app/dto/DeviceVo.class</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/com/techinao/app/dto/MissionDto.class</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/com/techinao/app/dto/SceneDict.class</path>
+<path
+   prop-mods="true"
+   text-mods="true"
+   kind="file"
+   action="A">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/com/techinao/app/dto/TrajectoryDto.class</path>
+<path
+   prop-mods="true"
+   text-mods="true"
+   kind="file"
+   action="A">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/com/techinao/app/dto/fileMd5Dto.class</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="true">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/com/techinao/app/dto/updateDeviceInfoParam.class</path>
+<path
+   kind="file"
+   action="A"
+   prop-mods="true"
+   text-mods="true">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/com/techinao/app/dto/updateSceneNameParam.class</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/com/techinao/app/entity</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/com/techinao/app/entity/SceneParam.class</path>
+<path
+   prop-mods="true"
+   text-mods="true"
+   kind="file"
+   action="A">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/com/techinao/app/entity/UpdateDeviceInfoInSceneParam.class</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="true">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/com/techinao/app/entity/mapUpdateParam.class</path>
+<path
+   kind="file"
+   action="A"
+   prop-mods="true"
+   text-mods="true">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/com/techinao/app/entity/updateSceneName.class</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/com/techinao/app/mapper</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/com/techinao/app/mapper/AppDeviceDao.class</path>
+<path
+   prop-mods="true"
+   text-mods="true"
+   kind="file"
+   action="A">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/com/techinao/app/mapper/MissionManagerDao.class</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/com/techinao/app/mapper/trajectoryDao.class</path>
+<path
+   text-mods="false"
+   kind="dir"
+   action="A"
+   prop-mods="false">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/com/techinao/app/service</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/com/techinao/app/service/MissionManagerService.class</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/com/techinao/app/service/VehicleInfoService.class</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/com/techinao/app/service/impl</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/com/techinao/app/service/impl/MissionManagerServiceImpl.class</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="true">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/com/techinao/app/service/impl/VehicleInfoServiceImpl.class</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="true">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/com/techinao/app/service/impl/trajectoryServiceImpl.class</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/com/techinao/app/service/trajectoryService.class</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/com/techinao/app/utils</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/com/techinao/app/utils/CommonResult.class</path>
+<path
+   prop-mods="true"
+   text-mods="true"
+   kind="file"
+   action="A">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/com/techinao/app/utils/ConcurrentTotalFileSize$1.class</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="true">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/com/techinao/app/utils/ConcurrentTotalFileSize$SubDirectoriesAndSize.class</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/com/techinao/app/utils/ConcurrentTotalFileSize.class</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/com/techinao/app/utils/MD5Utils.class</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/com/techinao/app/utils/fileCopy.class</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="true">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/com/techinao/app/utils/findAllFile.class</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/mapper</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/mapper/AppDeviceDao.xml</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/mapper/MissionManagerDao.xml</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="false">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target/classes/mapper/trajectoryDao.xml</path>
+</paths>
+<msg>添加任务查询接口</msg>
+</logentry>
+<logentry
+   revision="19285">
+<author>guozhen</author>
+<date>2022-03-14T07:36:41.472405Z</date>
+<paths>
+<path
+   text-mods="false"
+   kind="dir"
+   action="D"
+   prop-mods="false">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAppCloud/ruoyi-modules/app/target</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19286">
+<author>wangcan</author>
+<date>2022-03-14T08:40:44.432038Z</date>
+<paths>
+<path
+   kind="file"
+   action="M"
+   prop-mods="false"
+   text-mods="true">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAPP(重构版)/robot_master_app/lib/dataMessage/acuSend.dart</path>
+<path
+   action="M"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAPP(重构版)/robot_master_app/lib/dataMessage/ccuSend.dart</path>
+<path
+   action="M"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAPP(重构版)/robot_master_app/lib/pages/autoOperatePage.dart</path>
+<path
+   prop-mods="false"
+   text-mods="true"
+   kind="file"
+   action="M">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAPP(重构版)/robot_master_app/lib/pages/manualOperationPage.dart</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="M"
+   prop-mods="false">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAPP(重构版)/robot_master_app/lib/pages/unknownPage.dart</path>
+</paths>
+<msg>20220314王灿（手动操作页面完善（ccu遥控大灯、安全防护参数可更改）；命令发送完善（增加解义字符判断））</msg>
+</logentry>
+<logentry
+   revision="19287">
+<author>sujinya</author>
+<date>2022-03-14T08:46:22.754848Z</date>
+<paths>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/perception</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/perception/lidar</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/perception/lidar/obstacle_points</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="false">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/perception/lidar/obstacle_points/CMakeLists.txt</path>
+<path
+   text-mods="false"
+   kind="dir"
+   action="A"
+   prop-mods="false">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/perception/lidar/obstacle_points/include</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/perception/lidar/obstacle_points/include/obstacle_points</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/perception/lidar/obstacle_points/include/obstacle_points/obstacle_points.h</path>
+<path
+   prop-mods="false"
+   text-mods="true"
+   kind="file"
+   action="A">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/perception/lidar/obstacle_points/package.xml</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   action="A">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/perception/lidar/obstacle_points/src</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="false">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/perception/lidar/obstacle_points/src/obstacle_points.cpp</path>
+</paths>
+<msg>提交移植的障碍点云模块</msg>
+</logentry>
+<logentry
+   revision="19288">
+<author>yangkai</author>
+<date>2022-03-14T09:43:23.735391Z</date>
+<paths>
+<path
+   prop-mods="false"
+   text-mods="true"
+   kind="file"
+   action="M">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAPP(重构版)/robot_master_app/lib/main.dart</path>
+<path
+   prop-mods="false"
+   text-mods="true"
+   kind="file"
+   action="M">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAPP(重构版)/robot_master_app/lib/pages/deviceListPage.dart</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="M"
+   prop-mods="false">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAPP(重构版)/robot_master_app/lib/pages/unknownPage.dart</path>
+<path
+   kind="file"
+   action="M"
+   prop-mods="false"
+   text-mods="true">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAPP(重构版)/robot_master_app/lib/rawSocket/SocketManage.dart</path>
+<path
+   action="M"
+   prop-mods="false"
+   text-mods="true"
+   kind="file">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAPP(重构版)/robot_master_app/pubspec.yaml</path>
+</paths>
+<msg>设备动态显示在线状态，根据算法回复信息处理文件。</msg>
+</logentry>
+<logentry
+   revision="19289">
+<author>sujinya</author>
+<date>2022-03-14T09:51:22.546772Z</date>
+<paths>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/docker/xavier-nx-docker-ros2-nav2</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="true">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/docker/xavier-nx-docker-ros2-nav2/Dockerfile</path>
+<path
+   kind="file"
+   action="A"
+   prop-mods="true"
+   text-mods="true">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/docker/xavier-nx-docker-ros2-nav2/ReadMe.txt</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/docker/xavier-nx-docker-ros2-nav2/docker_run.sh</path>
+<path
+   prop-mods="true"
+   text-mods="true"
+   kind="file"
+   action="A">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/docker/xavier-nx-docker-ros2-nav2/requirements.txt</path>
+<path
+   text-mods="false"
+   kind="dir"
+   action="A"
+   prop-mods="false">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_decoder</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   action="A">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_decoder/.idea</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="true">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_decoder/.idea/.gitignore</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_decoder/.idea/lslidar_c16_decoder.iml</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_decoder/.idea/misc.xml</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_decoder/.idea/modules.xml</path>
+<path
+   prop-mods="true"
+   text-mods="true"
+   kind="file"
+   action="A">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_decoder/.idea/vcs.xml</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="true">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_decoder/.idea/workspace.xml</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_decoder/CMakeLists.txt</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_decoder/include</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_decoder/include/lslidar_c16_decoder</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="true">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_decoder/include/lslidar_c16_decoder/convert.hpp</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_decoder/include/lslidar_c16_decoder/rawdata.hpp</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_decoder/launch</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_decoder/launch/lslidar_c16_launch.py</path>
+<path
+   prop-mods="true"
+   text-mods="true"
+   kind="file"
+   action="A">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_decoder/launch/lslidar_c16_launch_galactic.py</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="true">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_decoder/package.xml</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_decoder/params</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_decoder/params/lslidar_c16.yaml</path>
+<path
+   text-mods="false"
+   kind="dir"
+   action="A"
+   prop-mods="false">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_decoder/src</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_decoder/src/cloud_node.cpp</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_decoder/src/convert.cpp</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_decoder/src/rawdata.cpp</path>
+<path
+   text-mods="false"
+   kind="dir"
+   action="A"
+   prop-mods="false">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_driver</path>
+<path
+   text-mods="false"
+   kind="dir"
+   action="A"
+   prop-mods="false">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_driver/.idea</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_driver/.idea/.gitignore</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_driver/.idea/lslidar_c32_driver.iml</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_driver/.idea/misc.xml</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="true">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_driver/.idea/modules.xml</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="true">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_driver/.idea/vcs.xml</path>
+<path
+   kind="file"
+   action="A"
+   prop-mods="true"
+   text-mods="true">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_driver/.idea/workspace.xml</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_driver/CMakeLists.txt</path>
+<path
+   text-mods="false"
+   kind="dir"
+   action="A"
+   prop-mods="false">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_driver/include</path>
+<path
+   text-mods="false"
+   kind="dir"
+   action="A"
+   prop-mods="false">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_driver/include/lslidar_c16_driver</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_driver/include/lslidar_c16_driver/input.h</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_driver/include/lslidar_c16_driver/lslidar_c16_driver.h</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_driver/package.xml</path>
+<path
+   text-mods="false"
+   kind="dir"
+   action="A"
+   prop-mods="false">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_driver/src</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="true">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_driver/src/input.cc</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_driver/src/lslidar_c16_driver.cpp</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_driver/src/lslidar_c16_driver_node.cpp</path>
+<path
+   prop-mods="true"
+   text-mods="true"
+   kind="file"
+   action="A">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_driver/src/lslidar_c16_executor.cc</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   action="A">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_msgs</path>
+<path
+   kind="file"
+   action="A"
+   prop-mods="true"
+   text-mods="true">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_msgs/CMakeLists.txt</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   action="A">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_msgs/include</path>
+<path
+   prop-mods="false"
+   text-mods="false"
+   kind="dir"
+   action="A">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_msgs/include/lslidar_c16_msgs</path>
+<path
+   text-mods="false"
+   kind="dir"
+   action="A"
+   prop-mods="false">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_msgs/msg</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_msgs/msg/LslidarC16Layer.msg</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_msgs/msg/LslidarC16Packet.msg</path>
+<path
+   prop-mods="true"
+   text-mods="true"
+   kind="file"
+   action="A">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_msgs/msg/LslidarC16Point.msg</path>
+<path
+   prop-mods="true"
+   text-mods="true"
+   kind="file"
+   action="A">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_msgs/msg/LslidarC16Scan.msg</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="true">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_msgs/msg/LslidarC16ScanUnified.msg</path>
+<path
+   kind="file"
+   action="A"
+   prop-mods="true"
+   text-mods="true">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_msgs/msg/LslidarC16Sweep.msg</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_msgs/package.xml</path>
+<path
+   text-mods="false"
+   kind="dir"
+   action="A"
+   prop-mods="false">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/lslidar_c16_msgs/src</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="true">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/drivers/lidar/leishen/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2_XAVIER_NX_18.04_GALACTIC/LSLIDAR_C16_ROS2_v1.0.1_201225_ROS2/readme.txt</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/modules/perception/lidar/polar_fog</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/软件系统/代码开发/TCN-RobosWare/工程代码/主支工程/robosware/third_party/to_copy.zip</path>
+</paths>
+<msg>提交一份docker的说明文档和leishen的驱动</msg>
+</logentry>
+<logentry
+   revision="19290">
+<author>shaohongwei</author>
+<date>2022-03-14T09:55:23.812395Z</date>
+<paths>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/机械电子/机械文档/西安项目/TCN-调研报告-西安项目线控底盘.pptx</path>
+</paths>
+<msg>TCN-调研报告-西安项目线控底盘</msg>
+</logentry>
+<logentry
+   revision="19291">
+<author>guozhen</author>
+<date>2022-03-14T10:09:18.074458Z</date>
+<paths>
+<path
+   kind="file"
+   copyfrom-path="/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAPP(重构版)/robot_master_app/lib/ftp/FtpManage.dart"
+   copyfrom-rev="19282"
+   action="A"
+   prop-mods="false"
+   text-mods="true">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAPP(重构版)/robot_master_app/lib/ftp/RemoteFtpManage.dart</path>
+<path
+   prop-mods="false"
+   text-mods="true"
+   kind="file"
+   action="M">/techinao/软件开发/云平台/代码开发/后端程序/TCN-RoboCloud-SC-RoboAPP(重构版)/robot_master_app/lib/pages/loginUserPage.dart</path>
+</paths>
+<msg>添加图片的ftp上传下载功能</msg>
+</logentry>
+<logentry
+   revision="19292">
+<author>liwei</author>
+<date>2022-03-14T11:52:28.907464Z</date>
+<paths>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/WEICHAI/04.详细设计/03.模块设计/AUTOSAR_PHM</path>
+</paths>
+<msg>PHM设计文档目录</msg>
+</logentry>
+<logentry
+   revision="19293">
+<author>liwei</author>
+<date>2022-03-14T11:53:08.351786Z</date>
+<paths>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/WEICHAI/04.详细设计/03.模块设计/AUTOSAR_PHM/01 设计文档</path>
+<path
+   action="A"
+   prop-mods="false"
+   text-mods="false"
+   kind="dir">/techinao/软件开发/嵌入式/WEICHAI/04.详细设计/03.模块设计/AUTOSAR_PHM/01 设计文档/PHM实施会议讨论问题项整理和解决.assets</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="true">/techinao/软件开发/嵌入式/WEICHAI/04.详细设计/03.模块设计/AUTOSAR_PHM/01 设计文档/PHM实施会议讨论问题项整理和解决.assets/image-20220311190555893.png</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="true">/techinao/软件开发/嵌入式/WEICHAI/04.详细设计/03.模块设计/AUTOSAR_PHM/01 设计文档/PHM实施会议讨论问题项整理和解决.assets/image-20220311195847397.png</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/嵌入式/WEICHAI/04.详细设计/03.模块设计/AUTOSAR_PHM/01 设计文档/PHM实施会议讨论问题项整理和解决.assets/image-20220314093226258.png</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/嵌入式/WEICHAI/04.详细设计/03.模块设计/AUTOSAR_PHM/01 设计文档/PHM实施会议讨论问题项整理和解决.assets/image-20220314105532121.png</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/嵌入式/WEICHAI/04.详细设计/03.模块设计/AUTOSAR_PHM/01 设计文档/PHM实施会议讨论问题项整理和解决.assets/image-20220314105840805.png</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="false">/techinao/软件开发/嵌入式/WEICHAI/04.详细设计/03.模块设计/AUTOSAR_PHM/01 设计文档/PHM实施会议讨论问题项整理和解决.md</path>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="true">/techinao/软件开发/嵌入式/WEICHAI/04.详细设计/03.模块设计/AUTOSAR_PHM/01 设计文档/Phm（se).xmind</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/嵌入式/WEICHAI/04.详细设计/03.模块设计/AUTOSAR_PHM/01 设计文档/phm.vsdx</path>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/软件开发/嵌入式/WEICHAI/04.详细设计/03.模块设计/AUTOSAR_PHM/01 设计文档/~$$phm.~vsdx</path>
+</paths>
+<msg>AUTOSAR PHM设计文档</msg>
+</logentry>
+<logentry
+   revision="19294">
+<author>wujunnan</author>
+<date>2022-03-14T13:36:44.525330Z</date>
+<paths>
+<path
+   text-mods="false"
+   kind="file"
+   action="D"
+   prop-mods="false">/techinao/项目管理/项目文档/项目跟踪/RoboKit/测试文档/Robokit推杆电机耐久测试记录.xlsx</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19295">
+<author>wujunnan</author>
+<date>2022-03-14T13:36:51.613786Z</date>
+<paths>
+<path
+   action="A"
+   prop-mods="true"
+   text-mods="true"
+   kind="file">/techinao/项目管理/项目文档/项目跟踪/RoboKit/测试文档/Robokit推杆电机耐久测试记录.xlsx</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19296">
+<author>qiyunjie</author>
+<date>2022-03-14T13:59:32.004230Z</date>
+<paths>
+<path
+   action="D"
+   prop-mods="false"
+   text-mods="false"
+   kind="file">/techinao/项目管理/产品文档/产品介绍方案/TCN-自动驾驶-河道监测无人船解决方案.pptx</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19297">
+<author>qiyunjie</author>
+<date>2022-03-14T13:59:43.145256Z</date>
+<paths>
+<path
+   prop-mods="true"
+   text-mods="true"
+   kind="file"
+   action="A">/techinao/项目管理/产品文档/产品介绍方案/上海景格/TCN-自动驾驶-河道监测无人船解决方案.pptx</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="19298">
+<author>qiyunjie</author>
+<date>2022-03-14T14:00:03.590781Z</date>
+<paths>
+<path
+   text-mods="true"
+   kind="file"
+   action="A"
+   prop-mods="true">/techinao/项目管理/产品文档/产品介绍方案/TCN-自动驾驶-河道监测无人船解决方案.pptx</path>
+</paths>
+<msg></msg>
+</logentry>
+</log>
