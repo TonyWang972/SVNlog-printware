@@ -9,18 +9,17 @@
         <span class="logo_title"><strong>SVNlog-printware</strong></span>
     </div>
     <el-menu :default-active="activeIndex" class="el-menu-demo right" mode="horizontal" @select="handleSelect">
-        <el-menu-item index="1"  @click = "getPreMsg('type1')">当天SVN统计</el-menu-item>
-        <el-menu-item index="2" @click = "getPreMsg('type2')">本周SVN统计</el-menu-item>
-        <el-menu-item index="3" @click = "getPreMsg('type3')">自定义SVN统计</el-menu-item>
+      <el-menu-item index="1"  @click = "comName='dayStat'">当天SVN统计</el-menu-item>
+      <el-menu-item index="2" @click = "comName='weekStat'">本周SVN统计</el-menu-item>
+      <el-menu-item index="3" @click = "comName='diyStat'">自定义SVN统计</el-menu-item>
     </el-menu>
-    </el-header>
-
+  </el-header>
   <el-main>
 <!--    <div id="svnChart" class="svnChart"></div>-->
 <!--    <div id="Echarts">-->
 <!--      <div id="svnChart" class="svnChart"></div>-->
 <!--    </div>-->
-    <dayStat> </dayStat>
+    <component :is='comName'></component>
   </el-main>
 
   <el-footer>
@@ -50,6 +49,7 @@ export default {
     data() {
        return {
          activeIndex: '1',
+         comName:'dayStat',
          groupMsg:{},
       }
     },
@@ -82,12 +82,18 @@ body{
   margin-right:15px;
 }
 .logo_title{
-  width: 200px;
+  width: fit-content;
   height: 30px;
   margin-top:50%;
   /*font-weight:lighter;*/
   font-size: 25px;
   color: #707070;
+}
+.funcButtion{
+    width: fit-content;
+    margin-top: 10px;
+    margin-right: 10px;
+    /*display: inline-block;*/
 }
 .el-main{
     box-sizing: border-box;
@@ -104,6 +110,9 @@ body{
     border-width:1px;
     margin:0px
  }
+.el-menu-demo{
+  display: inline-block;
+}
 .svnChart{
   width: 80%;
   height:500px;
@@ -111,23 +120,23 @@ body{
   margin-top:0.5%;
 }
 .header{
-  width: 85%;
+  width: 70%;
   margin: 0px auto;
   font-size: 25px;
   color: #707070;
   border-bottom-style:solid;
   border-bottom:1px ;
 }
-.weatherChart{
- width: 87%;
- height: 500px;
- margin:80px auto;
-}
-.copyright{
-  margin:5px auto;
-  margin-top:30px;
-  color: #707070;
-}
+/*.weatherChart{*/
+/* width: 87%;*/
+/* height: 500px;*/
+/* margin:80px auto;*/
+/*}*/
+/*.copyright{*/
+/*  margin:5px auto;*/
+/*  margin-top:30px;*/
+/*  color: #707070;*/
+/*}*/
 .footer{
   width: 80%;
   height: 30px;
@@ -149,21 +158,18 @@ body{
   text-decoration:none;
   color: #409EFF;
 }
-.titleBottomLine{
-width:45%;
-margin:5px auto;
-border-bottom:2px solid #0066FF;
-}
-.mainTitle{
-  width: 200px;
-  margin:30px auto;
-  font-weight:lighter;
-  font-size: 50px;
-  color: #707070;
-  }
-.box{
-  height:100px;
-}
+/*.titleBottomLine{*/
+/*width:45%;*/
+/*margin:5px auto;*/
+/*border-bottom:2px solid #0066FF;*/
+/*}*/
+/*.mainTitle{*/
+/*  width: 200px;*/
+/*  margin:30px auto;*/
+/*  font-weight:lighter;*/
+/*  font-size: 50px;*/
+/*  color: #707070;*/
+/*  }*/
 
 .right{
   float:right;

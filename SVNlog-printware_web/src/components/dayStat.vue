@@ -1,7 +1,11 @@
 <template>
   <div>
-    <div class="dataTable">
-      <el-table
+    <div class="mainContent">
+      <el-button type="primary" class="tableButton" @click="updateSVN">更新SVN文件</el-button>
+      <el-switch class="tableSwitch" active-text="显示删除" inactive-color="#A0A0A0"
+                 v-model="displayDel" @click = "changeDisplayDelState()">
+      </el-switch>
+      <el-table class="dataTable"
         :data="groupData"
         stripe
         border
@@ -17,28 +21,8 @@
           width="100">
         </el-table-column>
         <el-table-column
-          prop="modCode"
-          label="更新代码"
-          width="100">
-        </el-table-column>
-        <el-table-column
           prop="createDoc"
           label="创建文档"
-          width="100">
-        </el-table-column>
-        <el-table-column
-          prop="modDoc"
-          label="更新文档"
-          width="100">
-        </el-table-column>
-        <el-table-column
-          prop="createPic"
-          label="创建图片"
-          width="100">
-        </el-table-column>
-        <el-table-column
-          prop="modPic"
-          label="更新图片"
           width="100">
         </el-table-column>
         <el-table-column
@@ -47,8 +31,48 @@
           width="100">
         </el-table-column>
         <el-table-column
+          prop="createPic"
+          label="创建图片"
+          width="100">
+        </el-table-column>
+        <el-table-column
+          prop="modCode"
+          label="更新代码"
+          width="100">
+        </el-table-column>
+        <el-table-column
+          prop="modDoc"
+          label="更新文档"
+          width="100">
+        </el-table-column>
+        <el-table-column
+          prop="modPic"
+          label="更新图片"
+          width="100">
+        </el-table-column>
+        <el-table-column
           prop="modVideo"
           label="更新视频"
+          width="100">
+        </el-table-column>
+        <el-table-column
+          prop="delCode"
+          label="删除代码"
+          width="100">
+        </el-table-column>
+        <el-table-column
+          prop="delDoc"
+          label="删除文档"
+          width="100">
+        </el-table-column>
+        <el-table-column
+          prop="delPic"
+          label="删除图片"
+          width="100">
+        </el-table-column>
+        <el-table-column
+          prop="delVideo"
+          label="删除视频"
           width="100">
         </el-table-column>
       </el-table>
@@ -75,6 +99,7 @@ export default {
     return {
       activeIndex: '1',
       groupData:[],
+      displayDel:true,
     }
   },
   methods: {
@@ -88,10 +113,10 @@ export default {
         dataset: {
           source: [
             ['product', '2012', '2013'],
-            ['创建代码', 86.5, 92.1],
-            ['创建文档', 41.1, 30.4],
-            ['创建图片', 24.1, 67.2],
-            ['创建视频', 55.2, 67.1]
+            ['创建', 86.5, 92.1, 92.1],
+            ['修改', 41.1, 30.4, 30.4],
+            ['删除', 24.1, 67.2, 67.2],
+            ['添加', 55.2, 67.1, 67.1]
           ],
           // createSource: [
           //   ['product', '2012', '2013', '2014', '2015', '2016', '2017'],
@@ -113,7 +138,7 @@ export default {
           {
             type: 'pie',
             radius: '50%',
-            center: ['30%', '50%'],
+            center: ['25%', '50%'],
             itemStyle: {
               normal: {
                 label: {
@@ -126,7 +151,7 @@ export default {
             },
             title : {
               show:true,
-              text: '主标题',
+              text: '文档',
               textStyle:{
                 color:'#ccc',//'red'，字体颜色
                 fontStyle:'normal',//'italic'(倾斜) | 'oblique'(倾斜体) ，字体风格
@@ -141,7 +166,26 @@ export default {
           {
             type: 'pie',
             radius: '50%',
-            center: ['70%', '50%'],
+            center: ['50%', '50%'],
+            itemStyle: {
+              normal: {
+                label: {
+                  textStyle: {
+                    color:'black',
+                    fontSize: 14,
+                  }
+                }
+              }
+            },
+            encode: {
+              itemName: 'product',
+              value: '2013'
+            }
+          },
+          {
+            type: 'pie',
+            radius: '50%',
+            center: ['75%', '50%'],
             itemStyle: {
               normal: {
                 label: {
@@ -173,6 +217,9 @@ export default {
       }).catch((error) =>{
         console.log(error)       //请求失败返回的数据
       })
+    },
+    changeDisplayDelState(){
+      this.displayDel=!this.displayDel;
     }
   },
   mounted(){
@@ -190,11 +237,23 @@ export default {
   margin:0 auto;
   margin-top:0.5%;
 }
-.dataTable{
-  width:fit-content;
+.mainContent{
+  width:75%;
   margin:0.5% auto;
   margin-bottom:3%;
   text-align:center;
+}
+.dataTable{
+  width:fit-content;
+  text-align:center;
+}
+.tableButton{
+  float: left;
+}
+.tableSwitch{
+  margin-left: 10px;
+  margin-top: 10px;
+  float: left;
 }
 /*最外层透明*/
 .el-table, .el-table__expanded-cell{
@@ -206,7 +265,7 @@ export default {
 /deep/.el-table td {
   background-color: transparent;
 }
-.buttonGroup{
-
+.left{
+    float: left;
 }
 </style>
