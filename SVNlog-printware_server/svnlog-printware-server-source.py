@@ -4,9 +4,8 @@ import json
 import os
 from flask import Flask, jsonify, request
 from gevent import pywsgi
+import pexpect
 
-
-cmd = 'ls'
 app = Flask(__name__)
 
 # 解决中文乱码问题
@@ -15,11 +14,6 @@ app.config['JSONIFY_MIMETYPE'] = "application/json;charset=utf-8"
 
 # 获取HTML二进制文件
 file = "weeklogfile.log"
-
-#svn命令
-# startDate="2022-2-1"
-# endDate="2022-2-1"
-# svnlog_date="svn log -r {"+endDate+"}:{"+startDate+"} -v --xml > "+file
 
 # 初始化数据集对象
 msg = {}
@@ -169,10 +163,6 @@ def getUserMsg():
 # //////////////////////////////////////
 # 获取组数据（后端接口）
 # //////////////////////////////////////
-# cloud = ['yangkai','guozhen']
-# software = ['heyufei','sujinya','zhangran','qiancheng','guohuayue','wangcan','qiancheng']
-# hardware = ['shaxiaoyu','shaohongwei']
-# product = ['wujunnan', 'qiyunjie', 'yangzenghui']
 @app.route('/getGroupMsg')
 def getGroupMsg():
     groupList = ['cloud','software','hardware','product','other']
@@ -225,11 +215,15 @@ def read_log():
     f.close()  # 将文件关闭
     return str
 
-@app.route('/'
-           '')
+@app.route('/updateSVN')
 def updateFile():
     cmd='svn update'
-    os.system(cmd)
+    print(cmd)
+    os.popen(cmd)
+    # child = pexpect.spawn(cmd)
+    # child.expect("Updating \'.\':\nAuthentication realm: <http://svn.roboy.com.cn:80> Subversion Repository\nPassword for \'qiyunjie\':")
+    # child.sendline('qiyunjie')  # 你的密码
+    return "ok"
 
 # //////////////////////////////////////
 # 传入起始时间，更新log文件
