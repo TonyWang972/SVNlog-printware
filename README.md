@@ -13,3 +13,5 @@ SVNlog-printware是一个python写的开源代码统计程序，是从Subversion
 1.需要安装python的运行环境（python3.9&flask）
 2.需要使用svn客户端，必须保证本机的svn客户端命令可用
 
+### SVNlog-printware代码结构
+
