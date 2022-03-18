@@ -293,7 +293,7 @@ export default {
       //  调用SVN更新接口
       this.$axios({
         method:'post',
-        url:'192.168.123.121:82/updateSVN',
+        url:'/api/updateSVN',
       }).then((response) =>{          //返回promise(ES6语法)
         console.log(response)
       }).catch((error) =>{

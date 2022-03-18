@@ -24,10 +24,26 @@ SVNlog-printware是一个python&Vue写的开源代码统计程序，是从Subver
 
 ### SVNlog-printware本地运行方法
 
+	#### 后端部署：
+
 1. 将svnlog-printware-server.py拷贝至SVN文件夹下（可以正常运行SVNlog语句的文件夹）
+
 2. 根据需求修改相关代码配置文件
+
 3. 后台持续运行Flask`nohup python3 svnlog-printware-server.py & `
-4. 安装Nginx服务器并将Vue导出的网页放在指定文件夹并进行配置（防止js、css等文件被过滤），即可看到相关信息的表格和可视化数据
+
+   ##### 辅助调试命令
+
+   1. 检查当前运行python端口进程：netstat -tunlp | grep 5000
+   2. 停止该进程：kill { pid }
+
+   
+
+	#### 前端部署：
+
+1. 安装Nginx服务器
+2. 将Vue导出的网页放在指定文件夹并进行配置（防止js、css等文件被过滤）
+3. 访问指定ip和端口:  ` { ip }:{ port }/svn`
 
 ### SVNlog-printware服务器运行方法
 
@@ -55,6 +71,10 @@ SVNlog-printware是一个python&Vue写的开源代码统计程序，是从Subver
 
 
 ### TempMsg
+
+ssh -x server@192.168.123.121
+
+cd data_backup/svn_server_everyday_backup/
 
 svn log -r {2022-3-10}:{2022-3-11} -v --xml >weeklogfile.log
 

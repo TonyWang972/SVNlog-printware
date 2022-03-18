@@ -160,7 +160,7 @@ def getUserSourceMsg():
 def getDetailMsg():
     msgList = getSourceMsg()
     data = json.dumps(msgList)
-    # print(data)
+    print(data)
     return data
 
 # //////////////////////////////////////
@@ -233,7 +233,6 @@ def read_log():
     return str
 
 
-
 # //////////////////////////////////////
 # 传入起始时间，更新log文件
 # //////////////////////////////////////
@@ -241,8 +240,11 @@ def read_log():
 def updateLog():
     startTime=request.form.get('startTime')
     endTime=request.form.get('endTime')
-    cmd="svn log -r {"+startTime+"}:{"+endTime+"} -v --xml > "+file
+    cmd="svn log -r {"+startTime+"}:{"+endTime+"} -v --xml > "+file+" --username qiyunjie --password qiyunjie"
+    # print(cmd)
     os.system(cmd)
+    return cmd
+
 
 # //////////////////////////////////////
 # 更新SVN文件
@@ -250,7 +252,9 @@ def updateLog():
 @app.route('/updateSVN')
 def updateSVN():
     cmd="svn update --username "+admin_username+" --password "+admin_password;
+    # print(cmd)
     os.system(cmd)
+    return cmd
 
 # @app.route('/updateSVN')
 # def updateFile():

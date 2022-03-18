@@ -14,11 +14,11 @@
           width="50"
           trigger="hover"
           content="更新SVN文件至最新版本，可能需要等待较长时间">
-          <el-button slot="reference" type="primary" icon="el-icon-refresh" circle class="updateSVN right" @click="updateSVN"></el-button>
+          <el-button slot="reference" v-bind:icon="iconData" type="primary" circle class="updateSVN right" @click="updateSVN"></el-button>
         </el-popover>
         <el-menu-item index="3" @click = "comName='diyStat'" class="right">自定义SVN统计</el-menu-item>
         <el-menu-item index="2" @click = "comName='weekStat'" class="right">本周SVN统计</el-menu-item>
-        <el-menu-item index="1"  @click = "comName='dayStat'" class="right">当天SVN统计</el-menu-item>
+        <el-menu-item index="1" @click = "comName='dayStat'" class="right">当天SVN统计</el-menu-item>
     </el-menu>
   </el-header>
   <el-main>
@@ -40,12 +40,14 @@ import dayStat from './pages/dayStat.vue'
 import weekStat from './pages/weekStat.vue'
 import diyStat from './pages/diyStat.vue'
 export default {
+    inject: [ 'loaded','loading'],
     name: 'Echarts',
     data() {
        return {
          activeIndex: '1',
          comName:'dayStat',
          groupMsg:{},
+         iconData:'el-icon-refresh'
       }
     },
     components:{
@@ -56,13 +58,21 @@ export default {
     created(){
     },
   methods: {
+    buttonLoading(){
+      this.iconData = 'el-icon-loading'
+    },
+    loaded(){
+      this.iconData = 'el-icon-refresh'
+    },
     updateSVN(){
       //  调用SVN更新接口
+      this.buttonLoading(),
       this.$axios({
-        method:'post',
+        method:'get',
         url:'/api/updateSVN',
       }).then((response) =>{          //返回promise(ES6语法)
         console.log(response)
+        this.loaded(),
         this.$message({
           duration:3000,
           showClose: true,
@@ -71,6 +81,7 @@ export default {
         });
       }).catch((error) =>{
         console.log(error)       //请求失败返回的数据
+        this.loaded(),
         this.$message({
           duration:3000,
           showClose: true,
@@ -78,11 +89,10 @@ export default {
           type: 'error'
         });
       })
-
     },
     filterType(value, row){
       return row.tag === value;
-    }
+    },
   },
 };
 </script>
