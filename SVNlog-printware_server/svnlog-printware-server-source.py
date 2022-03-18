@@ -22,7 +22,7 @@ dataList = []
 userDict = {}
 
 # 判断类型
-codeArray = ['java', 'c','msg', 'cpp', 'py','h','dart','yaml','xml', 'html', 'css', 'js','vue','class','iml', 'cc', 'gitignore', 'hpp', 'sh', 'json']
+codeArray = ['java', 'c','msg', 'cpp', 'py','h','dart','yaml','xml', 'html', 'css', 'js','vue','class','iml', 'cc', 'gitignore', 'hpp', 'sh', 'json', 'arxml']
 docArray = ['doc', 'docx','ppt','pptx','xls','xlsx','txt','md', 'zip', 'rp', 'xmind', 'vsdx', 'vsd', 'csv']
 picArray = ['gif', 'png', 'bmp', 'ico', 'jpg', 'jpeg']
 videoArray = ['mp4', 'm4v', 'mkv', 'webm', 'avi', 'wmv', 'mpg', 'flv', 'mov']
@@ -32,6 +32,18 @@ cloud = ['yangkai','wangcan','guozhen']
 software = ['heyufei','sujinya','zhangran','qiancheng','guohuayue','liwei']
 hardware = ['shaxiaoyu','shaohongwei']
 product = ['wujunnan', 'qiyunjie','yangzenghui']
+
+#组名称字典
+groupName = {'cloud': '云平台', 'software': '软件组', 'hardware': '硬件组', 'product': '产品组', 'other': '其他组', }
+
+#员工名称字典
+userName = {'yangkai': '杨凯', 'wangcan': '王灿', 'guozhen': '郭震', 'heyufei': '贺喻飞', 'sujinya': '苏金亚','zhangran': '张然',
+            'qiancheng': '钱程', 'guohuayue': '郭华月', 'liwei': '李威', 'shaxiaoyu': '沙小宇', 'shaohongwei': '邵洪伟',
+            'wujunnan': '巫军楠', 'qiyunjie': '戚云杰', 'yangzenghui': '杨增辉'}
+
+#管理员账号密码
+admin_username='qiyunjie'
+admin_password='qiyunjie'
 
 # 判断状态
 def getType(type):
@@ -157,6 +169,9 @@ def getDetailMsg():
 @app.route('/getUserMsg')
 def getUserMsg():
     userMsgList = getUserSourceMsg()
+    for userDict in userMsgList:
+        userDict['name']=userName[userDict['name']]
+
     data = json.dumps(userMsgList)
     return data
 
@@ -166,11 +181,10 @@ def getUserMsg():
 @app.route('/getGroupMsg')
 def getGroupMsg():
     groupList = ['cloud','software','hardware','product','other']
-    groupName = {'cloud':'云平台', 'software': '软件组', 'hardware': '硬件组','product': '产品组','other': '其他',}
     groupMsgList = []
     userMsgList=getUserSourceMsg()
     for index in range(len(groupList)):
-        groupDict = {'groupName': groupName[groupList[index]], 'totalNum': 0, 'createCode': 0, 'createDoc': 0,
+        groupDict = {'name': groupName[groupList[index]], 'totalNum': 0, 'createCode': 0, 'createDoc': 0,
                     'createPic': 0,
                     'createVideo': 0, 'createOther': 0
             , 'modCode': 0, 'modDoc': 0, 'modPic': 0, 'modVideo': 0, 'modOther': 0
@@ -178,6 +192,7 @@ def getGroupMsg():
         groupMsgList.append(groupDict)
 
     for indexPath in range(len(userMsgList)):
+        # print(userMsgList[indexPath]['name'])
         if (userMsgList[indexPath]['name'] in cloud):
             groupDict_findAndAdd(groupMsgList,'云平台',userMsgList[indexPath])
         elif (userMsgList[indexPath]['name'] in software):
@@ -187,7 +202,7 @@ def getGroupMsg():
         elif (userMsgList[indexPath]['name'] in product):
             groupDict_findAndAdd(groupMsgList,'产品组',userMsgList[indexPath])
         else:
-            groupDict_findAndAdd(groupMsgList,'其他',userMsgList[indexPath])
+            groupDict_findAndAdd(groupMsgList,'其他组',userMsgList[indexPath])
     data = json.dumps(groupMsgList)
     return data
 
@@ -196,7 +211,9 @@ def getGroupMsg():
 # //////////////////////////////////////
 def groupDict_findAndAdd(groupMsgList,groupName,addDict):
     for index in range(len(groupMsgList)):
-        if(groupMsgList[index]['groupName']==groupName):
+        # print(groupMsgList[index]['name']+"  "+groupName)
+        # print(groupMsgList[index]['name']==groupName)
+        if(groupMsgList[index]['name']==groupName):
             dict_add(groupMsgList[index], addDict)
 
 # //////////////////////////////////////
@@ -204,7 +221,7 @@ def groupDict_findAndAdd(groupMsgList,groupName,addDict):
 # //////////////////////////////////////
 def dict_add(AddedDict,addDict):
     for key in AddedDict:
-        if(key=='groupName'):
+        if(key=='name'):
             continue
         # print(AddedDict[key]+addDict[key])
         AddedDict[key]+=addDict[key]
@@ -215,15 +232,7 @@ def read_log():
     f.close()  # 将文件关闭
     return str
 
-@app.route('/updateSVN')
-def updateFile():
-    cmd='svn update'
-    print(cmd)
-    os.popen(cmd)
-    # child = pexpect.spawn(cmd)
-    # child.expect("Updating \'.\':\nAuthentication realm: <http://svn.roboy.com.cn:80> Subversion Repository\nPassword for \'qiyunjie\':")
-    # child.sendline('qiyunjie')  # 你的密码
-    return "ok"
+
 
 # //////////////////////////////////////
 # 传入起始时间，更新log文件
@@ -234,6 +243,24 @@ def updateLog():
     endTime=request.form.get('endTime')
     cmd="svn log -r {"+startTime+"}:{"+endTime+"} -v --xml > "+file
     os.system(cmd)
+
+# //////////////////////////////////////
+# 更新SVN文件
+# //////////////////////////////////////
+@app.route('/updateSVN')
+def updateSVN():
+    cmd="svn update --username "+admin_username+" --password "+admin_password;
+    os.system(cmd)
+
+# @app.route('/updateSVN')
+# def updateFile():
+#     cmd='svn update --username qiyunjie --password qiyunjie'
+#     print(cmd)
+#     os.popen(cmd)
+#     # child = pexpect.spawn(cmd)
+#     # child.expect("Updating \'.\':\nAuthentication realm: <http://svn.roboy.com.cn:80> Subversion Repository\nPassword for \'qiyunjie\':")
+#     # child.sendline('qiyunjie')  # 你的密码
+#     return "ok"
 
 if __name__ == '__main__':
     server = pywsgi.WSGIServer(('0.0.0.0', 5000), app)

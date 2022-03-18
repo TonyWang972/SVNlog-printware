@@ -1,49 +1,44 @@
 <template>
 <div id="app">
-  <el-container>
   <el-header class="header">
-    <div class="logo left">
-        <img class="pic_logo" src="/static/logo.png"  alt="logo" />
-    </div>
-    <div class="logo left">
-        <span class="logo_title"><strong>SVNlog-printware</strong></span>
-    </div>
-    <el-menu :default-active="activeIndex" class="el-menu-demo right" mode="horizontal" @select="handleSelect">
-      <el-menu-item index="1"  @click = "comName='dayStat'">当天SVN统计</el-menu-item>
-      <el-menu-item index="2" @click = "comName='weekStat'">本周SVN统计</el-menu-item>
-      <el-menu-item index="3" @click = "comName='diyStat'">自定义SVN统计</el-menu-item>
+    <el-menu :default-active="activeIndex" class="el-menu-demo wp" mode="horizontal" @select="handleSelect">
+        <div class="logo left">
+          <img class="pic_logo" src="/static/logo.png"  alt="logo" />
+        </div>
+        <div class="logo left">
+          <span class="logo_title"><strong>SVNlog-printware</strong></span>
+        </div>
+        <el-popover
+          placement="bottom"
+          title="Update SVN"
+          width="50"
+          trigger="hover"
+          content="更新SVN文件至最新版本，可能需要等待较长时间">
+          <el-button slot="reference" type="primary" icon="el-icon-refresh" circle class="updateSVN right" @click="updateSVN"></el-button>
+        </el-popover>
+        <el-menu-item index="3" @click = "comName='diyStat'" class="right">自定义SVN统计</el-menu-item>
+        <el-menu-item index="2" @click = "comName='weekStat'" class="right">本周SVN统计</el-menu-item>
+        <el-menu-item index="1"  @click = "comName='dayStat'" class="right">当天SVN统计</el-menu-item>
     </el-menu>
   </el-header>
   <el-main>
-<!--    <div id="svnChart" class="svnChart"></div>-->
-<!--    <div id="Echarts">-->
-<!--      <div id="svnChart" class="svnChart"></div>-->
-<!--    </div>-->
-    <component :is='comName'></component>
+        <component :is='comName'></component>
   </el-main>
 
   <el-footer>
-    <div class ="footer">
-      <div class ="authorLink">
-        2022 © Techinao  •  Powered by&nbsp;<a href="http://tonywang.cn" target="_blank" class="authorWebsite">TonyWang</a>
-        </div>
-    </div>
+      <div class ="footer">
+          <div class ="authorLink">
+            版权所有 2022 © Techinao  •  Powered by&nbsp;<a href="http://tonywang.cn" target="_blank" class="authorWebsite">TonyWang</a>
+          </div>
+      </div>
   </el-footer>
-  </el-container>
 </div>
 </template>
-<!--<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>-->
-<!--<script>-->
-<!--    var options = {-->
-<!--      stringsElement: '#typed-strings',-->
-<!--      typeSpeed: 50, loop: true-->
-<!--    };-->
-<!--    var typed = new Typed('#typed', options);-->
-<!--</script>-->
+
 <script  type="text/javascript">
-import dayStat from './components/dayStat.vue'
-import weekStat from './components/weekStat.vue'
-import diyStat from './components/diyStat.vue'
+import dayStat from './pages/dayStat.vue'
+import weekStat from './pages/weekStat.vue'
+import diyStat from './pages/diyStat.vue'
 export default {
     name: 'Echarts',
     data() {
@@ -60,6 +55,35 @@ export default {
     },
     created(){
     },
+  methods: {
+    updateSVN(){
+      //  调用SVN更新接口
+      this.$axios({
+        method:'post',
+        url:'/api/updateSVN',
+      }).then((response) =>{          //返回promise(ES6语法)
+        console.log(response)
+        this.$message({
+          duration:3000,
+          showClose: true,
+          message: 'SVN更新完成！',
+          type: 'success'
+        });
+      }).catch((error) =>{
+        console.log(error)       //请求失败返回的数据
+        this.$message({
+          duration:3000,
+          showClose: true,
+          message: 'SVN更新失败！',
+          type: 'error'
+        });
+      })
+
+    },
+    filterType(value, row){
+      return row.tag === value;
+    }
+  },
 };
 </script>
 
@@ -70,11 +94,11 @@ body{
   margin: 0;
   padding: 0;
   border: 0;
-  overflow: hidden;
+  overflow:scroll;
 }
 .logo{
   height: 100%;
-  padding-top: 0.6%;
+  padding-top: 1%;
 }
 .pic_logo{
   height: 30px;
@@ -88,13 +112,10 @@ body{
   /*font-weight:lighter;*/
   font-size: 25px;
   color: #707070;
-}
-.funcButtion{
-    width: fit-content;
-    margin-top: 10px;
-    margin-right: 10px;
-    /*display: inline-block;*/
-}
+}.updateSVN{
+   margin-top:12px;
+   margin-left:5px;
+ }
 .el-main{
     box-sizing: border-box;
     box-shadow: inset 0px 20px 20px -20px #707070;
@@ -110,16 +131,17 @@ body{
     border-width:1px;
     margin:0px
  }
-.el-menu-demo{
-  display: inline-block;
-}
-.svnChart{
-  width: 80%;
-  height:500px;
-  margin:0 auto;
-  margin-top:0.5%;
-}
+/*.svnChart{*/
+/*  width: 80%;*/
+/*  height:500px;*/
+/*  margin:0 auto;*/
+/*  margin-top:0.5%;*/
+/*}*/
 .header{
+  width: 100%;
+  height: 80px;
+}
+.wp{
   width: 70%;
   margin: 0px auto;
   font-size: 25px;
@@ -127,25 +149,13 @@ body{
   border-bottom-style:solid;
   border-bottom:1px ;
 }
-/*.weatherChart{*/
-/* width: 87%;*/
-/* height: 500px;*/
-/* margin:80px auto;*/
-/*}*/
-/*.copyright{*/
-/*  margin:5px auto;*/
-/*  margin-top:30px;*/
-/*  color: #707070;*/
-/*}*/
 .footer{
   width: 80%;
   height: 30px;
   padding: 20px 30px 20px 280px;
-  margin-top: 40px;
   margin:0px auto;
   display: inline-block;
   color: #707070;
-  /*width: fit-content;*/
 }
 .authorLink{
   float: left;
@@ -158,18 +168,6 @@ body{
   text-decoration:none;
   color: #409EFF;
 }
-/*.titleBottomLine{*/
-/*width:45%;*/
-/*margin:5px auto;*/
-/*border-bottom:2px solid #0066FF;*/
-/*}*/
-/*.mainTitle{*/
-/*  width: 200px;*/
-/*  margin:30px auto;*/
-/*  font-weight:lighter;*/
-/*  font-size: 50px;*/
-/*  color: #707070;*/
-/*  }*/
 
 .right{
   float:right;
