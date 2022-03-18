@@ -6,7 +6,7 @@
     </div>
     <div class="buttonGroup">
       <el-button-group :default-active="activeIndex" >
-        <el-button index="1" type="primary" icon="el-icon-mouse" size="small">产品组</el-button>
+        <el-button index="1" type="primary" icon="el-icon-mouse" size="small" @click="updateLog()">产品组</el-button>
         <el-button index="2" type="primary" icon="el-icon-upload" size="small">云平台组</el-button>
         <el-button index="3" type="primary" icon="el-icon-share" size="small">软件组</el-button>
         <el-button index="4" type="primary" icon="el-icon-cpu" size="small">硬件组</el-button>
@@ -282,29 +282,54 @@ export default {
     },
     displayTableData(){
       tableData.concat(this.groupData).concat(this.userData);
-      console(tableData);
     },
     changeDisplayDelState(){
       for (var val in this.showColumn) {
         this.showColumn[val]=!this.showColumn[val];
       }
     },
-    updateSVN(){
+    updateLog(){
       //  调用SVN更新接口
+      var myDate = new Date();
+      var year=myDate.getFullYear();    //获取完整的年份(4位,1970-????)
+      var month=myDate.getMonth();       //获取当前月份(0-11,0代表1月)
+      var day = myDate.getDate();        //获取当前日(1-31)
+      var time1 = year+'-'+month+'-'+day;
+
+      var tomorrowDate = new Date();
+      tomorrowDate.setTime(tomorrowDate.getTime()+24*60*60*1000);
+      year=tomorrowDate.getFullYear();    //获取完整的年份(4位,1970-????)
+      month=tomorrowDate.getMonth();       //获取当前月份(0-11,0代表1月)
+      day = tomorrowDate.getDate();        //获取当前日(1-31)
+      var time2 = year+'-'+month+'-'+day;
+      console.log(time1)
+      console.log(time2)
+
       this.$axios({
         method:'post',
-        url:'/api/updateSVN',
+        url:'/api/updateLog',
+        data:{
+          startTime: time1,
+          endTime: time2
+        }
       }).then((response) =>{          //返回promise(ES6语法)
         console.log(response)
+        this.$message({
+          duration:3000,
+          showClose: true,
+          message: 'LOG文件更新完成！',
+          type: 'success'
+        });
       }).catch((error) =>{
         console.log(error)       //请求失败返回的数据
+        this.$message({
+          duration:3000,
+          showClose: true,
+          message: 'LOG文件更新失败！',
+          type: 'error'
+        });
       })
-      this.$message({
-        duration:3000,
-        showClose: true,
-        message: 'SVN更新完成！',
-        type: 'success'
-      });
+
     },
     filterType(value, row){
       return row.tag === value;

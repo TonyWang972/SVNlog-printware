@@ -4,6 +4,7 @@ import json
 import os
 from flask import Flask, jsonify, request
 from gevent import pywsgi
+import datetime
 import pexpect
 
 app = Flask(__name__)
@@ -29,7 +30,7 @@ videoArray = ['mp4', 'm4v', 'mkv', 'webm', 'avi', 'wmv', 'mpg', 'flv', 'mov']
 
 # 组员
 cloud = ['yangkai','wangcan','guozhen']
-software = ['heyufei','sujinya','zhangran','qiancheng','guohuayue','liwei']
+software = ['heyufei','sujinya','zhangran','qiancheng','guohuayue','liwei','gaopeinan']
 hardware = ['shaxiaoyu','shaohongwei']
 product = ['wujunnan', 'qiyunjie','yangzenghui']
 
@@ -39,7 +40,7 @@ groupName = {'cloud': '云平台', 'software': '软件组', 'hardware': '硬件�
 #员工名称字典
 userName = {'yangkai': '杨凯', 'wangcan': '王灿', 'guozhen': '郭震', 'heyufei': '贺喻飞', 'sujinya': '苏金亚','zhangran': '张然',
             'qiancheng': '钱程', 'guohuayue': '郭华月', 'liwei': '李威', 'shaxiaoyu': '沙小宇', 'shaohongwei': '邵洪伟',
-            'wujunnan': '巫军楠', 'qiyunjie': '戚云杰', 'yangzenghui': '杨增辉'}
+            'wujunnan': '巫军楠', 'qiyunjie': '戚云杰', 'yangzenghui': '杨增辉', 'gaopeinan': '高培楠', 'xiemin': '谢敏'}
 
 #管理员账号密码
 admin_username='qiyunjie'
@@ -66,7 +67,6 @@ def getSourceMsg():
    userLogentryList = []
    userMsgList = []
    str = read_log()
-
    msg['author_name'] = re.findall(r'<author>(.*?)</author>',
                                    str)
    msg['logentry'] = re.findall(r'<logentry([\s\S]*?)</logentry>',
@@ -160,7 +160,6 @@ def getUserSourceMsg():
 def getDetailMsg():
     msgList = getSourceMsg()
     data = json.dumps(msgList)
-    print(data)
     return data
 
 # //////////////////////////////////////
@@ -169,9 +168,11 @@ def getDetailMsg():
 @app.route('/getUserMsg')
 def getUserMsg():
     userMsgList = getUserSourceMsg()
+    # print(userMsgList)
     for userDict in userMsgList:
-        userDict['name']=userName[userDict['name']]
-
+        # 没出现过名字，则输出英文
+        if userDict['name'] in userName:
+            userDict['name']=userName[userDict['name']]
     data = json.dumps(userMsgList)
     return data
 
@@ -238,13 +239,27 @@ def read_log():
 # //////////////////////////////////////
 @app.route('/updateLog',methods=['POST'])
 def updateLog():
-    startTime=request.form.get('startTime')
-    endTime=request.form.get('endTime')
-    cmd="svn log -r {"+startTime+"}:{"+endTime+"} -v --xml > "+file+" --username qiyunjie --password qiyunjie"
-    # print(cmd)
+    today = datetime.date.today()
+    now_time = datetime.datetime.now().strftime('%Y-%m-%d')
+    tomorrow_time = today + datetime.timedelta(days=1)
+    startTime=str(now_time)
+    endTime=str(tomorrow_time)
+
+    timeDict = request.data
+    print(bytes.formhex(timeDict))
+    # startTime = timeDict['bl_code']
+    # startTime = timeDict['ua_code']
+
+    # endTime = request.form.get("endTime")
+
+    # startTime=now_time.strftime('%Y-%m-%d')
+    # endTime=now_time.timedelta(days=1).strftime('%Y-%m-%d')
+    # startTime=request.form.get('startTime')
+    # endTime=request.form.get('endTime')
+    cmd="svn log -r {"+str(startTime)+"}:{"+str(endTime)+"} -v --xml > "+file+" --username qiyunjie --password qiyunjie"
+    print(cmd)
     os.system(cmd)
     return cmd
-
 
 # //////////////////////////////////////
 # 更新SVN文件

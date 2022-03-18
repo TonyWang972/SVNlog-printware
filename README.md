@@ -62,21 +62,21 @@ SVNlog-printware是一个python&Vue写的开源代码统计程序，是从Subver
 
 ### 后台接口文档
 
-按员工统计：http://192.168.123.121:5000/getUserMsg
+按员工统计：http://{ ip }:5000/getUserMsg
 
-按组统计：http://192.168.123.121:5000/getGroupMsg
+按组统计：http://{ ip }:5000/getGroupMsg
 
-展示详细信息：http://192.168.123.121:5000/getDetailMsg
+展示详细信息：http://{ ip }:5000/getDetailMsg
 
 
 
-### TempMsg
+### 相关Linux命令
 
 ssh -x server@192.168.123.121
 
 cd data_backup/svn_server_everyday_backup/
 
-svn log -r {2022-3-10}:{2022-3-11} -v --xml >weeklogfile.log
+svn log -r {2022-3-16}:{2022-3-18} -v --xml >weeklogfile.log --username { username }--password { password }
 
 python3 svnlog-printware-server.py 
 
