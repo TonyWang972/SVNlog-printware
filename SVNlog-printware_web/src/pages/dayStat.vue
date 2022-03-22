@@ -11,6 +11,7 @@
         <el-button index="3" type="primary" icon="el-icon-share" size="small">软件组</el-button>
         <el-button index="4" type="primary" icon="el-icon-cpu" size="small">硬件组</el-button>
       </el-button-group>
+      <el-button class="updateLog"v-bind:icon="iconData" type="success" size="small" @click="updateLogByDay()">更新日Log文件</el-button>
       <el-switch class="tableSwitch" active-text="显示删除" inactive-color="#A0A0A0" active-color="#6587ee"
                  v-model="displayDel" @change ="changeDisplayDelState()">
       </el-switch>
@@ -18,6 +19,7 @@
 <!--    表格-->
     <div class="mainContent">
       <el-table class="dataTable"
+                :key="tableKey"
                 :data="tableData"
                 stripe
                 border
@@ -25,73 +27,78 @@
         <el-table-column
           prop="name"
           label="统计项"
-          width="150"
+          width="120"
           :filters="[{ text: '显示组', value: 'group' }, { text: '显示个人', value: 'user' }]"
           :filter-method="filterType">
         </el-table-column>
         <el-table-column
           prop="createCode"
           label="创建代码"
-          width="100">
+          width="90">
         </el-table-column>
         <el-table-column
           prop="createDoc"
           label="创建文档"
-          width="100">
+          width="90">
         </el-table-column>
         <el-table-column
           prop="createVideo"
           label="创建视频"
-          width="100">
+          width="90">
         </el-table-column>
         <el-table-column
           prop="createPic"
           label="创建图片"
-          width="100">
+          width="90">
         </el-table-column>
         <el-table-column
           prop="modCode"
           label="更新代码"
-          width="100">
+          width="90">
         </el-table-column>
         <el-table-column
           prop="modDoc"
           label="更新文档"
-          width="100">
+          width="90">
         </el-table-column>
         <el-table-column
           prop="modPic"
           label="更新图片"
-          width="100">
+          width="90">
         </el-table-column>
         <el-table-column
           prop="modVideo"
           label="更新视频"
-          width="100">
+          width="90">
         </el-table-column>
         <el-table-column
           prop="delCode"
           label="删除代码"
-          width="100"
+          width="90"
           v-if="showColumn.delCode">
         </el-table-column>
         <el-table-column
           prop="delDoc"
           label="删除文档"
-          width="100"
+          width="90"
           v-if="showColumn.delDoc">
         </el-table-column>
         <el-table-column
           prop="delPic"
           label="删除图片"
-          width="100"
+          width="90"
           v-if="showColumn.delPic">
         </el-table-column>
         <el-table-column
           prop="delVideo"
           label="删除视频"
-          width="100"
+          width="90"
           v-if="showColumn.delVideo">
+        </el-table-column>
+        <el-table-column
+          prop="otherOperation"
+          label="其他操作"
+          width="90">
         </el-table-column>
       </el-table>
     </div>
@@ -113,9 +120,12 @@
 <script>
 
 export default {
+  inject: [ 'loaded','loading'],
   name: 'Echarts',
   data() {
     return {
+      tableKey:0,
+      iconData:'el-icon-refresh',
       activeIndex: '1',
       tableData:[],
       groupData:[],
@@ -132,6 +142,12 @@ export default {
     }
   },
   methods: {
+    buttonLoading(){
+      this.iconData = 'el-icon-loading'
+    },
+    loaded(){
+      this.iconData = 'el-icon-refresh'
+    },
     myEcharts() {
       var myChart = this.$echarts.init(document.getElementById('svnChart'));
       // 指定图表的配置项和数据
@@ -172,6 +188,7 @@ export default {
           }
         ],
         dataset: {
+          //要设的值
           source: [
             ['product', '2012', '2013'],
             ['创建', 86.5, 92.1, 92.1],
@@ -254,22 +271,31 @@ export default {
       myChart.setOption(option);
     },
     getData(){
+      this.tableData=[];
       this.$axios({
         method:'get',
         url:'/api/getGroupMsg',
+        params:{
+          type:"day"
+        }
       }).then((response) =>{          //返回promise(ES6语法)
         this.groupData=response.data
         //标记信息类型（组/个人）
         for (var val in this.groupData)
           this.groupData[val]['tag']='group';
         this.tableData=this.tableData.concat(this.groupData);
-        console.log('concat:'+this.tableData.concat(this.groupData));
+        /*
+        *在这里可以导数据至Echarts
+         */
       }).catch((error) =>{
         console.log(error)       //请求失败返回的数据
       }),
       this.$axios({
         method:'get',
         url:'/api/getUserMsg',
+        params:{
+          type:"day"
+        }
       }).then((response) =>{          //返回promise(ES6语法)
         this.userData=response.data
         //标记信息类型（组/个人）
@@ -281,6 +307,7 @@ export default {
       })
     },
     displayTableData(){
+      this.tableData=[];
       tableData.concat(this.groupData).concat(this.userData);
     },
     changeDisplayDelState(){
@@ -288,49 +315,75 @@ export default {
         this.showColumn[val]=!this.showColumn[val];
       }
     },
-    updateLog(){
-      //  调用SVN更新接口
-      var myDate = new Date();
-      var year=myDate.getFullYear();    //获取完整的年份(4位,1970-????)
-      var month=myDate.getMonth();       //获取当前月份(0-11,0代表1月)
-      var day = myDate.getDate();        //获取当前日(1-31)
-      var time1 = year+'-'+month+'-'+day;
-
-      var tomorrowDate = new Date();
-      tomorrowDate.setTime(tomorrowDate.getTime()+24*60*60*1000);
-      year=tomorrowDate.getFullYear();    //获取完整的年份(4位,1970-????)
-      month=tomorrowDate.getMonth();       //获取当前月份(0-11,0代表1月)
-      day = tomorrowDate.getDate();        //获取当前日(1-31)
-      var time2 = year+'-'+month+'-'+day;
-      console.log(time1)
-      console.log(time2)
-
+    updateLogByDay(){
+      this.buttonLoading();
       this.$axios({
-        method:'post',
-        url:'/api/updateLog',
-        data:{
-          startTime: time1,
-          endTime: time2
-        }
+        method:'get',
+        url:'/api/updateLogByDay',
       }).then((response) =>{          //返回promise(ES6语法)
-        console.log(response)
+        this.getData();
+        this.tableKey++;
         this.$message({
           duration:3000,
           showClose: true,
           message: 'LOG文件更新完成！',
           type: 'success'
         });
+        this.loaded();
       }).catch((error) =>{
-        console.log(error)       //请求失败返回的数据
         this.$message({
           duration:3000,
           showClose: true,
           message: 'LOG文件更新失败！',
           type: 'error'
         });
+        this.loaded();
       })
-
     },
+
+    // updateLog(){
+    //   this.buttonLoading();
+    //   //  调用SVN更新接口
+    //   var myDate = new Date();
+    //   var year=myDate.getFullYear();    //获取完整的年份(4位,1970-????)
+    //   var month=myDate.getMonth();       //获取当前月份(0-11,0代表1月)
+    //   var day = myDate.getDate();        //获取当前日(1-31)
+    //   var time1 = year+'-'+month+'-'+day;
+    //
+    //   var tomorrowDate = new Date();
+    //   tomorrowDate.setTime(tomorrowDate.getTime()+24*60*60*1000);
+    //   year=tomorrowDate.getFullYear();    //获取完整的年份(4位,1970-????)
+    //   month=tomorrowDate.getMonth();       //获取当前月份(0-11,0代表1月)
+    //   day = tomorrowDate.getDate();        //获取当前日(1-31)
+    //   var time2 = year+'-'+month+'-'+day;
+    //   console.log(time1)
+    //   console.log(time2)
+    //
+    //   this.$axios({
+    //     method:'post',
+    //     url:'/api/updateLog',
+    //     data:{
+    //       startTime: time1,
+    //       endTime: time2
+    //     }
+    //   }).then((response) =>{          //返回promise(ES6语法)
+    //     this.$message({
+    //       duration:3000,
+    //       showClose: true,
+    //       message: 'LOG文件更新完成！',
+    //       type: 'success'
+    //     });
+    //     this.loaded();
+    //   }).catch((error) =>{
+    //     this.$message({
+    //       duration:3000,
+    //       showClose: true,
+    //       message: 'LOG文件更新失败！',
+    //       type: 'error'
+    //     });
+    //     this.loaded();
+    //   })
+    // },
     filterType(value, row){
       return row.tag === value;
     }
@@ -364,7 +417,9 @@ export default {
 .buttonGroup{
   margin-bottom:1%;
 }
-
+.updateLog{
+  margin-left: 10px;
+}
 .tableSwitch{
   margin-left: 8px;
   margin-top:1px;

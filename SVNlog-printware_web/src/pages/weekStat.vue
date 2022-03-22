@@ -11,10 +11,8 @@
         <el-button index="3" type="primary" icon="el-icon-share" size="small">软件组</el-button>
         <el-button index="4" type="primary" icon="el-icon-cpu" size="small">硬件组</el-button>
       </el-button-group>
-
-
-
-      <el-switch class="tableSwitch" active-text="显示删除" inactive-color="#A0A0A0"
+      <el-button class="updateLog"v-bind:icon="iconData" type="success" size="small" @click="updateLogByWeek()">更新周Log文件</el-button>
+      <el-switch class="tableSwitch" active-text="显示删除" inactive-color="#A0A0A0" active-color="#6587ee"
                  v-model="displayDel" @change ="changeDisplayDelState()">
       </el-switch>
     </div>
@@ -28,73 +26,78 @@
         <el-table-column
           prop="name"
           label="统计项"
-          width="150"
+          width="120"
           :filters="[{ text: '显示组', value: 'group' }, { text: '显示个人', value: 'user' }]"
           :filter-method="filterType">
         </el-table-column>
         <el-table-column
           prop="createCode"
           label="创建代码"
-          width="100">
+          width="90">
         </el-table-column>
         <el-table-column
           prop="createDoc"
           label="创建文档"
-          width="100">
+          width="90">
         </el-table-column>
         <el-table-column
           prop="createVideo"
           label="创建视频"
-          width="100">
+          width="90">
         </el-table-column>
         <el-table-column
           prop="createPic"
           label="创建图片"
-          width="100">
+          width="90">
         </el-table-column>
         <el-table-column
           prop="modCode"
           label="更新代码"
-          width="100">
+          width="90">
         </el-table-column>
         <el-table-column
           prop="modDoc"
           label="更新文档"
-          width="100">
+          width="90">
         </el-table-column>
         <el-table-column
           prop="modPic"
           label="更新图片"
-          width="100">
+          width="90">
         </el-table-column>
         <el-table-column
           prop="modVideo"
           label="更新视频"
-          width="100">
+          width="90">
         </el-table-column>
         <el-table-column
           prop="delCode"
           label="删除代码"
-          width="100"
+          width="90"
           v-if="showColumn.delCode">
         </el-table-column>
         <el-table-column
           prop="delDoc"
           label="删除文档"
-          width="100"
+          width="90"
           v-if="showColumn.delDoc">
         </el-table-column>
         <el-table-column
           prop="delPic"
           label="删除图片"
-          width="100"
+          width="90"
           v-if="showColumn.delPic">
         </el-table-column>
         <el-table-column
           prop="delVideo"
           label="删除视频"
-          width="100"
+          width="90"
           v-if="showColumn.delVideo">
+        </el-table-column>
+        <el-table-column
+          prop="otherOperation"
+          label="其他操作"
+          width="90">
         </el-table-column>
       </el-table>
     </div>
@@ -117,9 +120,11 @@
 <script>
 
 export default {
+  inject: [ 'loaded','loading'],
   name: 'Echarts',
   data() {
     return {
+      iconData:'el-icon-refresh',
       activeIndex: '1',
       tableData:[],
       groupData:[],
@@ -137,6 +142,12 @@ export default {
     }
   },
   methods: {
+    buttonLoading(){
+      this.iconData = 'el-icon-loading'
+    },
+    loaded(){
+      this.iconData = 'el-icon-refresh'
+    },
     myEcharts() {
       var myChart = this.$echarts.init(document.getElementById('svnChart'));
       // 指定图表的配置项和数据
@@ -211,9 +222,13 @@ export default {
       myChart.setOption(option);
     },
     getData(){
+      this.tableData=[];
       this.$axios({
         method:'get',
         url:'/api/getGroupMsg',
+        params:{
+          type:"week"
+        }
       }).then((response) =>{          //返回promise(ES6语法)
         this.groupData=response.data
         //标记信息类型（组/个人）
@@ -227,6 +242,9 @@ export default {
         this.$axios({
           method:'get',
           url:'/api/getUserMsg',
+          params:{
+            type:"week"
+          }
         }).then((response) =>{          //返回promise(ES6语法)
           this.userData=response.data
           //标记信息类型（组/个人）
@@ -252,16 +270,47 @@ export default {
         method:'post',
         url:'/api/updateSVN',
       }).then((response) =>{          //返回promise(ES6语法)
-        console.log(response)
+        this.getData();
+        this.$message({
+          duration:3000,
+          showClose: true,
+          message: 'SVN更新完成！',
+          type: 'success'
+        });
       }).catch((error) =>{
-        console.log(error)       //请求失败返回的数据
+        this.$message({
+          duration:3000,
+          showClose: true,
+          message: 'SVN更新失败！',
+          type: 'error'
+        });
       })
-      this.$message({
-        duration:3000,
-        showClose: true,
-        message: 'SVN更新完成！',
-        type: 'success'
-      });
+
+    },
+    updateLogByWeek(){
+      this.buttonLoading();
+      this.$axios({
+        method:'get',
+        url:'/api/updateLogByWeek',
+      }).then((response) =>{
+        this.getData();
+        this.tableKey++;
+        this.$message({
+          duration:3000,
+          showClose: true,
+          message: 'LOG文件更新完成！',
+          type: 'success'
+        });
+        this.loaded();
+      }).catch((error) =>{
+        this.$message({
+          duration:3000,
+          showClose: true,
+          message: 'LOG文件更新失败！',
+          type: 'error'
+        });
+        this.loaded();
+      })
     },
     filterType(value, row){
       return row.tag === value;

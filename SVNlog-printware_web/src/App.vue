@@ -17,7 +17,7 @@
           <el-button slot="reference" v-bind:icon="iconData" type="primary" circle class="updateSVN right" @click="updateSVN"></el-button>
         </el-popover>
         <el-menu-item index="3" @click = "comName='diyStat'" class="right">自定义SVN统计</el-menu-item>
-        <el-menu-item index="2" @click = "comName='weekStat'" class="right">本周SVN统计</el-menu-item>
+        <el-menu-item index="2" @click = "comName='weekStat'" class="right">上周SVN统计</el-menu-item>
         <el-menu-item index="1" @click = "comName='dayStat'" class="right">当天SVN统计</el-menu-item>
     </el-menu>
   </el-header>
@@ -71,7 +71,6 @@ export default {
         method:'get',
         url:'/api/updateSVN',
       }).then((response) =>{          //返回promise(ES6语法)
-        console.log(response)
         this.loaded(),
         this.$message({
           duration:3000,
@@ -80,7 +79,6 @@ export default {
           type: 'success'
         });
       }).catch((error) =>{
-        console.log(error)       //请求失败返回的数据
         this.loaded(),
         this.$message({
           duration:3000,
