@@ -111,6 +111,7 @@ def getSourceMsg(type):
            action = re.search(r'action="(.)"', pathMsgStr).group(1)
            kind = re.search(r'kind="(.*?)"', pathMsgStr).group(1)
            suffix = re.search(r'.([^.]*)$', pathMsgStr).group(1)
+           suffix=suffix.swapcase()
            detailMsgDict = {'action': action, 'kind': kind, 'suffix': suffix}
            detailMsgList.append(detailMsgDict)
        userMsgList[index]['detailMsgDictList'] = detailMsgList
@@ -158,8 +159,7 @@ def getUserSourceMsg(type):
 # //////////////////////////////////////
 @app.route('/getDetailMsg')
 def getDetailMsg():
-    type = request.args.get("type")
-    msgList = getSourceMsg(type)
+    msgList = getSourceMsg()
     data = json.dumps(msgList)
     return data
 
