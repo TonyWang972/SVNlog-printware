@@ -107,8 +107,7 @@
    <el-dialog
         title="提示"
         :visible.sync="dialogVisible"
-        width="30%"
-        :before-close="handleClose">
+        width="30%">
         <span>SVN更新完成！</span>
         <span slot="footer" class="dialog-footer">
       <el-button @click="dialogVisible = false">取 消</el-button>
@@ -308,7 +307,7 @@ export default {
     },
     displayTableData(){
       this.tableData=[];
-      tableData.concat(this.groupData).concat(this.userData);
+      this.tableData=this.tableData.concat(this.groupData).concat(this.userData);
     },
     changeDisplayDelState(){
       for (var val in this.showColumn) {

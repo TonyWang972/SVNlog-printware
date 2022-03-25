@@ -106,8 +106,7 @@
     <el-dialog
       title="提示"
       :visible.sync="dialogVisible"
-      width="30%"
-      :before-close="handleClose">
+      width="30%">
       <span>SVN更新完成！</span>
       <span slot="footer" class="dialog-footer">
     <el-button @click="dialogVisible = false">取 消</el-button>
@@ -235,7 +234,6 @@ export default {
         for (var val in this.groupData)
           this.groupData[val]['tag']='group';
         this.tableData=this.tableData.concat(this.groupData);
-        console.log('concat:'+this.tableData.concat(this.groupData));
       }).catch((error) =>{
         console.log(error)       //请求失败返回的数据
       }),
@@ -256,8 +254,8 @@ export default {
         })
     },
     displayTableData(){
-      tableData.concat(this.groupData).concat(this.userData);
-      console(tableData);
+      this.tableData=[];
+      this.tableData=this.tableData.concat(this.groupData).concat(this.userData);
     },
     changeDisplayDelState(){
       for (var val in this.showColumn) {

@@ -1,7 +1,7 @@
 <template>
 <div id="app">
   <el-header class="header">
-    <el-menu :default-active="activeIndex" class="el-menu-demo wp" mode="horizontal" @select="handleSelect">
+    <el-menu :default-active="activeIndex" class="el-menu-demo wp" mode="horizontal">
         <div class="logo left">
           <img class="pic_logo" src="/static/logo.png"  alt="logo" />
         </div>
