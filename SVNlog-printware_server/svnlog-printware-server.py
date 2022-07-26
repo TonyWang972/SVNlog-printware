@@ -111,7 +111,7 @@ def getSourceMsg(type):
            action = re.search(r'action="(.)"', pathMsgStr).group(1)
            kind = re.search(r'kind="(.*?)"', pathMsgStr).group(1)
            suffix = re.search(r'.([^.]*)$', pathMsgStr).group(1)
-           suffix=suffix.swapcase()
+           suffix = suffix.lower()
            detailMsgDict = {'action': action, 'kind': kind, 'suffix': suffix}
            detailMsgList.append(detailMsgDict)
        userMsgList[index]['detailMsgDictList'] = detailMsgList
@@ -159,7 +159,8 @@ def getUserSourceMsg(type):
 # //////////////////////////////////////
 @app.route('/getDetailMsg')
 def getDetailMsg():
-    msgList = getSourceMsg()
+    type = request.args.get("type")
+    msgList = getSourceMsg(type)
     data = json.dumps(msgList)
     return data
 
@@ -248,7 +249,6 @@ def read_log(type):
 @app.route('/updateSVN')
 def updateSVN():
     cmd="svn update --username "+admin_username+" --password "+admin_password;
-    # print(cmd)
     os.system(cmd)
     return cmd
 
