@@ -1,0 +1,18 @@
+ssh -x server@192.168.123.121
+
+cd data_backup/svn_server_everyday_backup/
+
+svn update
+
+svn log -r {2022-3-10}:{2022-3-11} -v --xml >weeklogfile.log
+
+python3 svnlog-printware-server.py 
+
+python3 svnlog-printware-server-source.py 
+
+nohup python3 svnlog-printware-server.py &
+
+
+http://192.168.123.121:5000/getMsg
+
+svn update --username qiyunjie --password qiyunjie

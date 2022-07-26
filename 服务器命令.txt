@@ -1,0 +1,8 @@
+/usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf
+
+
+nohup python3 svnlog-printware-server.py  >> nohup.out 2>&1 &
+
+
+/usr/local/webserver/nginx/sbin/nginx -v
+
