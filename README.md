@@ -2,7 +2,7 @@
 
 ### 1  SVNlog-printware介绍
 
-SVNlog_printware是一个开源代码统计程序，通过从Subversion版本库中取得信息的，比如：代码行数的时间线；针对每个开发者的代码及文档数量；针对每个开发者所在组的代码及文档数量等。StatSVN当前版本能够生成一组包括表格与图表的动态HTML文档。
+SVNlog_printware是一个开源代码统计程序，通过从Subversion版本库中取得信息的，比如：代码行数的时间线；针对每个开发者的代码及文档数量；针对每个开发者所在组的代码及文档数量等。SVNlog-printware当前版本能够生成一组包括表格与图表的动态HTML文档。
 
 ![mainPage](https://github.com/TonyWang972/SVNlog-printware/blob/main/pic/mainPage.png?raw=true)
 
