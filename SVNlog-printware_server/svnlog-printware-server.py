@@ -38,13 +38,11 @@ product = ['wujunnan', 'qiyunjie','yangzenghui']
 groupName = {'cloud': '云平台', 'software': '软件组', 'hardware': '硬件组', 'product': '产品组', 'other': '其他组', }
 
 #员工名称字典
-userName = {'yangkai': '杨凯', 'wangcan': '王灿', 'guozhen': '郭震', 'heyufei': '贺喻飞', 'sujinya': '苏金亚','zhangran': '张然',
-            'qiancheng': '钱程', 'guohuayue': '郭华月', 'liwei': '李威', 'shaxiaoyu': '沙小宇', 'shaohongwei': '邵洪伟',
-            'wujunnan': '巫军楠', 'qiyunjie': '戚云杰', 'yangzenghui': '杨增辉', 'gaopeinan': '高培楠', 'xiemin': '谢敏'}
+userName = {'hahaha': 'xxxx'}
 
 #管理员账号密码
-admin_username='qiyunjie'
-admin_password='qiyunjie'
+admin_username='xxxx'
+admin_password='xxxx'
 
 # 判断状态
 def getType(type):
